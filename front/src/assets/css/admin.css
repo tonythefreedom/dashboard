@@ -1,0 +1,293 @@
+.dashboard_content {
+    width: 1300px;
+    margin: 66px auto 0;
+    position: relative;
+    left: 80px;
+}
+.dashboard_content .top {
+    overflow: hidden;
+}
+
+.dashboard_content > div > div {
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-bottom: 27px;
+    float: left;
+}
+
+.dashboard_content .top > div {
+    padding: 15px 15px;    
+}
+
+.dashboard_content .top > div.state {
+    margin-right: 3%;
+    width: 30%;
+    height: 175px;
+    padding: 15px 30px;
+    overflow: hidden;
+}
+
+.dashboard_content .top > div.state > div {
+    float: left;
+}
+
+.dashboard_content .top > div.state .title {
+    font-size: 20px;
+    width: 90px;
+    line-height: 22px;
+    margin-top: 7px;
+}
+
+.dashboard_content .top > div.state dl {
+    overflow: hidden;
+    height: 36px;
+    line-height: 36px;
+}
+
+.dashboard_content .top > div.state dl:first-child {
+    margin-top: 0px;
+}
+
+.dashboard_content .top > div.state dl dt {
+    font-weight: 200;
+    font-size: 16px;
+    width: 100px;
+    float: left;
+}
+
+.dashboard_content .top > div.state dl dd {
+    float: left;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.dashboard_content .top > div.variation {
+    width: 28%;
+    height: 175px;
+    padding: 15px 30px;
+}
+.dashboard_content .top > div.variation .head {
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 0px;
+}
+
+.dashboard_content .top > div.variation .head span {
+    font-size: 16px;
+}
+
+.dashboard_content .top > div.variation .head span:first-child {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dashboard_content .top > div.variation > div {
+    height: 28px;
+    line-height: 28px;
+    text-indent: 2px;
+}
+
+.dashboard_content .top > div.variation div span {
+    display: inline-block;
+    width: 80px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.dashboard_content .top > div.variation div span.up {
+    color: #e52f32;
+}
+
+.dashboard_content .top > div.variation div span.up:before {
+    content: "▲";
+    margin-right: 5px;
+    color: #e52f32;
+}
+
+.dashboard_content .top > div.variation div span.down {
+    
+}
+.dashboard_content .top > div.variation div span.down:before {
+    content: "▼";
+    color: #ffa700;
+    margin-right: 5px;
+}
+
+
+.dashboard_content .top > div.variation div span:first-child {
+    font-size: 16px;
+    width: 130px;
+    font-weight: 200;
+    text-align: left;
+}
+
+.dashboard_content .middle {
+    overflow: hidden;
+}
+
+.dashboard_content .middle > div {
+    width: 28%;
+    height: 324px;
+    padding: 20px 30px;
+}
+
+.dashboard_content .middle > div:first-child {
+    width: 63%;
+    text-align: center;
+    margin-right: 3%;
+    padding: 0;
+}
+.dashboard_content .middle .Realtimestats {
+    overflow: hidden;
+    padding: 18px 30px 25px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.dashboard_content .middle .Realtimestats h5 {
+    float: left;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.dashboard_content .middle .Realtimestats p {
+    float: left;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.dashboard_content .middle .Realtimestats > div {
+    float: right;
+}
+
+.dashboard_content .middle .Realtimestats > div > span {
+    border-top: 1px solid #726d73;
+    border-right: 1px solid #726d73;
+    border-bottom: 1px solid #726d73;
+    display: block;
+    cursor: pointer;
+    float: left;
+    width: 57px;
+    text-align: center;
+    height: 28px;
+    line-height: 30px;
+}
+
+.dashboard_content .middle .Realtimestats > div > span:hover {
+    background-color: #dedede;
+}
+
+.dashboard_content .middle .Realtimestats > div > span:first-child {
+    border-left: 1px solid #726d73;
+}
+.dashboard_content .middle .Realtimestats > div > span.active {
+    background-color: #726d73;
+    color: #fff;
+}
+.dashboard_content .middle .revenue {
+    
+}
+
+.dashboard_content .middle .revenue h5 {
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.dashboard_content .middle .revenue dl {
+    overflow: hidden;
+    height: 54px;
+    line-height: 54px;
+    margin-bottom: 20px;
+}
+
+.dashboard_content .middle .revenue dl dt {
+    float: left;
+    width: 33%;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.dashboard_content .middle .revenue dl dd {
+    float: right;
+    font-size: 45px;
+    font-weight: 500;
+}
+.dashboard_content .middle .revenue dl dd.up {
+    color: #d0021b;
+}
+.dashboard_content .middle .revenue dl dd.up:before {
+    content: "▲";
+    color: #d0021b;
+    margin-right: 10px;
+    
+}
+.dashboard_content .middle .revenue dl dd.down:before {
+    content: "▼";
+    color: #ffa700;
+    margin-right: 10px;
+}
+
+.dashboard_content .bottom {
+    overflow: hidden;
+}
+
+.dashboard_content .bottom > div {
+    width: 35%;
+    height: 320px;
+    padding: 20px 0px;
+    margin-right: 3%;
+    margin-right: 3%;
+}
+.dashboard_content .bottom > div h5 {
+    padding-left: 30px;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.dashboard_content .bottom .best_selling table {
+    width: 100%;   
+}
+
+.dashboard_content .bottom .best_selling table th {
+    text-align: left;
+    padding: 0 10px;
+    background-color: #fcecec;
+    font-weight: 400;
+    height: 25px;
+    line-height: 25px;
+}
+
+.dashboard_content .bottom .best_selling table th:first-child {
+    text-indent: 20px;
+}
+
+.dashboard_content .bottom .best_selling table td {
+    text-indent: 5px;
+    height: 25px;
+    line-height: 25px;
+    padding: 8px 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.dashboard_content .bottom .best_selling table td:first-child {
+    text-indent: 20px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.dashboard_content .bottom .best_selling table td:last-child {
+    color: #d0021b;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+.dashboard_content .bottom .regional_franchisee h5 {
+    text-align: left;
+}
+.dashboard_content .bottom .regional_franchisee {
+    text-align: center;
+}

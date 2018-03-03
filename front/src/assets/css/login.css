@@ -1,0 +1,56 @@
+.login {
+    width: 656px;
+    position: absolute;
+    background-color: #fff;
+    padding: 68px;
+    box-sizing: border-box;
+    left: 50%;
+    top: 50%;
+    margin-left: -328px;
+    margin-top: -208px;
+    height: 416px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.login p {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+.login form > div {
+    overflow: hidden;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 45px;
+    margin-left: 10px;
+}
+
+.login form > div span {
+    display: block;
+    float: left;
+    text-align: center;
+    width: 50px;
+}
+.login form > div span img {
+    position: relative;
+}
+
+.login form > div span.name img {
+    top: 2px;
+}
+.login form > div span.pw img {
+    top: 5px;
+}
+.login form > div span img {
+    display: block;
+}
+
+.login form > div input {
+    display: block;
+    float: left;
+    font-size: 20px;
+    height: 40px;
+    width: 414px;
+    border: none;
+    background-color: #f6f6f6;
+    padding: 0 15px;
+}

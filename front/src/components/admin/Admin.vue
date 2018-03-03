@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-        <title>1.seaech</title>	
-        <link rel="stylesheet" type="text/css" href="../css/reset.css">
-        <link rel="stylesheet" type="text/css" href="../css/common.css">
-        <title>Page Title</title>
-        <link rel="stylesheet" type="text/css" href="dashboard.css">
-    </head>
-    <body>
-        <!-- dashboard -->
+<template>
+    <!-- dashboard -->
         <div class="dashboard">
             
             <!-- dashboard_header -->
@@ -19,7 +8,7 @@
                 <!-- logo -->
                 <h1>
                     <a href="">
-                        <img src="../img/dashboard_logo.png" />
+                        <img src="../../assets/img/dashboard_logo.png" />
                     </a>
                 </h1>
                 <!-- logo -->
@@ -27,14 +16,14 @@
                 
                 <!-- product -->
                 <div class="product_name">
-                    <img src="../img/selected_logo.png" />
+                    <img src="../../assets/img/selected_logo.png" />
                     <p>BurgerKing</p>
                 </div>
                 <!-- product -->
                 
                 <!-- mail -->
                 <div class="mail">
-                    <img src="../img/mail.png"/>
+                    <img src="../../assets/img/mail.png"/>
                     <span>2</span>
                 </div>
                 <!-- mail -->
@@ -52,16 +41,16 @@
             <!-- dashboard_menu --> <!--svg로 변경 요망..-->
             <nav class="dashboard_menu">
                 <a href="">
-                    <img src="../img/menu1.svg" />
+                    <img src="../../assets/img/menu1.svg" />
                 </a>
                 <a href="">
-                    <img src="../img/menu2.svg" /> 
+                    <img src="../../assets/img/menu2.svg" /> 
                 </a>
                 <a href="">
-                    <img src="../img/menu3.svg" /> 
+                    <img src="../../assets/img/menu3.svg" /> 
                 </a>
                 <a href="">
-                    <img src="../img/menu4.svg" /> 
+                    <img src="../../assets/img/menu4.svg" /> 
                 </a>
             </nav>
             <!-- dashboard_menu -->
@@ -153,7 +142,7 @@
                                 <span>1yr</span>
                             </div>
                         </div>
-                        <img src="../img/graph_board.png" />
+                        <img src="../../assets/img/graph_board.png" />
                     </div>
                     <div class="revenue">
                         <h5>Revenue</h5>
@@ -204,7 +193,7 @@
                                     <td>75%</td>
                                 </tr>
                                 <tr>
-                                    <td>Beef & Chicken</td>
+                                    <td>Beef &amp; Chicken</td>
                                     <td>700.000</td>
                                     <td>75%</td>
                                 </tr>
@@ -218,14 +207,23 @@
                     </div>
                     <div class="regional_franchisee">
                         <h5>Regional franchisee</h5>
-                        <img src="../img/franchisee.png" />
+                        <img src="../../assets/img/franchisee.png" />
                     </div>
                 </div>
             </div>
-            <! -- dashboard_content -->
+            <!-- dashboard_content -->
             
         </div>
         <!-- dashboard -->
+</template>
 
-    </body>
-</html>
+<script>
+export default {
+  name: 'Admin'
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+@import '../../assets/css/admin.css';
+</style>

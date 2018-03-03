@@ -1,0 +1,68 @@
+@font-face {
+font-family: 'SFProDisplay';
+font-style: normal;
+font-weight: 100;
+src: url(../font/SF-Pro-Display-Thin.eot);
+src: local('../font/SF-Pro-Display-Thin_ttf'),
+local('../font/SF-Pro-Display-Thin_ttf'),
+
+url(./SF-Pro-Display-Thin.woff) format('woff'),
+url(./SF-Pro-Display-Thin.ttf) format('truetype');
+}
+@font-face {
+font-family: 'SFProDisplay';
+font-style: normal;
+font-weight: 200;
+src: url(../font/SF-Pro-Display-Light.eot);
+src: local('../font/SF-Pro-Display-Light_ttf'),
+local('../font/SF-Pro-Display-Light_ttf'),
+
+url(../font/SF-Pro-Display-Light.woff) format('woff'),
+url(../font/SF-Pro-Display-Light.ttf) format('truetype');
+}
+@font-face {
+font-family: 'SFProDisplay';
+font-style: normal;
+font-weight: 400;
+src: url(../font/SF-Pro-Display-Medium.eot);
+src: local('../font/SF-Pro-Display-Medium_ttf'),
+local('../font/SF-Pro-Display-Medium_ttf'),
+url(../font/SF-Pro-Display-Medium.eot?#iefix) format('embedded-opentype'),
+url(../font/SF-Pro-Display-Medium.woff) format('woff'),
+url(../font/SF-Pro-Display-Medium.ttf) format('truetype');
+}
+@font-face {
+font-family: 'SFProDisplay';
+font-style: normal;
+font-weight: 500;
+src: url(.../font/SF-Pro-Display-Bold.eot);
+src: local('../font/SF-Pro-Display-Bold_ttf'),
+local('../font/SF-Pro-Display-Bold'),
+url(../font/SF-Pro-Display-Bold.eot?#iefix) format('embedded-opentype'),
+url(../font/SF-Pro-Display-Bold.woff) format('woff'),
+url(../font/SF-Pro-Display-Bold.ttf) format('truetype');
+}
+body,html {
+    min-height: 100%;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0}
+fieldset,img {border:0 none}
+dl,ul,ol,menu,li {list-style:none}
+blockquote, q {quotes:none}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}
+input,select,textarea,button {font-size:100%;vertical-align:middle}
+button {border:0 none;background-color:transparent;cursor:pointer}
+table {border-collapse:collapse;border-spacing:0}
+body {-webkit-text-size-adjust:none}
+input[type='text'],input[type='password'],input[type='submit'],input[type='search'] {-webkit-appearance:none; border-radius:0}
+input:checked[type='checkbox'] {background-color:#666; -webkit-appearance:checkbox}
+button,input[type='button'],input[type='submit'],input[type='reset'],input[type='file'] {-webkit-appearance:button; border-radius:0}
+input[type='search']::-webkit-search-cancel-button {-webkit-appearance:none}
+body {background:#fff}
+body,th,td,input,select,textarea,button {font-size:14px;line-height:1.5;font-family:'SFProDisplay', '맑은 고딕', sans-serif; color:#4a4a4a}
+a {color:#333;text-decoration:none}
+a:active, a:hover,input:active, input:hover,label:active, label:hover {
+ -webkit-tap-highlight-color: rgba(0,0,0,0);
+ -webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}

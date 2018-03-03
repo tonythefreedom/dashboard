@@ -1,0 +1,301 @@
+.header {
+    width: 1145px;
+    height: 54px;
+    margin: 0 auto;
+    line-height: 54px;
+    overflow: hidden;
+}
+.header .logo {
+    display: block;
+    width: 100px;
+    height: auto;
+    position: relative;
+    top: 7px;
+    float: left;
+}
+.header > span {
+    margin-left: 33px;
+    display: block;
+    float: left;
+    color: #f38385;
+    font-size: 15px;
+}
+.header > nav {
+    float: right;
+}
+.header > nav a {
+    margin-left: 40px;
+    font-size: 14px;
+    color: #383535;
+}
+.header > nav .contactUs {
+    border: 1px solid #f38385;
+    padding: 5px;
+}
+.sub_menu {
+    background-color: #f3f3f3;
+    height: 30px;
+    line-height: 30px;
+}
+.sub_menu > nav {
+    width: 1110px;
+    margin: 0 auto;
+}
+.sub_menu > nav > a {
+    height: 24px;
+    display: inline-block;
+    font-size: 14px;
+    color: #686868;
+    position: relative;
+    padding: 0 30px;
+}
+.sub_menu > nav > a:first-child {
+    padding: 0 30px 0 0px;
+}
+.sub_menu > nav > a::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #9a9a9a;
+    width: 1px;
+    height: 24px;
+    top: 3px;
+    right: 0px;
+}
+.sub_menu > nav > a:last-child:after {
+    display: none;
+}
+.sub_menu > nav > a.active {
+    color: #f38385;
+}
+.date_picker {
+    position: absolute;
+    width: 300px;
+    padding: 0 20px;
+    background-color: #fff;
+    box-sizing: border-box;    
+    padding-bottom: 15px;
+}
+
+.date_picker .month {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.date_picker .month span {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    width: 140px;
+}
+
+.date_picker .month span:first-child, .date_picker .month span:last-child {
+    font-weight: 200;
+    width: auto;
+}
+
+.date_picker .day {
+    overflow: hidden;
+}
+
+.date_picker .day > span {
+    height: 27px;
+    line-height: 27px;
+    width: 14.285%;
+    text-align: center;
+    float: left;
+    display: block;
+}
+
+.date_picker .day > span.check {
+    background-color: rgba(243, 131, 133, 0.57);
+    color: #666;
+}
+.country > li {
+    position: relative;
+    height: 39px;
+    line-height: 39px;
+    padding: 0px 22px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #FFF;
+    cursor: pointer;
+}
+.country > li.active.active, .country > li:hover {
+    background-color: #f38385;
+    color: #fff;
+}
+.country > li.more:hover {
+    background-color: #FFF;
+}
+.country > li.more, .country > li > ul > li.more {
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+}
+.country > li > ul > li.more:hover {
+    background-color: #fff;
+}
+
+.country > li > ul {
+    display: none;
+    position: absolute;
+    border: 1px solid #f38385;
+    top: -2px;
+    width: 161px;
+    right: -163px;
+}
+.country > li > ul:before {
+    position: absolute;
+    content: "◀";
+    position: absolute;
+    left: -8px;
+    color: #fff;
+}
+
+.country > li > ul > li {
+    box-sizing: border-box;
+    height: 39px;
+    line-height: 39px;
+    padding: 0px 22px;
+    background-color: #FFF;
+}
+
+.country > li.active > ul {
+    display: block;
+}
+
+.country > li.active > ul li {
+    color: #4a4a4a;
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.dashboard {
+    background-color: #f1f1f1;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.dashboard_header {
+    padding-top: 20px;
+    margin-left: 67px;
+    overflow: hidden;
+}
+.dashboard_header h1 {
+    float: left;
+    width: 140px;
+}
+.dashboard_header h1 img {
+    width: 100%;
+}
+.dashboard_header .date {
+    float: left;
+    height: 57px;
+    line-height: 57px;
+    margin-left: 90px;
+    font-size: 24px;
+    font-style: italic;
+}
+.dashboard_header .date span {
+    font-style: normal;
+    margin-right: 20px;
+}
+.dashboard_header .product_name {
+    float: left;
+    height: 57px;
+    line-height: 57px;
+    overflow: hidden;
+    margin-left: 200px;
+}
+.dashboard_header .product_name img {
+    width: 57px;
+    height: auto;
+    display: block;
+    float: left;
+}
+
+.dashboard_header .product_name p {
+    float: left;
+    height: 57px;
+    line-height: 57px;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.dashboard_header .mail {
+    float: left;
+    height: 57px;
+    line-height: 68px;
+    margin-left: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+.dashboard_header .mail img {
+    width: 25px;
+    height: auto;
+}
+
+.dashboard_header .mail span {
+    position: absolute;
+    background-color: #ff8383;
+    width: 14px;
+    height: 14px;
+    display: block;
+    top: 10px;
+    right: -5px;
+    line-height: 17px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    text-indent: -2px;
+    border-radius: 15px;
+}
+
+.dashboard_header .btn {
+    float: right;
+    margin-right: 87px;
+    height: 57px;
+    line-height: 57px;
+}
+
+.dashboard_header .btn span {
+    margin-left: 51px;
+    cursor: pointer;
+}
+
+.dashboard_menu {
+    position: fixed;
+    top: 140px;
+    background-color: #fff;
+    width: 110px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    
+}
+.dashboard_menu a {
+    margin: 0 auto;
+    display: block;
+    width: 70px;
+    height: 50px;
+    font-size: 14px;
+    border-bottom: 1px solid #999;
+    text-align: center;
+    padding: 35px 0 30px;
+}
+
+.dashboard_menu a:last-child {
+    border-bottom: none;
+}
+.dashboard_menu img {
+    width: 50px;
+    display: inline-block;
+}
