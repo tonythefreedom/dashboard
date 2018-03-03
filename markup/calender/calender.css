@@ -1,0 +1,68 @@
+.calender {
+    width: 880px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+    margin-top: 60px;
+    padding: 36px 60px;
+}
+
+.calender .state {
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+}
+
+.calender .state p {
+    float: left;
+    font-size: 20px;
+}
+.calender .state div {
+    float: right;
+    overflow: hidden;
+}
+.calender .state div span {
+    float: left;
+    line-height: 29px;
+    height: 28px;
+    border: 1px solid #979797;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.calender .state div span:first-child {
+    margin-right: 90px;
+}
+
+.calender table {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.calender table th {
+    background-color: #f8f8f8;
+    font-size: 18px;
+    font-weight: 400;
+    width: 14.285%;
+}
+
+.calender table td {
+    border: 1px solid #979797;
+    width: 14.285%;
+    text-align: right;
+    padding: 10px 15px;
+    height: 90px;
+    vertical-align: top;
+    position: relative;
+}
+
+.calender table td.select:after {
+    content: "";
+    display: block;
+    background-color: #ff9595;
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}

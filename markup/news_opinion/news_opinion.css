@@ -1,0 +1,162 @@
+.opinion {
+    width: 1130px;
+    background-color: #fff;
+    margin: 60px auto;
+    padding: 30px;
+}
+
+.opinion h5 {
+    font-size: 24px;
+    font-weight: 500;
+}
+.opinion .search {
+    overflow: hidden;
+    margin-top: 37px;
+}
+
+.opinion .search input {
+    float: left;
+    display: block;
+    height: 43px;
+    line-height: 43px;
+    font-size: 20px;
+}
+
+.opinion .search input[type="text"] {
+    width: 82%;
+    box-sizing: border-box;
+    border: 1px solid #979797;
+    padding: 0 15px;
+}
+
+.opinion .search input[type="submit"] {
+    margin-left: 3%;
+    width: 15%;
+    border: 1px solid #f10171;
+    background-color: #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.opinion > table {
+    width: 100%;
+    margin-top: 35px;
+}
+
+.opinion > table th, .opinion > table td {
+    padding: 2px 15px;
+    font-size: 20px;
+    border-bottom: 1px solid #979797;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+
+.opinion > table th:after, .opinion > table td:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 28px;
+    background-color: #979797;
+    position: absolute;
+    right: 0px;
+    top: 3px;
+}
+
+.opinion > table th:first-child, .opinion > table td:first-child  {
+    text-align: left;
+}
+
+.opinion > table td:nth-child(2) {
+    text-align: center;
+}
+
+.opinion > table th:nth-child(4), .opinion > table th:nth-child(5) {
+    text-align: left;
+}
+
+.opinion > table th {
+    font-weight: 400;
+}
+
+.opinion > table td {
+    font-weight: 300;
+}
+
+.opinion > table td:last-child:before {
+    content: "";
+    display: block;
+    height: 25px;
+    background-color: aqua;
+}
+
+.opinion > table td:last-child:after, .opinion > table th:last-child:after {
+    display: none;
+}
+
+
+.opinion > table td.positive:last-child:before {
+    background-color: #7ed321;
+}
+
+.opinion > table td.nagative:last-child:before {
+    background-color: #d0021b;
+}
+.opinion .info {
+    overflow: hidden;
+    padding: 14px 20px 0;
+    height: 17px;
+    line-height: 17px;
+}
+
+.opinion .info p {
+    float: left;
+}
+.opinion .info div {
+    float: right;
+    overflow: hidden;
+}
+
+.opinion .info div span {
+    display: block;
+    float: left;
+    margin-left: 35px;
+    position: relative;
+}
+
+.opinion .info div span:before {
+    display: block;
+    width: 17px;
+    height: 17px;
+    content: "";
+    background-color: #d0021b;
+    position: absolute;
+    left: -19px;
+}
+
+.opinion .info div span:first-child:before {
+    background-color: #7ed321;
+}
+.opinion .navi {
+    overflow: hidden;
+    padding: 14px 20px 0;
+}
+
+.opinion .navi ul {
+    float: right;
+    overflow: hidden;
+    margin-top: 36px;
+}
+
+.opinion .navi ul li {
+    float: left;
+    border-right: 1px solid #dedede;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.opinion .navi ul li:first-child {
+    border-left: 1px solid #dedede;
+}

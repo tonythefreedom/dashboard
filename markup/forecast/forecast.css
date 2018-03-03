@@ -1,0 +1,55 @@
+.forecast {
+    width: 868px;
+    margin: 200px auto 100px;
+}
+.forecast .coming_soon h4 {
+    font-size: 55px;
+    color: #f38385;
+}
+.forecast .coming_soon p {
+    margin-top: 175px;
+    font-size: 36px;
+    font-weight: 100;
+    color: #757575;
+}
+.forecast .coming_soon h5 {
+    margin-top: 17px;
+    font-size: 42px;
+    font-style: italic;
+    color: #f38385;
+    text-indent: -5px;
+}
+.forecast .coming_soon h5 span {
+    font-size: 36px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.forecast .get_early_access {
+    overflow: hidden;
+}
+
+.forecast .get_early_access input[type="text"] {
+    width: 608px;
+    border: 1px solid #979797;
+    display: inline-block;
+    height: 54px;
+    line-height: 54px;
+    font-size: 24px;
+    font-weight: 200;
+    padding: 0 20px;
+    margin-right: 6px;
+    box-sizing: border-box;
+}
+
+.forecast .get_early_access input[type="submit"] {
+    display: inline-block;
+    width: 250px;
+    background-color: #f38385;
+    color: #fff;
+    border: none;
+    height: 54px;
+    line-height: 54px;
+    font-size: 24px;
+    box-sizing: border-box;
+}
