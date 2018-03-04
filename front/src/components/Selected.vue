@@ -20,36 +20,43 @@
                         <div class="top">
                             <h3>BURGER KING</h3>
                             <div class="menu">
-                                <a v-on:click.stop="countryClick"><span id="country">Country</span></a>
+                                    <span id="country" v-on:click.stop="countryClick">Country</span>
+                                    
+                                    <ul id="country-popup" class="country" style="display:none">
+                                        <li class="active">
+                                            United States
+                                            <ul>
+                                                <li>Glasgow</li>
+                                                <li>Glasgow</li>
+                                                <li>Glasgow</li>
+                                                <li class="more"><img src="../assets/img/more_country.png" alt="more"/></li>
+                                            </ul>
+                                        </li>
+                                        <li >
+                                            United Kingdom
+                                            <ul>
+                                                <li>null</li>
+                                                <li>null</li>
+                                                <li>null</li>
+                                                <li class="more"><img src="../assets/img/more_country.png" alt="more"/></li>
+                                            </ul>
+                                        </li>
+                                        <li>Germany</li>
+                                        <li>France</li>
+                                        <li>Italy</li>
+                                        <li>Brazil</li>
+                                        <li>Canada</li>
+                                        <li>Spain</li>
+                                        <li class="more"><img src="../assets/img/more_country.png" alt="more"/></li>
+                                    </ul>
+                               
+                                
                                 <span id="date">Date</span>
+                                <template>
+                                    <datepicker v-model='selected' lang="en" format="MM/DD/YYYY"></datepicker>
+                                </template>
                             </div>
-                            <ul class="country">
-                                <li >
-                                    United States
-                                    <ul>
-                                        <li>Glasgow</li>
-                                        <li>Glasgow</li>
-                                        <li>Glasgow</li>
-                                        <li class="more"><img src="../assets/img/more_country.png" alt="more"/></li>
-                                    </ul>
-                                </li>
-                                <li class="active">
-                                    United Kingdom
-                                    <ul>
-                                        <li>null</li>
-                                        <li>null</li>
-                                        <li>null</li>
-                                        <li class="more"><img src="../assets/img/more_country.png" alt="more"/></li>
-                                    </ul>
-                                </li>
-                                <li>Germany</li>
-                                <li>France</li>
-                                <li>Italy</li>
-                                <li>Brazil</li>
-                                <li>Canada</li>
-                                <li>Spain</li>
-                                <li class="more"><img src="../assets/img/more_country.png" alt="more"/></li>
-                            </ul>
+                            
                         </div>
                         <div class="bot">
                             <div class="keyword">
@@ -227,18 +234,22 @@
 
 <script>
 import Header from '@/components/Header'
+import DatePicker from '@/components/control/DatePicker'
 
 export default {
   name: 'Selected',
   components: {
-    'flamingo-head': Header
+    'flamingo-head': Header,
+    DatePicker
   },
   methods: {
       countryClick : function() {
           if ($('#country').hasClass('on')) {
               $('#country').removeClass('on');
+              $('#country-popup').hide();
           } else {
               $('#country').addClass('on');
+              $('#country-popup').show();
           }
       }
   }
