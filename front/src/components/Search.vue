@@ -65,7 +65,7 @@
                     </div>
                     <div class="list">
                         <div class="row">
-                            <img src="../assets/img/sample.logo.png" alt="샘플로고">
+                            <img src="/static/img/sample.logo.png" alt="샘플로고">
                             <span class="name">Mcdonalds</span>
                             <div class="sort">
                                 <span>98</span>
@@ -73,7 +73,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <img src="../assets/img/sample.logo.png" alt="샘플로고">
+                            <img src="/static/img/sample.logo.png" alt="샘플로고">
                             <span class="name">Mcdonalds</span>
                             <div class="sort">
                                 <span>98</span>
@@ -81,7 +81,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <img src="../assets/img/sample.logo.png" alt="샘플로고">
+                            <img src="/static/img/sample.logo.png" alt="샘플로고">
                             <span class="name">Mcdonalds</span>
                             <div class="sort">
                                 <span>98</span>

@@ -9,11 +9,9 @@
                 <div class="bg"></div>
                 <div class="view_port">
                     <div class="logo">
-                        <img src="../assets/img/selected_logo.png" />
+                        <img :src="logoImage" />
                         <div class="categorize">
-                            <span>UK</span>
-                            <span>London</span>
-                            <span>Hamburger</span>
+                            <span v-for="tag in tags" v-bind:key="tag">{{ tag }}</span>
                         </div>
                     </div>
                     <div class="selected_company">
@@ -29,7 +27,7 @@
                                                 <li>Glasgow</li>
                                                 <li>Glasgow</li>
                                                 <li>Glasgow</li>
-                                                <li class="more"><img src="../assets/img/more_country.png" alt="more"/></li>
+                                                <li class="more"><img src="/static/img/more_country.png" alt="more"/></li>
                                             </ul>
                                         </li>
                                         <li >
@@ -38,7 +36,7 @@
                                                 <li>null</li>
                                                 <li>null</li>
                                                 <li>null</li>
-                                                <li class="more"><img src="../assets/img/more_country.png" alt="more"/></li>
+                                                <li class="more"><img src="/static/img/more_country.png" alt="more"/></li>
                                             </ul>
                                         </li>
                                         <li>Germany</li>
@@ -47,26 +45,24 @@
                                         <li>Brazil</li>
                                         <li>Canada</li>
                                         <li>Spain</li>
-                                        <li class="more"><img src="../assets/img/more_country.png" alt="more"/></li>
+                                        <li class="more"><img src="/static/img/more_country.png" alt="more"/></li>
                                     </ul>
                                
                                 
                                 <span id="date">Date</span>
-                                <template>
-                                    <datepicker v-model='selected' lang="en" format="MM/DD/YYYY"></datepicker>
-                                </template>
+                                
                             </div>
                             
                         </div>
                         <div class="bot">
                             <div class="keyword">
-                                <span>Performance Sector</span>
-                                <span>Sentiment</span>
-                                <span>Keyword search trend</span>
-                                <span>Best seller</span>
-                                <span>Social media trend</span>
+                                <span><a href="#ps">Performance Sector</a></span>
+                                <span><a href="#s">Sentiment</a></span>
+                                <span><a href="#kst">Keyword search trend</a></span>
+                                <span><a href="#bs">Best seller</a></span>
+                                <span><a href="#smt">Social media trend</a></span>
                             </div>
-                            <p>Burger King is an American global chain of hamburger fast food restaurants.</p>
+                            <p>{{ desc }}</p>
                         </div>
                     </div>
                 </div>
@@ -75,40 +71,40 @@
             
             <!-- content -->
             <section class="content">
-                <div class="block">
+                <div id="ps" class="block">
                     <h4>Performance Sector</h4>
                     <div class="graph_wrap">
                         <div class="graph">
-                            <img src="../assets/img/sector_img1.png" style="width: 100%" />
+                            <vue-highcharts :options="chartOptions" ref="ps1Chart"  class="social state"></vue-highcharts>
                         </div>
                         <div class="graph">
-                            <img src="../assets/img/sector_img2.png" style="width: 100%" />
+                            <img src="/static/img/sector_img2.png" style="width: 100%" />
                         </div>
                     </div>
                 </div>
                 
-                <div class="block">
+                <div id="s" class="block">
                     <h4>Sentiment</h4>
                     <div class="graph_wrap">
                         <div class="graph">
-                            <img src="../assets/img/sentiment_img1.png"  style="width: 100%"/>
+                            <img src="/static/img/sentiment_img1.png"  style="width: 100%"/>
                         </div>
                         <div class="graph">
-                            <img src="../assets/img/sentiment_img2.png"  style="width: 100%"/>
+                            <img src="/static/img/sentiment_img2.png"  style="width: 100%"/>
                         </div>
                     </div>
                 </div>
                 
-                <div class="block half">
+                <div id="kst" class="block half">
                     <h4>Keyword search trend</h4>
                     <div class="graph_wrap">
                         <div class="graph">
-                            <img src="../assets/img/Keyword search trend.png"  style="width: 100%"/>
+                            <img src="/static/img/Keyword search trend.png"  style="width: 100%"/>
                         </div>
                     </div>
                 </div>
                 
-                <div class="block half best">
+                <div id="bs" class="block half best">
                     <h4>Best seller</h4>
                     <div class="graph_wrap">
                         <div class="graph best_seller">
@@ -170,33 +166,34 @@
                     </div>
                 </div>
                 
-                <div class="block">
+                <div id="smt" class="block">
                     <h4>Performance Sector</h4>
                     <div class="social_wrap">
-                        <div class="social state insta">
-                            <img src="../assets/img/insta.png"/>
+                        <div v-show="!instaShow" @click="instaClick" class="social state insta">
+                            <img src="/static/img/insta.png"/>
                             <p>29K</p>
                         </div>
+                        <vue-highcharts v-show="instaShow" :options="chartOptions" ref="instaChart"  class="social state"></vue-highcharts>
                         <div class="social state yutube">
-                            <img src="../assets/img/yutube.png"/>
+                            <img src="/static/img/yutube.png"/>
                             <p class="small">SUBSCRIBERS</p>
                             <p>29K</p>
                         </div>
                         <div class="social state twiter">
-                            <img src="../assets/img/twwiter.png"/>                            
+                            <img src="/static/img/twwiter.png"/>                            
                             <p>29K</p>
                         </div>
                         <div class="social state yutube">
-                            <img src="../assets/img/yutube.png"/>
+                            <img src="/static/img/yutube.png"/>
                             <p class="small">view</p>
                             <p>29K</p>
                         </div>
                         <div class="social state w">
-                            <img src="../assets/img/w.png"/>
+                            <img src="/static/img/w.png"/>
                             <p>29K</p>
                         </div>
                         <div class="social state fb">
-                            <img src="../assets/img/facebook.png"/>
+                            <img src="/static/img/facebook.png"/>
                             <p>29K</p>
                         </div>
                     </div>
@@ -234,25 +231,79 @@
 
 <script>
 import Header from '@/components/Header'
-import DatePicker from '@/components/control/DatePicker'
+import VueHighcharts from 'vue2-highcharts'
 
 export default {
   name: 'Selected',
+  data: function() {
+      return {
+        instaShow: false,
+        tags: ['UK', 'London', 'Hamburger'],
+        logoImage: '/static/img/selected_logo.png',
+        desc: 'Burger King is an American global chain of hamburger fast food restaurants.',
+        chartOptions: {
+          chart: {
+            type: 'line'
+          },
+          title: {
+            text: ''
+          },
+          credits: {
+            enabled: false
+          },
+          legend: {
+              enabled: false
+          },
+          xAxis: {
+              type: 'datetime'
+          },
+          yAxis: {
+              title: {
+                text: null
+              }              
+          },
+          series: []
+        }
+      }
+  },
   components: {
     'flamingo-head': Header,
-    DatePicker
+    VueHighcharts
   },
   methods: {
-      countryClick : function() {
-          if ($('#country').hasClass('on')) {
-              $('#country').removeClass('on');
-              $('#country-popup').hide();
-          } else {
-              $('#country').addClass('on');
-              $('#country-popup').show();
-          }
-      }
-  }
+    countryClick : function() {
+        if ($('#country').hasClass('on')) {
+            $('#country').removeClass('on');
+            $('#country-popup').hide();
+        } else {
+            $('#country').addClass('on');
+            $('#country-popup').show();
+        }
+    },
+    instaClick: function() {
+        this.instaShow = !this.instaShow
+    },
+    loadChart: function(chart, dataUrl) {
+        chart.delegateMethod('showLoading', 'Loading...');
+
+        this.$http.get(dataUrl)
+        .then((result) => {
+            if (result.status == 200) {
+                chart.hideLoading();
+                var data = {
+                    name: 'Trend',
+                    data: result.data.data.score,
+                    pointStart: Date.UTC(2010, 0, 1),
+                    pointInterval: 24 * 3600 * 1000 // one day
+                }
+                chart.addSeries(data);
+            }
+        })
+    }
+  },
+    mounted(){
+        this.loadChart(this.$refs.ps1Chart, '/static/action/performance_trend.json')
+    }
 }
 </script>
 

@@ -1,7 +1,7 @@
 <template>
     <div>
         <header class="header">
-            <img class="logo" src="../assets/img/logo.png" alt="flamingo"/>
+            <a href="/"><img class="logo" src="/static/img/logo.png" alt="flamingo"/></a>
             <span>BETA</span>
             <nav>
                 <a href="">Products</a>

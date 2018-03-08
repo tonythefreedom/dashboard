@@ -8,7 +8,7 @@
                 <!-- logo -->
                 <h1>
                     <a href="">
-                        <img src="../../assets/img/dashboard_logo.png" />
+                        <img src="/static/img/dashboard_logo.png" />
                     </a>
                 </h1>
                 <!-- logo -->
@@ -16,14 +16,14 @@
                 
                 <!-- product -->
                 <div class="product_name">
-                    <img src="../../assets/img/selected_logo.png" />
+                    <img src="/static/img/selected_logo.png" />
                     <p>BurgerKing</p>
                 </div>
                 <!-- product -->
                 
                 <!-- mail -->
                 <div class="mail">
-                    <img src="../../assets/img/mail.png"/>
+                    <img src="/static/img/mail.png"/>
                     <span>2</span>
                 </div>
                 <!-- mail -->
@@ -41,16 +41,16 @@
             <!-- dashboard_menu --> <!--svg로 변경 요망..-->
             <nav class="dashboard_menu">
                 <a href="">
-                    <img src="../../assets/img/menu1.svg" />
+                    <img src="/static/img/menu1.svg" />
                 </a>
                 <a href="">
-                    <img src="../../assets/img/menu2.svg" /> 
+                    <img src="/static/img/menu2.svg" /> 
                 </a>
                 <a href="">
-                    <img src="../../assets/img/menu3.svg" /> 
+                    <img src="/static/img/menu3.svg" /> 
                 </a>
                 <a href="">
-                    <img src="../../assets/img/menu4.svg" /> 
+                    <img src="/static/img/menu4.svg" /> 
                 </a>
             </nav>
             <!-- dashboard_menu -->
@@ -142,7 +142,7 @@
                                 <span>1yr</span>
                             </div>
                         </div>
-                        <img src="../../assets/img/graph_board.png" />
+                        <img src="/static/img/graph_board.png" />
                     </div>
                     <div class="revenue">
                         <h5>Revenue</h5>
@@ -207,7 +207,7 @@
                     </div>
                     <div class="regional_franchisee">
                         <h5>Regional franchisee</h5>
-                        <img src="../../assets/img/franchisee.png" />
+                        <img src="/static/img/franchisee.png" />
                     </div>
                 </div>
             </div>
