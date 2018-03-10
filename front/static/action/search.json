@@ -1,0 +1,53 @@
+{
+    "success": 0,
+    "data": [
+       {
+          "item-id": 11233,
+          "rank":    1,
+          "logo-url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJQvJjPLbQpGlYn7LnYl4HMbIeuOU9hwcMdN2JzKHIFNn0_YDs",
+          "name": "McDonald",
+          "score": 93,
+          "change": 4
+       },
+       {
+          "item-id": 56354,
+          "rank":    2,
+          "logo-url": "https://static-s.aa-cdn.net/img/gp/20600000040989/fkmLx4MhTBCiKAb9KmXoJuug8S1WjEClHuTT0viXV39NRm1L4y4_bp1DRcIsA9IpS3oV=w300?v=1",
+          "name": "BURGER KING",
+          "score": 90,
+          "change": -1
+       },
+       {
+          "item-id": 26564,
+          "rank":    3,
+          "logo-url": "https://78.media.tumblr.com/avatar_65abed641451_128.pnj",
+          "name": "Wendys",
+          "score": 81,
+          "change": 0
+       },
+       {
+          "item-id": 74546,
+          "rank":    4,
+          "logo-url": "https://pbs.twimg.com/profile_images/564771871099338753/2OJdVFyd_400x400.jpeg",
+          "name": "KFC",
+          "score": 78,
+          "change": -2
+       },
+       {
+          "item-id": 5467346,
+          "rank":    5,
+          "logo-url": "http://postfiles14.naver.net/20160725_237/jamong315_1469411199627RVHXB_JPEG/%B1%A4%B8%ED%BB%E7%B0%C5%B8%AE%BF%AA_%B1%A4%B8%ED%BB%E7%B0%C5%B8%AE_%C8%AB%C4%E1%B9%DD%C1%A1_%C2%F7%B0%A1%B8%E9_%B3%C3%C2%AB%BB%CD_%C5%C1%BC%F6%C0%B0_%2800%29.jpg?type=w773",
+          "name": "HONGKONG-CHINA",
+          "score": 76,
+          "change": 1
+       },
+       {
+          "item-id": 67456,
+          "rank":    6,
+          "logo-url": "http://www.moskorea.kr/design/head/sub_page/images/logo.gif",
+          "name": "MOSS BURGER",
+          "score": 75,
+          "change": 1
+       }
+    ]
+ }

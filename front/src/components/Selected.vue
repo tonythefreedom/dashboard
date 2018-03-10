@@ -11,7 +11,9 @@
                     <div class="logo">
                         <img :src="logoImage" />
                         <div class="categorize">
-                            <span v-for="tag in tags" v-bind:key="tag">{{ tag }}</span>
+                            <span>{{ country }}</span>
+                            <span>{{ region }}</span>
+                            <span>{{ menu }}</span>
                         </div>
                     </div>
                     <div class="selected_company">
@@ -237,8 +239,11 @@ export default {
   name: 'Selected',
   data: function() {
       return {
+        itemId: 0,  
         instaShow: false,
-        tags: ['UK', 'London', 'Hamburger'],
+        country: 'UK',
+        region: 'London',
+        menu: 'Hamburger',
         logoImage: '/static/img/selected_logo.png',
         desc: 'Burger King is an American global chain of hamburger fast food restaurants.',
         chartOptions: {
@@ -283,6 +288,19 @@ export default {
     instaClick: function() {
         this.instaShow = !this.instaShow
     },
+    loadBasicInfo: function(itemId) {
+        this.$http.get('/static/action/detail.json?itemid=' + itemId)
+        .then((result) => {
+            if (result.status == 200) {
+                this.itemId = result.data.data.itemid
+                this.logoImage = result.data.data.logourl
+                this.country = result.data.data.country
+                this.region = result.data.data.region
+                this.menu = result.data.data.menu
+                this.desc = result.data.data.desc
+            }
+        })
+    },
     loadChart: function(chart, dataUrl) {
         chart.delegateMethod('showLoading', 'Loading...');
 
@@ -302,6 +320,7 @@ export default {
     }
   },
     mounted(){
+        this.loadBasicInfo(11223)
         this.loadChart(this.$refs.ps1Chart, '/static/action/performance_trend.json')
     }
 }
