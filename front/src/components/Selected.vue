@@ -20,40 +20,39 @@
                         <div class="top">
                             <h3>BURGER KING</h3>
                             <div class="menu">
-                                    <span id="country" v-on:click.stop="countryClick">Country</span>
-                                    
-                                    <ul id="country-popup" class="country" style="display:none">
-                                        <li class="active">
-                                            United States
-                                            <ul>
-                                                <li>Glasgow</li>
-                                                <li>Glasgow</li>
-                                                <li>Glasgow</li>
-                                                <li class="more"><img src="/static/img/more_country.png" alt="more"/></li>
-                                            </ul>
-                                        </li>
-                                        <li >
-                                            United Kingdom
-                                            <ul>
-                                                <li>null</li>
-                                                <li>null</li>
-                                                <li>null</li>
-                                                <li class="more"><img src="/static/img/more_country.png" alt="more"/></li>
-                                            </ul>
-                                        </li>
-                                        <li>Germany</li>
-                                        <li>France</li>
-                                        <li>Italy</li>
-                                        <li>Brazil</li>
-                                        <li>Canada</li>
-                                        <li>Spain</li>
-                                        <li class="more"><img src="/static/img/more_country.png" alt="more"/></li>
-                                    </ul>
-                               
+                                <calendar :year="2018" :month="3"  @change-date="changeDateFunc"></calendar>
+                                <span id="country" v-on:click.stop="countryClick">Country</span>
+                                <ul id="country-popup" class="country" style="display:none">
+                                    <li class="active">
+                                        United States
+                                        <ul>
+                                            <li>Glasgow</li>
+                                            <li>Glasgow</li>
+                                            <li>Glasgow</li>
+                                            <li class="more"><img src="/static/img/more_country.png" alt="more"/></li>
+                                        </ul>
+                                    </li>
+                                    <li >
+                                        United Kingdom
+                                        <ul>
+                                            <li>null</li>
+                                            <li>null</li>
+                                            <li>null</li>
+                                            <li class="more"><img src="/static/img/more_country.png" alt="more"/></li>
+                                        </ul>
+                                    </li>
+                                    <li>Germany</li>
+                                    <li>France</li>
+                                    <li>Italy</li>
+                                    <li>Brazil</li>
+                                    <li>Canada</li>
+                                    <li>Spain</li>
+                                    <li class="more"><img src="/static/img/more_country.png" alt="more"/></li>
+                                </ul>
                                 
-                                <span id="date">Date</span>
-                                
+                            
                             </div>
+                            
                             
                         </div>
                         <div class="bot">
@@ -232,101 +231,112 @@
 </template>
 
 <script>
-import Header from '@/components/Header'
-import VueHighcharts from 'vue2-highcharts'
+import Header from "@/components/Header";
+import Calendar from './control/Calendar.vue'
+import Dropdown from './control/Dropdown.vue'
+import VueHighcharts from "vue2-highcharts";
 
 export default {
-  name: 'Selected',
+  name: "Selected",
   data: function() {
-      return {
-        itemId: 0,  
-        instaShow: false,
-        country: 'UK',
-        region: 'London',
-        menu: 'Hamburger',
-        logoImage: '/static/img/selected_logo.png',
-        desc: 'Burger King is an American global chain of hamburger fast food restaurants.',
-        chartOptions: {
-          chart: {
-            type: 'line'
-          },
+    return {
+      itemId: 0,
+      instaShow: false,
+      country: "UK",
+      region: "London",
+      menu: "Hamburger",
+      logoImage: "/static/img/selected_logo.png",
+      desc:
+        "Burger King is an American global chain of hamburger fast food restaurants.",
+      chartOptions: {
+        chart: {
+          type: "line"
+        },
+        title: {
+          text: ""
+        },
+        credits: {
+          enabled: false
+        },
+        legend: {
+          enabled: false
+        },
+        xAxis: {
+          type: "datetime"
+        },
+        yAxis: {
           title: {
-            text: ''
-          },
-          credits: {
-            enabled: false
-          },
-          legend: {
-              enabled: false
-          },
-          xAxis: {
-              type: 'datetime'
-          },
-          yAxis: {
-              title: {
-                text: null
-              }              
-          },
-          series: []
-        }
+            text: null
+          }
+        },
+        series: []
       }
+    };
   },
   components: {
-    'flamingo-head': Header,
+    "flamingo-head": Header,
+    Calendar,
+    Dropdown,
     VueHighcharts
   },
   methods: {
-    countryClick : function() {
-        if ($('#country').hasClass('on')) {
-            $('#country').removeClass('on');
-            $('#country-popup').hide();
-        } else {
-            $('#country').addClass('on');
-            $('#country-popup').show();
-        }
+    countryClick: function() {
+      if ($("#country").hasClass("on")) {
+        $("#country").removeClass("on");
+        $("#country-popup").hide();
+      } else {
+        $("#country").addClass("on");
+        $("#country-popup").show();
+      }
     },
     instaClick: function() {
-        this.instaShow = !this.instaShow
+      this.instaShow = !this.instaShow;
     },
     loadBasicInfo: function(itemId) {
-        this.$http.get('/static/action/detail.json?itemid=' + itemId)
-        .then((result) => {
-            if (result.status == 200) {
-                this.itemId = result.data.data.itemid
-                this.logoImage = result.data.data.logourl
-                this.country = result.data.data.country
-                this.region = result.data.data.region
-                this.menu = result.data.data.menu
-                this.desc = result.data.data.desc
-            }
-        })
+      this.$http
+        .get("/static/action/detail.json?itemid=" + itemId)
+        .then(result => {
+          if (result.status == 200) {
+            this.itemId = result.data.data.itemid;
+            this.logoImage = result.data.data.logourl;
+            this.country = result.data.data.country;
+            this.region = result.data.data.region;
+            this.menu = result.data.data.menu;
+            this.desc = result.data.data.desc;
+          }
+        });
     },
     loadChart: function(chart, dataUrl) {
-        chart.delegateMethod('showLoading', 'Loading...');
+      chart.delegateMethod("showLoading", "Loading...");
 
-        this.$http.get(dataUrl)
-        .then((result) => {
-            if (result.status == 200) {
-                chart.hideLoading();
-                var data = {
-                    name: 'Trend',
-                    data: result.data.data.score,
-                    pointStart: Date.UTC(2010, 0, 1),
-                    pointInterval: 24 * 3600 * 1000 // one day
-                }
-                chart.addSeries(data);
-            }
-        })
+      this.$http.get(dataUrl).then(result => {
+        if (result.status == 200) {
+          chart.hideLoading();
+          var data = {
+            name: "Trend",
+            data: result.data.data.score,
+            pointStart: Date.UTC(2010, 0, 1),
+            pointInterval: 24 * 3600 * 1000 // one day
+          };
+          chart.addSeries(data);
+        }
+      });
+    },
+    changeDateFunc: function(date) {
+      console.log('parent changedate:' + date)
     }
   },
-    mounted(){
-        this.loadBasicInfo(11223)
-        this.loadChart(this.$refs.ps1Chart, '/static/action/performance_trend.json')
-    }
-}
+  mounted() {
+    this.loadBasicInfo(11223);
+    this.loadChart(
+      this.$refs.ps1Chart,
+      "/static/action/performance_trend.json"
+    );
+  }
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-@import '../assets/css/selected.css';
+<style>
+@import "../assets/css/selected.css";
 </style>
