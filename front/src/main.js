@@ -4,6 +4,8 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import axious from 'axios'
+import 'expose-loader?$!expose-loader?jQuery!jquery'
+
 
 Vue.config.productionTip = false
 Vue.prototype.$http = axious

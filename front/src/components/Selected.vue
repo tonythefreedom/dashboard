@@ -20,8 +20,8 @@
                         <div class="top">
                             <h3>BURGER KING</h3>
                             <div class="menu">
-                                <calendar :year="2018" :month="3"  @change-date="changeDateFunc"></calendar>
-                                <span id="country" v-on:click.stop="countryClick">Country</span>
+                                
+                                <span id="country" class="func" v-on:click.stop="countryClick">Country</span>
                                 <ul id="country-popup" class="country" style="display:none">
                                     <li class="active">
                                         United States
@@ -49,8 +49,7 @@
                                     <li>Spain</li>
                                     <li class="more"><img src="/static/img/more_country.png" alt="more"/></li>
                                 </ul>
-                                
-                            
+                                <calendar :title_class="'func'" :year="2018" :month="3"  @change-date="changeDateFunc"></calendar>
                             </div>
                             
                             
@@ -76,10 +75,10 @@
                     <h4>Performance Sector</h4>
                     <div class="graph_wrap">
                         <div class="graph">
-                            <vue-highcharts :options="chartOptions" ref="ps1Chart"  class="social state"></vue-highcharts>
+                            <vue-highcharts :options="chartOptions" ref="ps1Chart" class="chart"></vue-highcharts>
                         </div>
                         <div class="graph">
-                            <img src="/static/img/sector_img2.png" style="width: 100%" />
+                            <vue-highcharts :options="chartOptions" ref="ps2Chart"  class="social state"></vue-highcharts>
                         </div>
                     </div>
                 </div>
@@ -246,29 +245,14 @@ export default {
       region: "London",
       menu: "Hamburger",
       logoImage: "/static/img/selected_logo.png",
-      desc:
-        "Burger King is an American global chain of hamburger fast food restaurants.",
+      desc: "Burger King is an American global chain of hamburger fast food restaurants.",
       chartOptions: {
-        chart: {
-          type: "line"
-        },
-        title: {
-          text: ""
-        },
-        credits: {
-          enabled: false
-        },
-        legend: {
-          enabled: false
-        },
-        xAxis: {
-          type: "datetime"
-        },
-        yAxis: {
-          title: {
-            text: null
-          }
-        },
+        chart: { type: "line", plotShadow: false},
+        title: { text: "" },
+        credits: { enabled: false },
+        legend: { enabled: false },
+        xAxis: { type: "datetime" },
+        yAxis: { title: { text: null  } },
         series: []
       }
     };
@@ -306,10 +290,12 @@ export default {
           }
         });
     },
-    loadChart: function(chart, dataUrl) {
+    loadPS1Chart: function() {
+        var chart = this.$refs.ps1Chart
+
       chart.delegateMethod("showLoading", "Loading...");
 
-      this.$http.get(dataUrl).then(result => {
+      this.$http.get("/static/action/performance_trend.json").then(result => {
         if (result.status == 200) {
           chart.hideLoading();
           var data = {
@@ -322,16 +308,33 @@ export default {
         }
       });
     },
+    loadPS2Chart: function() {
+        
+    },
+    loadSenti1Chart: function() {
+        
+    },
+    loadSenti2Chart: function() {
+        
+    },
+    loadKeywordChart: function() {
+        
+    },
+    loadBestSeller: function() {
+        
+    },
     changeDateFunc: function(date) {
       console.log('parent changedate:' + date)
     }
   },
   mounted() {
     this.loadBasicInfo(11223);
-    this.loadChart(
-      this.$refs.ps1Chart,
-      "/static/action/performance_trend.json"
-    );
+    this.loadPS1Chart();
+    this.loadPS2Chart();
+    this.loadSenti1Chart();
+    this.loadSenti2Chart();
+    this.loadKeywordChart();
+    this.loadBestSeller();
   }
 };
 </script>

@@ -124,12 +124,7 @@
 
 .select_box .select .date_picker {
     border: 1px solid #f38385;
-    display: none;
     top: 34px;
-}
-
-.select_box .select.on .date_picker {
-    display: block;
 }
 
 .search_result {

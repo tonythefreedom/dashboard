@@ -1,6 +1,6 @@
 <template>
     <div>
-        <flamingo-head></flamingo-head>
+        <flamingo-head :active="'forecast'"></flamingo-head>
         
         <!-- forecast-->
         <div class="forecast">

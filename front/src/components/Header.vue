@@ -12,8 +12,8 @@
             <!-- sub_menu-->
         <div class="sub_menu">
             <nav>
-                <a href="">DATA</a>
-                <a class="active" href="">FORECAST</a>
+                <a :class="{active: 'data'==this.active}" href="/#/">DATA</a>
+                <a :class="{active: 'forecast'==this.active}" href="/#/forecast">FORECAST</a>
             </nav>
         </div>
         <!-- sub_menu-->
@@ -22,7 +22,14 @@
 
 <script>
 export default {
-  name: 'Header'
+  name: 'Header',
+  props: {
+    active: {
+      type: String,
+      required: false,
+      default: 'data'
+    }
+  }
 }
 </script>
 

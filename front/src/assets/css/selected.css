@@ -78,7 +78,13 @@
     float: right;
 }
 
-.selected .overview .view_port .selected_company .top .menu span {
+.selected .overview .view_port .selected_company .top .date_picker {
+    right: -80px;
+    top: 60px;
+    box-shadow: 0 10px 10px 2px rgba(0,0,0,0.2);
+}
+
+.selected .overview .view_port .selected_company .top .menu .func {
     color: #fff;
     font-size: 24px;
     display: inline-block;
@@ -93,6 +99,21 @@
     cursor: pointer;
 }
 
+.selected .overview .view_port .selected_company .top .menu .func.on {
+    background-color: #fff;
+    color: #f38385;
+    position: relative;
+}
+
+.selected .overview .view_port .selected_company .top .menu .func.on:after {
+    content: "▲";
+    position: absolute;
+    color: #fff;
+    bottom: -32px;
+    right: 50%;
+    margin-right: -15px;   
+}
+
 .selected .overview .view_port .selected_company .top .country {
     position: absolute;
     border: 1px solid #f38385;
@@ -100,21 +121,8 @@
     right: 190px;
     top: 60px;
 }
-.selected .overview .view_port .selected_company .top .menu span.on {
-    background-color: #fff;
-    color: #f38385;
-    position: relative;
-}
 
-.selected .overview .view_port .selected_company .top .menu span.on:after {
-    content: "▲";
-    position: absolute;
-    color: #fff;
-    bottom: -32px;
-    right: 50%;
-    margin-right: -15px;
-    
-}
+
 .selected .overview .view_port .selected_company .bot {
     margin-top: 37px;
 }
@@ -234,6 +242,12 @@
     float: left;
     margin-left: 100px;
     width: 620px;
+}
+
+.selected .content .block .graph .chart {
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+    width: 100%;
 }
 
 .selected .content .block .graph:first-child {
