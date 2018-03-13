@@ -75,10 +75,10 @@
                     <h4>Performance Sector</h4>
                     <div class="graph_wrap">
                         <div class="graph">
-                            <vue-highcharts :options="chartOptions" ref="ps1Chart" class="chart"></vue-highcharts>
+                            <vue-highcharts :options="ps1ChartOptions" ref="ps1Chart" :classname="'chart'"></vue-highcharts>
                         </div>
                         <div class="graph">
-                            <vue-highcharts :options="chartOptions" ref="ps2Chart"  class="social state"></vue-highcharts>
+                            <vue-highcharts :options="ps2ChartOptions" ref="ps2Chart" :classname="'chart'"></vue-highcharts>
                         </div>
                     </div>
                 </div>
@@ -87,10 +87,10 @@
                     <h4>Sentiment</h4>
                     <div class="graph_wrap">
                         <div class="graph">
-                            <img src="/static/img/sentiment_img1.png"  style="width: 100%"/>
+                            <vue-highcharts :options="senti1ChartOptions" ref="senti1Chart" :classname="'chart'"></vue-highcharts>
                         </div>
                         <div class="graph">
-                            <img src="/static/img/sentiment_img2.png"  style="width: 100%"/>
+                            <vue-highcharts :options="senti2ChartOptions" ref="senti2Chart" :classname="'chart'"></vue-highcharts>
                         </div>
                     </div>
                 </div>
@@ -99,7 +99,7 @@
                     <h4>Keyword search trend</h4>
                     <div class="graph_wrap">
                         <div class="graph">
-                            <img src="/static/img/Keyword search trend.png"  style="width: 100%"/>
+                            <vue-highcharts :options="keywordChartOptions" ref="keywordChart" :classname="'chart'"></vue-highcharts>
                         </div>
                     </div>
                 </div>
@@ -173,7 +173,7 @@
                             <img src="/static/img/insta.png"/>
                             <p>29K</p>
                         </div>
-                        <vue-highcharts v-show="instaShow" :options="chartOptions" ref="instaChart"  class="social state"></vue-highcharts>
+                        <social v-show="instaShow" ref="instaChart" :title="'insta'"></social>
                         <div class="social state yutube">
                             <img src="/static/img/yutube.png"/>
                             <p class="small">SUBSCRIBERS</p>
@@ -231,8 +231,9 @@
 
 <script>
 import Header from "@/components/Header";
-import Calendar from './control/Calendar.vue'
-import Dropdown from './control/Dropdown.vue'
+import Calendar from "./control/Calendar.vue";
+import Dropdown from "./control/Dropdown.vue";
+import Social from "./control/Social.vue";
 import VueHighcharts from "vue2-highcharts";
 
 export default {
@@ -245,14 +246,52 @@ export default {
       region: "London",
       menu: "Hamburger",
       logoImage: "/static/img/selected_logo.png",
-      desc: "Burger King is an American global chain of hamburger fast food restaurants.",
-      chartOptions: {
-        chart: { type: "line", plotShadow: false},
+      desc:
+        "Burger King is an American global chain of hamburger fast food restaurants.",
+      ps1ChartOptions: {
+        chart: { type: "area" },
         title: { text: "" },
         credits: { enabled: false },
         legend: { enabled: false },
         xAxis: { type: "datetime" },
-        yAxis: { title: { text: null  } },
+        yAxis: { title: { text: null } },
+        series: []
+      },
+      ps2ChartOptions: {
+        chart: { type: "line" },
+        title: { text: "" },
+        credits: { enabled: false },
+        legend: { enabled: true, verticalAlign: "top" },
+        xAxis: { type: "datetime" },
+        yAxis: { title: { text: null } },
+        series: []
+      },
+      senti1ChartOptions: {
+        chart: { type: "column" },
+        title: { text: "" },
+        credits: { enabled: false },
+        legend: { enabled: true, verticalAlign: "top" },
+        xAxis: { type: "datetime" },
+        yAxis: { title: { text: null } },
+        series: []
+      },
+      senti2ChartOptions: {
+        chart: { type: "line" },
+        title: { text: "Number of franshises exposed on Google and in the news" },
+        credits: { enabled: false },
+        legend: { enabled: false },
+        xAxis: { type: "datetime" },
+        yAxis: { title: { text: null } },
+        series: []
+      },
+      keywordChartOptions: {
+        chart: { type: "column" },
+        title: { text: "" },
+        credits: { enabled: false },
+        legend: { enabled: false },
+        xAxis: { type: "category" },
+        yAxis: { title: { text: null } },
+        plotOptions: { series: { dataLabels: { enabled: true, format: '{point.y:.1f}%'}}},
         series: []
       }
     };
@@ -261,21 +300,25 @@ export default {
     "flamingo-head": Header,
     Calendar,
     Dropdown,
-    VueHighcharts
+    VueHighcharts,
+    Social
   },
   methods: {
     countryClick: function() {
-      if ($("#country").hasClass("on")) {
-        $("#country").removeClass("on");
-        $("#country-popup").hide();
-      } else {
-        $("#country").addClass("on");
-        $("#country-popup").show();
-      }
+        if ($("#country").hasClass("on")) {
+            $("#country").removeClass("on");
+            $("#country-popup").hide();
+        } else {
+            $("#country").addClass("on");
+            $("#country-popup").show();
+        }
     },
     instaClick: function() {
-      this.instaShow = !this.instaShow;
+        this.instaShow = !this.instaShow
+        //this.showSocialChart(this.$refs.instaChart, 'insta')
+        this.$refs.instaChart.drawChart()
     },
+    
     loadBasicInfo: function(itemId) {
       this.$http
         .get("/static/action/detail.json?itemid=" + itemId)
@@ -291,40 +334,124 @@ export default {
         });
     },
     loadPS1Chart: function() {
-        var chart = this.$refs.ps1Chart
+        var chart = this.$refs.ps1Chart;
 
-      chart.delegateMethod("showLoading", "Loading...");
+        chart.delegateMethod("showLoading", "Loading...");
 
-      this.$http.get("/static/action/performance_trend.json").then(result => {
-        if (result.status == 200) {
-          chart.hideLoading();
-          var data = {
-            name: "Trend",
-            data: result.data.data.score,
-            pointStart: Date.UTC(2010, 0, 1),
-            pointInterval: 24 * 3600 * 1000 // one day
-          };
-          chart.addSeries(data);
-        }
-      });
+        this.$http.get("/static/action/performance_trend.json").then(result => {
+            if (result.status == 200) {
+                chart.hideLoading();
+                var start = this.getUTCDate(result.data.data.startdate)
+                var data = {
+                    name: "Trend",
+                    data: result.data.data.score,
+                    pointStart: start,
+                    pointInterval: 24 * 3600 * 1000 // one day
+                };
+                chart.addSeries(data);
+            }
+        });
     },
     loadPS2Chart: function() {
-        
+        var chart = this.$refs.ps2Chart;
+
+        chart.delegateMethod("showLoading", "Loading...");
+
+        this.$http.get("/static/action/performance2.json").then(result => {
+            if (result.status == 200) {
+                chart.hideLoading();
+
+                var start = this.getUTCDate(result.data.data.startdate);
+                result.data.data.series.forEach(element => {
+                    var temp = {
+                        name: element.name,
+                        data: element.score,
+                        pointStart: start,
+                        pointInterval: 24 * 3600 * 1000 // one day
+                    };
+
+                    chart.addSeries(temp);
+                });
+            }
+        });
     },
     loadSenti1Chart: function() {
-        
+        var chart = this.$refs.senti1Chart;
+
+        chart.delegateMethod("showLoading", "Loading...");
+
+        this.$http.get("/static/action/sentiment1.json").then(result => {
+            if (result.status == 200) {
+                chart.hideLoading();
+
+                var start = this.getUTCDate(result.data.data.startdate);
+                result.data.data.series.forEach(element => {
+                var temp = {
+                    name: element.name,
+                    data: element.score,
+                    pointStart: start,
+                    pointInterval: 24 * 3600 * 1000 // one day
+                };
+
+                chart.addSeries(temp);
+                });
+            }
+        });
     },
     loadSenti2Chart: function() {
-        
+        var chart = this.$refs.senti2Chart;
+
+        chart.delegateMethod("showLoading", "Loading...");
+
+        this.$http.get("/static/action/sentiment2.json").then(result => {
+            if (result.status == 200) {
+                chart.hideLoading();
+                var start = this.getUTCDate(result.data.data.startdate)
+                var data = {
+                data: result.data.data.score,
+                pointStart: start,
+                pointInterval: 24 * 3600 * 1000 // one day
+                };
+                chart.addSeries(data);
+            }
+        });
     },
     loadKeywordChart: function() {
-        
+        var chart = this.$refs.keywordChart;
+
+        chart.delegateMethod("showLoading", "Loading...");
+
+        this.$http.get("/static/action/keyword.json").then(result => {
+            if (result.status == 200) {
+                chart.hideLoading();
+                
+                var series = {
+                    name: "keyword",
+                    colorByPoint: true,
+                    data: []
+                }
+
+                result.data.data.forEach(element => {
+                    var temp = {
+                        name: element.name,
+                        y: element.score,
+                    };
+                    series.data.push(temp);
+                });
+
+                chart.addSeries(series);
+            }
+        });
     },
-    loadBestSeller: function() {
-        
-    },
+    loadBestSeller: function() {},
     changeDateFunc: function(date) {
-      console.log('parent changedate:' + date)
+      console.log("parent changedate:" + date);
+    },
+    getUTCDate: function(date) {
+      var year = date / 10000;
+      var month = (date % 10000) / 100;
+      var day = date % 100;
+      return Date.UTC(year, month - 1, day);
     }
   },
   mounted() {

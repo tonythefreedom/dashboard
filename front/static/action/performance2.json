@@ -1,9 +1,8 @@
 {
 
     "success": 0,
-    "data": 
-       {
-          "start-date": 20170101,
+    "data": {
+          "startdate": 20170101,
           "series": [
              {
               "name": "information",

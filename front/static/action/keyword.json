@@ -1,0 +1,30 @@
+{
+    "success": 0,
+    "data": [
+        {
+            "name": "Whopper",
+            "score": 75
+        },
+        {
+            "name": "Event",
+            "score": 66
+        },
+        {
+            "name": "Delivery",
+            "score": 58
+        },
+        {
+            "name": "Coupon",
+            "score": 37
+        },
+        {
+            "name": "Set Menu",
+            "score": 30
+        },
+        {
+            "name": "Set Price",
+            "score": 8
+        }
+    ]
+        
+ }
