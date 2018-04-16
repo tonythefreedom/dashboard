@@ -1,0 +1,2333 @@
+[
+ {
+   "Company_Name": "McDonald’s",
+   "URL": "https://www.mcdonalds.com/gb/en-gb/menu.html",
+   "Country": "UK",
+   "Category": "fast food restaurant",
+    "Menu_Category": [
+        {"Breakfast" :[
+           {"Item": "Breakfast Wrap"},
+           {"Item": "Sausage, Egg & Cheese Bagel"},
+           {"Item": "Bacon, Egg&Cheese Bagel"},
+           {"Item": "Sausage & Egg McMuffin"},
+           {"Item": "Bacon&Egg McMuffin"},
+           {"Item": "Double Sausage & Egg McMuffin"},
+           {"Item": "Double Bacon & Egg McMuffin"},
+           {"Item": "Egg & Cheese McMuffin"},
+           {"Item": "Pancakes & Syrup"},
+           {"Item": "Pancakes & Sausage with Syrup"},
+           {"Item": "Bacon Roll"},
+           {"Item": "Quaker Oat So Simple"},
+           {"Item": "Quaker Oat So Simple Apple & Cherry Porridge"},
+           {"Item": "Toasted Bagel"},
+           {"Item": "Hash Brown"},
+           {"Item": "Cheesy Bacon Flatbread"},
+           {"Item": "Chocolatey Donut"},
+           {"Item": "Blueberry Muffin"},
+           {"Item": "Chocolate Muffin"},
+           {"Item": "Triple Chocolate Cookie"},
+           {"Item": "Sugar Donut"},
+           {"Item": "Apple & Grape Fruit Bag"},
+           {"Item": "Tropicana Orange Juice"},
+           {"Item": "Toffee Latte"},
+           {"Item": "Latte"},
+           {"Item": "Cappuccino"},
+           {"Item": "Black Coffee"},
+           {"Item": "White Coffee"},
+           {"Item": "Double Espresso"},
+           {"Item": "Hot Chocolate"},
+           {"Item": "Tea"}
+        ]},
+
+        {"Burgers" : [
+           {"Item": "Big Tasty"},
+           {"Item": "Big Tasty with Bacon"},
+           {"Item": "The Signature Collection: The Classic"},
+           {"Item": "The Signature Collection: The BBQ"},
+           {"Item": "The Signature Collection: The Spicy"},
+           {"Item": "Big Mac"},
+           {"Item": "Quarter Pounder with Cheese"},
+           {"Item": "Double Cheeseburger"},
+           {"Item": "Cheeseburger"},
+           {"Item": "Hamburger"},
+           {"Item": "Chicken Legend with Cool Mayo"},
+           {"Item": "Chicken Legend with BBQ Sauce"},
+           {"Item": "Chicken Legend with Hot & Spicy Mayo"},
+           {"Item": "Chicken Legend with Bacon and Cool Mayo"},
+           {"Item": "Chicken Legend with Bacon and BBQ Sauce"},
+           {"Item": "Chicken Legend with Bacon and Hot & Spicy Mayo"},
+           {"Item": "McChicken Sandwich"},
+           {"Item": "BBQ Chicken BLC"},
+           {"Item": "Mayo Chicken"},
+           {"Item": "Filet-o-Fish"},
+           {"Item": "Vegetable Deluxe"},
+           {"Item": "Spicy Vegetable Deluxe"}
+        ]},
+
+        {"Chicken Selects® & McNuggets®" :[
+           {"Item": "Chicken Selects"},
+           {"Item": "Chicken McNuggets"},
+           {"Item": "20 Chicken McNuggets ShareBox"}
+        ]},
+
+        {"Wraps & Salads" :[
+           {"Item": "The Hot Peri Peri Chicken One - Grilled"},
+           {"Item": "The Hot Peri Peri Chicken One - Crispy"},
+           {"Item": "The Garlic Mayo Chicken One - Grilled"},
+           {"Item": "The Garlic Mayo Chicken One - Crispy"},
+           {"Item": "The Sweet Chili Chicken One - Grilled"},
+           {"Item": "The Sweet Chili Chicken One - Crispy"},
+           {"Item": "The BBQ Chicken and Bacon One - Grilled"},
+           {"Item": "The BBQ Chicken and Bacon One - Crispy"},
+           {"Item": "Spicy Chicken Snack Wrap"},
+           {"Item": "Grilled Chicken Salad"},
+           {"Item": "Grilled Chicken and Bacon Salad"},
+           {"Item": "Crispy Chicken Salad"},
+           {"Item": "Crispy Chicken and Bacon Salad"},
+           {"Item": "Shaker Side Salad"},
+           {"Item": "Carrot Sticks"}
+        ]},
+
+        {"Fries & Sides" :[
+           {"Item": "Mozzarella Dippers"},
+           {"Item": "McDonald’s Fries"},
+           {"Item": "Shaker Side Salad"},
+           {"Item": "Carrot Sticks"},
+           {"Item": "Apple & Grape Fruit Bag"}
+        ]},
+
+        {"Saver Menu®" :[
+           {"Item": "BBQ Chicken BLC"},
+           {"Item": "Spicy Chicken Snack Wrap"},
+           {"Item": "Double Cheeseburger"},
+           {"Item": "Cheeseburger"},
+           {"Item": "Hamburger"},
+           {"Item": "Mayo Chicken"},
+           {"Item": "McDonald’s Fries"},
+           {"Item": "Shaker Side Salad"},
+           {"Item": "Oreo McFlurry"},
+           {"Item": "Cadbury Dairy Milk McFlurry"},
+           {"Item": "Cadbury Crunchie McFlurry"},
+           {"Item": "Toffee Sundae"},
+           {"Item": "Strawberry Sundae"}
+        ]},
+
+        {"Vegetarian" :[
+           {"Item": "Pancakes & Cyrup"},
+           {"Item": "Quaker Oat So Simple"},
+           {"Item": "The Flat White"},
+           {"Item": "Quaker Oat So Simple Apple & Cherry Porridge"},
+           {"Item": "Toasted Bagel"},
+           {"Item": "Hash Brown"},
+           {"Item": "Vegetable Deluxe"},
+           {"Item": "Spicy Vegetable Deluxe"},
+           {"Item": "McDonald’s Fries"},
+           {"Item": "Shaker Side Salad"},
+           {"Item": "Carrot Sticks"},
+           {"Item": "Apple & Grape Fruit Bag"},
+           {"Item": "Cadbury Caramel McFlurry"},
+           {"Item": "Cadbury Creme Egg McFlurry"},
+           {"Item": "Oreo McFlurry"},
+           {"Item": "Cadbury Dairy Milk McFlurry"},
+           {"Item": "Cadbury Crunchie McFlurry"},
+           {"Item": "Toffee Sundae"},
+           {"Item": "Strawberry Sundae"},
+           {"Item": "Ice Cream Cone"},
+           {"Item": "Ice Cream Cone with Flake"},
+           {"Item": "Chocolatey Donut"},
+           {"Item": "Bluberry Muffin"},
+           {"Item": "Chocolate Muffin"},
+           {"Item": "Triple Chocolate Cookie"},
+           {"Item": "Sugar Donut"},
+           {"Item": "Toffee Latte"},
+           {"Item": "Latte"},
+           {"Item": "Cappuccino"},
+           {"Item": "Black Coffee"},
+           {"Item": "White Coffee"},
+           {"Item": "Double Espresso"},
+           {"Item": "Hot Chocolate"},
+           {"Item": "Tea"},
+           {"Item": "Mango and Pineapple Iced Fruit Smoothie"},
+           {"Item": "Berry Burst Fruit Smoothie"},
+           {"Item": "Caramel Iced Frappe"},
+           {"Item": "Mocha Iced Frappe"},
+           {"Item": "Chocolate Milkshake"},
+           {"Item": "Strawberry Milkshake"},
+           {"Item": "Banana Milkshake"},
+           {"Item": "Vanilla Milkshake"},
+           {"Item": "Buxton Mineral Water(still)"},
+           {"Item": "Organic Milk"},
+           {"Item": "Tropicana Orange Juice"},
+           {"Item": "Robinsons Fruit Shoot"}
+        ]},
+
+        {"Desserts" :[
+           {"Item": "Cadbury Caramel McFlurry"},
+           {"Item": "Cadbury Creme Egg McFlurry"},
+           {"Item": "Oreo McFlurry"},
+           {"Item": "Cadbury Dairy Milk McFlurry"},
+           {"Item": "Cadbury Crunchile McFlurry"},
+           {"Item": "Toffee Sundae"},
+           {"Item": "Strawberry Sundae"},
+           {"Item": "Ice Cream Cone"},
+           {"Item": "Ice Cream Cone with Flake"},
+           {"Item": "Chocolatey Donut"},
+           {"Item": "Blueberry Muffin"},
+           {"Item": "Chocolate Muffin"},
+           {"Item": "Triple Chocolate Cookie"},
+           {"Item": "Sugar Donut"},
+           {"Item": "Apple Pie"},
+           {"Item": "Apple & Grape Fruit Bag"}
+        ]},
+
+        {"Milkshakes & Cold Drinks" :[
+           {"Item": "Chocolate Milkshake"},
+           {"Item": "Strawberry Milkshake"},
+           {"Item": "Banana Milkshake"},
+           {"Item": "Vanilla Milkshake"},
+           {"Item": "Buxton Mineral Water(still)"},
+           {"Item": "Organic Milk"},
+           {"Item": "Tropicana Orange Juice"},
+           {"Item": "Robinsons Fruit Shoot"},
+           {"Item": "Coca-Cola Zero Sugar"},
+           {"Item": "Diet Coke"},
+           {"Item": "Sprite Zero"},
+           {"Item": "Coca-Cola Classic"},
+           {"Item": "Fanta Orange"},
+           {"Item": "Oasis"},
+           {"Item": "IRN-BRU"},
+           {"Item": "Mango and Pineapple Iced Fruit Smoothie"},
+           {"Item": "Berry Burst Fruit Smoothie"},
+           {"Item": "Caramel Iced Frappe"},
+           {"Item": "Mocha Iced Frappe"}
+        ]},
+
+        {"McCafé® Drinks" :[
+           {"Item": "The Flat White"},
+           {"Item": "Toffee Latte"},
+           {"Item": "Hot Chocolate"},
+           {"Item": "Latte"},
+           {"Item": "Cappuccino"},
+           {"Item": "Black Coffee"},
+           {"Item": "White Coffee"},
+           {"Item": "Double Espresso"},
+           {"Item": "Tea"},
+           {"Item": "Mango and Pineapple Iced Fruit Smoothie"},
+           {"Item": "Berry Burst Fruit Smoothie"},
+           {"Item": "Caramel Iced Frappe"},
+           {"Item": "Mocha Iced Frappe"},
+           {"Item": "Chocolatey Donut"},
+           {"Item": "Blueberry Muffin"},
+           {"Item": "Chocolate Muffin"},
+           {"Item": "Triple Chocolate Cookie"},
+           {"Item": "Sugar Donut"}
+        ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Nando’s",
+   "URL": "https://www.nandos.co.uk/food/menu",
+   "Country": "UK",
+   "Category": "fast food restaurant",
+    "Menu_Category": [
+
+            {"Main" :[
+               {"Item": "1/4 Chicken Breast"},
+               {"Item": "1/4 Chicken Leg"},
+               {"Item": "1/2 Chicken"},
+               {"Item": "5 Chicken Wings"},
+               {"Item": "10 Chicken Wings"},
+               {"Item": "Wing Roulette"},
+               {"Item": "Whole Chicken"},
+               {"Item": "Sunset Burger"},
+               {"Item": "Butterfly Burger"},
+               {"Item": "Fino Pitta"},
+               {"Item": "Grilled Chicken"},
+               {"Item": "Double Chicken"},
+               {"Item": "Sweet Potato & Butternut"},
+               {"Item": "Supergreen"},
+               {"Item": "Portobello Mushroom & Grilled Halloumi"},
+               {"Item": "Beanie"},
+               {"Item": "Veggie Cataplana"},
+               {"Item": "Fillet Steak & Chargrilled Veg Pitta"},
+               {"Item": "Fillet Steak & Chargrilled Veg Wrap"},
+               {"Item": "Fillet Steak Prego Roll"},
+               {"Item": "Chicken Livers & Portuguese Roll"},
+               {"Item": "Supergrain Salad"},
+               {"Item": "Quinoa Salad"},
+               {"Item": "Caesar Salad"},
+               {"Item": "Mediterranean Salad"},
+               {"Item": "Mixed Leaf Salad"},
+               {"Item": "No Bones Platter"},
+               {"Item": "Wing Platter"},
+               {"Item": "Full Platter"},
+               {"Item": "Meal Platter"},
+               {"Item": "Jumbo Platter"}
+            ]},
+
+            {"Sides" :[
+               {"Item": "Supergrain"},
+               {"Item": "Spicy Rice"},
+               {"Item": "Coleslaw"},
+               {"Item": "Garlic Bread"},
+               {"Item": "Corn on the Cob"},
+               {"Item": "Creamy Mash"},
+               {"Item": "Chips"},
+               {"Item": "PERI-Salted Chips"},
+               {"Item": "Mixed Leaf Side Salad"},
+               {"Item": "Macho Peas"},
+               {"Item": "Chargrilled Veg"},
+               {"Item": "Sweet Potato Wedges"},
+               {"Item": "Sweet Potato Wedges with PERi-PERi salt"},
+               {"Item": "Sweet Potato Mash"}
+            ]},
+
+            {"Desserts" :[
+               {"Item": "Vanilla"},
+               {"Item": "Strawberry"},
+               {"Item": "Chocolate"},
+               {"Item": "Mango"},
+               {"Item": "Coconut"},
+               {"Item": "Cooey Caramel Cheesecake"},
+               {"Item": "Choc-A-Lot Cake"},
+               {"Item": "White Chocolate Raspberry Swirl"},
+               {"Item": "Carrot Cake"},
+               {"Item": "Salted Caramel Brownie"},
+               {"Item": "Naughty Natas"}
+            ]},
+
+            {"Drinks" :[
+               {"Item": "Coca-Cola"},
+               {"Item": "Diet Coke"},
+               {"Item": "Coke Zero"},
+               {"Item": "Fanta"},
+               {"Item": "Spite Zero"},
+               {"Item": "Rubro"},
+               {"Item": "Pressed Apple Juice"},
+               {"Item": "Mango Quencher"},
+               {"Item": "Orange Juice"},
+               {"Item": "Cloudy Lemonade"},
+               {"Item": "Mineral Water"},
+               {"Item": "Cappuccino"},
+               {"Item": "Calao"},
+               {"Item": "Espresso"},
+               {"Item": "Espresso Espresso"},
+               {"Item": "Americano"},
+               {"Item": "Organic Everyday Tea"},
+               {"Item": "Tea Infusions"},
+               {"Item": "Hot Chocolate"},
+               {"Item": "Cara Viva (Portugal)"},
+               {"Item": "Spier Chenin Blanc (South Africa)"},
+               {"Item": "Stormhoek Pinot Grigio (South Africa)"},
+               {"Item": "Cara Viva Red (portugal)"},
+               {"Item": "Spier Merlot (South Africa)"},
+               {"Item": "Grand’s Arte Shiraz (Portugal)"},
+               {"Item": "Cara Viva Medium Dry (Portugal)"},
+               {"Item": "Cara Viva Summer Fruit (Portugal)"},
+               {"Item": "Sagres"},
+               {"Item": "2M (Mozambique)"},
+               {"Item": "Savanna Cider (South Africa)"},
+               {"Item": "Raspberry and Lime Cider (50ml)"}
+            ]},
+
+            {"Nandinos" :[
+               {"Item": "Chicken Burger"},
+               {"Item": "Chicken Breast Fillet Strips"},
+               {"Item": "3 Chicken Wings"},
+               {"Item": "Sweet Potato & Butternut Pattie"},
+               {"Item": "Sweet Potato & Butternut Burger"},
+               {"Item": "Chips"},
+               {"Item": "Sweet Potato Mash"},
+               {"Item": "Garlic Bread"},
+               {"Item": "Corn on the Cob"},
+               {"Item": "Little Tomatoes"},
+               {"Item": "Sweet Potato Wedges"},
+               {"Item": "Supergrain"},
+               {"Item": "Chilly Billy Lolly"},
+               {"Item": "Bottomless Frozen Yogurt"},
+               {"Item": "Scoop of Vanilla Gelado"},
+               {"Item": "Organic Milk"},
+               {"Item": "Bottle Green Cordial"}
+            ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "KFC",
+   "URL": "https://www.kfc.co.uk/our-food",
+   "Country": "UK",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+
+        {"For Sharing" :[
+            {"Item": "6 Piece Bargain Bucket"},
+            {"Item": "10 Piece Bargain Bucket"},
+            {"Item": "14 Piece Bargain Bucket"},
+            {"Item": "8 Piece Dipping Boneless Feast"},
+            {"Item": "12 Piece Dipping Boneless Feast"},
+            {"Item": "6 Piece Wicked Variety"},
+            {"Item": "10 Piece Wicked Variety"},
+            {"Item": "14 Piece Wicked Variety"},
+            {"Item": "14 Piece Party Bucket"},
+            {"Item": "6 Piece Family Feast"},
+            {"Item": "10 Piece Family Feast"}
+        ]},
+
+        {"Box Meals" :[
+           {"Item": "Boneless Banquet"},
+           {"Item": "Filled Box Meal"},
+           {"Item": "Zinger Box Meal"},
+           {"Item": "The Big Daddy"}
+        ]},
+
+        {"Chicken" :[
+           {"Item": "Boneless Banquet"},
+           {"Item": "Mighty Bucket For One"},
+           {"Item": "6 Hot Wings® \n Meal"},
+           {"Item": "Mini Variety Pack"},
+           {"Item": "4 Piece Boneless Dips"},
+           {"Item": "3 Piece Boneless Dips"},
+           {"Item": "Large Popcorn Chicken Meal"},
+           {"Item": "Popcorn Chicken Meal"},
+           {"Item": "3 Piece Original Recipe Meal"},
+           {"Item": "2 Piece Original Recipe Meal"}
+        ]},
+
+        {"Burgers" :[
+           {"Item": "Filet Tower Meal"},
+           {"Item": "Zinger® Tower Meal"},
+           {"Item": "Filet Burger Meal"},
+           {"Item": "Zinger® Burger Meal"},
+           {"Item": "Filet Tower Burger"},
+           {"Item": "Zinger® Tower Burger"},
+           {"Item": "The Daddy Burger"},
+           {"Item": "Filet Burger"},
+           {"Item": "Filet Bacon Deluxe Burger"},
+           {"Item": "Zinger® Burger"},
+           {"Item": "Mini Filet Burger"}
+        ]},
+
+        {"Salads & Riceboxes" :[
+           {"Item": "Original Recipe Salad Pot Meal"},
+           {"Item": "Popcorn Chicken Salad Pot Meal"},
+           {"Item": "Plain Salad Pot Meal"},
+           {"Item": "Zinger®Salad Pot Meal"},
+           {"Item": "Original Recipe Salad Pot"},
+           {"Item": "Popcorn Chicken Salad Pot"},
+           {"Item": "Plain Salad Pot"},
+           {"Item": "Zinger® Salad Pot"},
+           {"Item": "Original Recipe Ricebox Meal"},
+           {"Item": "Zinger® Ricebox Meal"},
+           {"Item": "Veggie Ricebox Meal"},
+           {"Item": "Original Recipe Ricebox"},
+           {"Item": "Zinger® Ricebox"},
+           {"Item": "Veggie Ricebox"}
+        ]},
+
+         {"Wraps" :[
+           {"Item": "Zinger® Twister Meal"},
+           {"Item": "Toasted Twisted Meal"},
+           {"Item": "Zinger® Twister"},
+           {"Item": "Toasted Twister"},
+           {"Item": "Original Recipe Burrito Meal"},
+           {"Item": "Zinger® Burrito Meal"},
+           {"Item": "Original Recipe Burrito"},
+           {"Item": "Zinger® Burrito"},
+           {"Item": "BBQ Wrap"},
+           {"Item": "Flamin’ Wrap"}
+        ]},
+
+         {"Kids":[
+           {"Item": "Kids Burger Meal"},
+           {"Item": "Kids Popcorn Chicken Meal"},
+           {"Item": "Kids Original Recipe Chicken Meal"}
+        ]},
+
+        {"Sides" :[
+           {"Item": "Gravy Mega Box"},
+           {"Item": "Lunch Box"},
+           {"Item": "All Stars Flamin’ Wrap"},
+           {"Item": "Snack Box Mini Breast Fillet"},
+           {"Item": "Snack Box Popcorn Chicken"},
+           {"Item": "Snack Box Original Recipe"},
+           {"Item": "Regular Popcorn Chicken"},
+           {"Item": "Large Popcorn Chicken"},
+           {"Item": "BBQ Wrap"},
+           {"Item": "Flamin’ Wrap"},
+           {"Item": "2 Hot Wings®"},
+           {"Item": "3 Hot Wings®"},
+           {"Item": "1 Piece Original Recipe Chicken"},
+           {"Item": "2 Piece Original Recipe Chicken"},
+           {"Item": "3 Piece Original Recipe Chicken"},
+           {"Item": "Regular KFC Gravy"},
+           {"Item": "Regular Fries"},
+           {"Item": "Regular Beans"},
+           {"Item": "Corn Cob"}
+        ]},
+
+        {"Sweets" :[
+           {"Item": "Cookie"},
+           {"Item": "Cookie Multi Pack"},
+           {"Item": "Caramel Fudge Kream Ball"},
+           {"Item": "Indulgent Chocolate Kream Ball"},
+           {"Item": "Milky Bar Krushems"},
+           {"Item": "Maltesers® Krushems"},
+           {"Item": "Oreo® Krushem"},
+           {"Item": "Skittles® Krushems"},
+           {"Item": "Strawberry Sundae"},
+           {"Item": "Toffee Sundae"}
+        ]},
+
+        {"Drinks" :[
+           {"Item": "Pepsi MAX"},
+           {"Item": "Diet Pepsi"},
+           {"Item": "Pepsi"},
+           {"Item": "Tango"},
+           {"Item": "7UP Free"},
+           {"Item": "Water"},
+           {"Item": "Tropicana Orange"},
+           {"Item": "Orange Fruitshoot"},
+           {"Item": "Apple&Blackcurrent Fruitshoot"},
+           {"Item": "Espresso"},
+           {"Item": "Tea"},
+           {"Item": "White Americano"},
+           {"Item": "Black Americano"},
+           {"Item": "Latte"},
+           {"Item": "Cappucino"},
+           {"Item": "Caramel Latte"},
+           {"Item": "Vanilla Latte"},
+           {"Item": "Cafe Mocha"},
+           {"Item": "Hot Chocolate"},
+           {"Item": "Pepsi Can "},
+           {"Item": "Pepsi Max Can"},
+           {"Item": "Tango Can"}
+         ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Subway",
+   "URL": "http://www.subway.com/en-gb/menunutrition",
+   "Country": "UK",
+   "Category": "fast food restaurant",
+    "Menu_Category": [
+
+        {"Sandwiches" :[
+           {"Item": "Italian B.M.T.®"},
+           {"Item": "Chicken Tikka"},
+           {"Item": "Tuna"},
+           {"Item": "Steak & Cheese"},
+           {"Item": "Ham"},
+           {"Item": "Meatball Marinara"},
+           {"Item": "Spicy Italian"},
+           {"Item": "Turkey Breast and Ham"},
+           {"Item": "Chicken & Bacon Ranch Melt"},
+           {"Item": "Chicken Breast"},
+           {"Item": "Turkey Breast"},
+           {"Item": "Chicken Teriyaki"},
+           {"Item": "Veggie Delite®"},
+           {"Item": "Subway Melt™\n"},
+           {"Item": "Veggie Patty"},
+           {"Item": "Chicken Pizziola"},
+           {"Item": "Big Beef Melt"},
+           {"Item": "Chipotle Chicken Melt"}
+        ]},
+
+         {"Salads" :[
+           {"Item": "Chicken Tikka"},
+           {"Item": "Italian B.M.T.®"},
+           {"Item": "Ham"},
+           {"Item": "Turkey Breast and Ham"},
+           {"Item": "Tuna"},
+           {"Item": "Chicken Breast"},
+           {"Item": "Turkey Breast"}
+        ]},
+
+         {"Breakfast" :[
+           {"Item": "Bacon, Egg & Cheese"},
+           {"Item": "Sausage, Egg & Cheese"},
+           {"Item": "Egg & Cheese"},
+           {"Item": "Sausage"},
+           {"Item": "Bacon"},
+           {"Item": "Mega Melt"},
+           {"Item": "Poached Egg Mega Melt"}
+        ]},
+
+         {"Kids" :[
+           {"Item": "Ham"},
+           {"Item": "Turkey Breast"},
+           {"Item": "Veggie Delite®"}
+        ]},
+
+         {"Sides":[
+           {"Item": "Bowl of Meatballs"},
+           {"Item": "Crisps"},
+           {"Item": "Melted Cheese Nachos"},
+           {"Item": "Cheese Toastie"},
+           {"Item": "Pepperoni Pizza Toastie"},
+           {"Item": "Cookies"},
+           {"Item": "Bacon "},
+           {"Item": "Cheese"},
+           {"Item": "Chorizo"}
+        ]},
+
+         {"Drinks" :[
+           {"Item": "Pepsi MAX"},
+           {"Item": "Diet Pepsi"},
+           {"Item": "Lipton Ice Tea"},
+           {"Item": "Orange Tango"},
+           {"Item": "7UP Free"},
+           {"Item": "Water"},
+           {"Item": "Tropicana Juice"},
+           {"Item": "Robinsons Fruit Shoot My-5"},
+           {"Item": "AbbeyWell Water"},
+           {"Item": "Espresso"},
+           {"Item": "Tea"},
+           {"Item": "Hot Chocolate"}
+        ]}
+    ]
+ },
+
+
+ {
+   "Company_Name": "Burger King",
+   "URL": "http://www.burgerking.co.uk/menu",
+   "Country": "UK",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+        {"Burgers" :[
+           {"Item": "BACON KING™ "},
+           {"Item": "WHOPPER® Sandwich"},
+           {"Item": "Double WHOPPER® Sandwich"},
+           {"Item": "Steakhouse"},
+           {"Item": "Angus Classic"},
+           {"Item": "Bacon Double XL"},
+           {"Item": "Big King XL"},
+           {"Item": "Long Peperoni"},
+           {"Item": "Long Big King"},
+           {"Item": "Long Texas BBQ"},
+           {"Item": "Long Chilli Cheese"},
+           {"Item": "Cheeseburger"},
+           {"Item": "Double Cheeseburger"},
+           {"Item": "Bacon Double Cheeseburger"},
+           {"Item": "Hamburger"},
+           {"Item": "WHOPPER JR.® Sandwich"},
+           {"Item": "Kids Cheeseburger"},
+           {"Item": "Kids Hamburger"}
+        ]},
+
+         {"Chicken":[
+           {"Item": "Chicken Bacon King™ "},
+           {"Item": "Chicken TENDERCRISP®"},
+           {"Item": "Bacon Cheese Chicken Royale"},
+           {"Item": "Chicken Royale"},
+           {"Item": "BLT Chicken Wrap"},
+           {"Item": "Chicken Burger"},
+           {"Item": "Chicken Strips"},
+           {"Item": "Chicken Nuggets"},
+           {"Item": "Crispy Chicken Salad"}
+        ]},
+
+         {"Salads, Veggies, Fish" :[
+           {"Item": "King Fish"},
+           {"Item": "Veggie Bean Burger"},
+           {"Item": "Kids Veggie Burger"},
+           {"Item": "Garden Side Salad"},
+           {"Item": "Crispy Chicken Salad"}
+        ]},
+
+         {"Breakfast":[
+           {"Item": "Sausage CROISSAN’WICH"},
+           {"Item": "Quaker Porridge"},
+           {"Item": "Bacon CROISSAN’WICH"},
+           {"Item": "Double CROISSAN’WICH"},
+           {"Item": "Bacon King Muffin"},
+           {"Item": "Sausage King Muffin"},
+           {"Item": "Hash Browns"},
+           {"Item": "Bacon Butty"},
+           {"Item": "Warm Belgian Waffle"},
+           {"Item": "Muffins"},
+           {"Item": "Mini Pancakes & Syrup"},
+           {"Item": "Doughnuts"}
+        ]},
+
+         {"Kids" :[
+           {"Item": "Kids Veggie Burger"},
+           {"Item": "Chicken Nuggets"},
+           {"Item": "Kids Cheeseburger"},
+           {"Item": "Kids Hamburger"},
+           {"Item": "Kids Chicken Burger"}
+        ]},
+
+         {"Sides":[
+           {"Item": "Chicken Strips"},
+           {"Item": "Chicken Nuggets"},
+           {"Item": "Bacon Cheese Bites"},
+           {"Item": "Emmental Bites"},
+           {"Item": "Mozzarella Sticks"},
+           {"Item": "Chilli Cheese Bites"},
+           {"Item": "Fries"},
+           {"Item": "Onion Rings"},
+           {"Item": "Apple Fries"},
+           {"Item": "Hash Browns"}
+           ]},
+
+         {"Sweets" :[
+           {"Item": "KIT KAT® Shake"},
+           {"Item": "KIT KAT® Fusion"},
+           {"Item": "Oreo® King Fusion®"},
+           {"Item": "Oreo® Shake"},
+           {"Item": "Chocolate Milkshake"},
+           {"Item": "Strawberry Milkshake"},
+           {"Item": "Vanilla Milkshake"},
+           {"Item": "Caramel Sundae"},
+           {"Item": "Chocolate Sundae"},
+           {"Item": "Strawberry Sundae"},
+           {"Item": "Warm Belgian Waffle"},
+           {"Item": "Muffins"},
+           {"Item": "Mini Pancakes & Syrup"},
+           {"Item": "Ice Cream Cone"},
+           {"Item": "Doughnuts"},
+           {"Item": "Chocolate Brownie Hottie"}
+        ]},
+
+         {"Drinks":[
+           {"Item": "Soft Drinks"},
+           {"Item": "Tropicana Apple Juice"},
+           {"Item": "Tropicana Orange Juice"},
+           {"Item": "AbbeyWell Mineral Water"},
+           {"Item": "Black Coffee"},
+           {"Item": "Latte"},
+           {"Item": "Flavoured Latte"},
+           {"Item": "Cappuccino "},
+           {"Item": "Tea"},
+           {"Item": "Hot Chocolate"},
+           {"Item": "Shakes"}
+        ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Pizza Hut",
+   "URL": "https://www.pizzahut.co.uk/restaurants/food/pizza/",
+   "Country": "UK",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+        {"Pizza":[
+           {"Item": "Supreme"},
+           {"Item": "Hawaiian"},
+           {"Item": "Philly Cheese Steak"},
+           {"Item": "Pepperoni"},
+           {"Item": "Virtuous Veg"},
+           {"Item": "Chicken Supreme"},
+           {"Item": "Meat Feast"},
+           {"Item": "Texas Meat Meltdown"},
+           {"Item": "Margherita"},
+           {"Item": "BBQ Americano"},
+           {"Item": "Heavenly Veg"},
+           {"Item": "Chicken Delight"},
+           {"Item": "BBQ Steak"},
+           {"Item": "Tuna Nicoise"},
+           {"Item": "Veggie"},
+           {"Item": "New Orleans Chicken Sizzler"}
+        ]},
+
+         {"Starters & Sides":[
+           {"Item": "Cheesy Bite Bites"},
+           {"Item": "Chicken Wings"},
+           {"Item": "Garlic Brad with Mozzarella Cheese"},
+           {"Item": "Onion Rings"},
+           {"Item": "Jalapeno Poppers"},
+           {"Item": "Breaded Chicken Bites"},
+           {"Item": "Garlic Bread"},
+           {"Item": "Cheese & Onion Bites"},
+           {"Item": "Fries"}
+        ]},
+
+         {"Pasta & Mains":[
+           {"Item": "Classic Mac ’N’ Cheese"},
+           {"Item": "Pulled Chicken Mac ’N’ Cheese"},
+           {"Item": "Lasagne"}
+        ]},
+
+         {"Desserts":[
+           {"Item": "Ice Cream Factory"},
+           {"Item": "S’Mores Cookie Dough"},
+           {"Item": "Sharing Cookie Dough"},
+           {"Item": "Chocolate Chip Cookie Dough"},
+           {"Item": "Mango Sorbet"},
+           {"Item": "Salted Caramel Cookie Dough"},
+           {"Item": "Chocolate Chunk Cheesecake"}
+          ]},
+
+         {"Kids":[
+           {"Item": "Little Heroes Pizza"},
+           {"Item": "Little Heroes Spaghetti Bolognese"},
+           {"Item": "Little Heroes Cheesy Pasta Shapes"},
+           {"Item": "Little Heroes Breaded Chicken & Fries"},
+           {"Item": "Big Heroes Pizza"},
+           {"Item": "Big Heroes Breaded Chicken & Fries"},
+           {"Item": "Big Heroes Chicken Wraps"},
+           {"Item": "Big Heroes Tuna Wraps"},
+           {"Item": "Big Heroes Lasagne or Mac ’N’ Cheese"},
+           {"Item": "Big Heroes Fries"},
+           {"Item": "Big Heroes Garlic Bread"},
+           {"Item": "Big Heroes Onion Rings"},
+           {"Item": "Big Heroes Cucumber & Pepper Sticks "},
+           {"Item": "Big Heroes Waffles"},
+           {"Item": "Fresh Milk "},
+           {"Item": "Big Heroes Ice Cream Milkshakes"},
+           {"Item": "Del Monte Ice Lolly"}
+        ]},
+
+         {"Drinks" :[
+           {"Item": "Budweiser"},
+           {"Item": "Carlsberg"},
+           {"Item": "Kopparberg Cider"},
+           {"Item": "San Miguel"},
+           {"Item": "Espresso"},
+           {"Item": "Tea "},
+           {"Item": "Americano"},
+           {"Item": "Cafe Latte"},
+           {"Item": "Hot Chocolate"},
+           {"Item": "The Chocoholic Milkshake"},
+           {"Item": "Strawberry Milkshake"},
+           {"Item": "Orange or Apple Juice"},
+           {"Item": "Soft drinks"},
+           {"Item": "J20"},
+           {"Item": "Merlot "},
+           {"Item": "Pinot Grigio"},
+           {"Item": "White Zinfandel"}
+        ]}
+     ]
+},
+
+
+
+ {
+   "Company_Name": "Domino’s",
+   "URL": "https://uk.menuwithprice.com/dominos-pizza-menu/",
+   "Country": "UK",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+
+        {"Pizza":[
+           {"Item": "Original Cheese & Tomato"},
+           {"Item": "Vegetarian Supreme"},
+           {"Item": "Ham & Pineapple"},
+           {"Item": "Veg-A-Roma"},
+           {"Item": "Pepperoni Passion"},
+           {"Item": "Hot & Spicy"},
+           {"Item": "New York Deli"},
+           {"Item": "The Carolina"},
+           {"Item": "American Hot"},
+           {"Item": "Chicken Feast"},
+           {"Item": "Texas BBQ"},
+           {"Item": "Mighty Meaty"},
+           {"Item": "Tandoori Hot"},
+           {"Item": "Deluxe"},
+           {"Item": "Meatilicious"},
+           {"Item": "The Sizzler"}
+        ]},
+
+         {"Chicken":[
+           {"Item": "Spicy BBQ Wings"},
+           {"Item": "Chicken Strippers"},
+           {"Item": "Chicken Wings"},
+           {"Item": "Strippers Combo"},
+           {"Item": "Franks RedHot Wings"},
+           {"Item": "Chicken Kickers"},
+           {"Item": "Kickers Combo"}
+          ]},
+
+         {"Wraps":[
+           {"Item": "Tandoori Hot"},
+           {"Item": "Meatball Mayhem"},
+           {"Item": "Pepperoni Passion"},
+           {"Item": "Vegetarian Supreme"}
+           ]},
+
+         {"Sides":[
+           {"Item": "Twisted Dough Balls"},
+           {"Item": "Potato Wedges"},
+           {"Item": "Coleslaw"},
+           {"Item": "Garlic Pizza Bread"},
+           {"Item": "Garlic Mozzarella Sticks"}
+           ]},
+
+         {"Desserts" :[
+           {"Item": "Chocolate Brownies"},
+           {"Item": "Chocolate Melt"},
+           {"Item": "Mini Pancakes"},
+           {"Item": "Cookies"},
+           {"Item": "Ben & Jerry’s Ice-cream"}
+           ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Carl’s JR.",
+   "URL": "https://www.carlsjr.com/menu/nutritional_calculator_landing",
+   "Country": "US",
+   "Category": "fast food restaurant",
+     "Menu_Category":[
+
+        {"Burgers" :[
+           {"Item": "Famous Star® with Cheese "},
+           {"Item": "Super Star® with Cheese "},
+           {"Item": "Western Bacon Cheeseburger®"},
+           {"Item": "Double Western Bacon Cheeseburger®"},
+           {"Item": "Teriyaki Burger™ "},
+           {"Item": "The Big Carl®"},
+           {"Item": "California Classic Double Cheeseburger"},
+           {"Item": "Grass-Fed All-Natural* Burger (Single) "},
+           {"Item": "The 1/3 lb. Original Six Dollar Thickburger®"},
+           {"Item": "The 1/2 lb. Original Six Dollar Thickburger®"},
+           {"Item": "The 1/3 lb. Guacamole Bacon Thickburger®"},
+           {"Item": "The 1/2 lb. Guacamole Bacon Thickburger®"},
+           {"Item": "The 1/3 lb. Jalapeño Thickburger® "},
+           {"Item": "The 1/2 lb. Jalapeño Thickburger® "},
+           {"Item": "The 1/3 lb. Lettuce-Wrapped Thickburger®"},
+           {"Item": "The 1/2 lb. Lettuce-Wrapped Thickburger®"},
+           {"Item": "Big Hamburger"},
+           {"Item": "Double Cheeseburger"},
+           {"Item": "Kid's Hamburger"},
+           {"Item": "Kid's Cheeseburger "}
+           ]},
+
+         {"Chicken":[
+           {"Item": "All-Natural Charbroiled Chicken Club™ Sandwich "},
+           {"Item": "All-Natural Charbroiled Santa Fe Chicken™ Sandwich "},
+           {"Item": "All-Natural Charbroiled BBQ Chicken™ Sandwich "},
+           {"Item": "Big Chicken Fillet Sandwich "},
+           {"Item": "Bacon Swiss Crispy Chicken® Sandwich"},
+           {"Item": "Kid's Hand-Breaded Chicken Tenders™ (2 pieces)"},
+           {"Item": "Hand-Breaded Chicken Tenders™ (3 pieces) "},
+           {"Item": "Hand-Breaded Chicken Tenders™ (5 pieces) "},
+           {"Item": "Hand-Breaded Chicken Tenders™ (10 piece box; 2, 5pc servings)   "},
+           {"Item": "Hand-Breaded Chicken Tenders™ (15 piece box; 3, 5pc servings)  "},
+           {"Item": "Hand-Breaded Chicken Tenders™ (20 piece box; 4, 5pc servings)     "},
+           {"Item": "Spicy Chicken Sandwich "},
+           {"Item": "Chicken Stars™ (4 pieces) "},
+           {"Item": "Chicken Stars™ (6 pieces)"},
+           {"Item": "Chicken Stars™ (9 pieces)"}
+           ]},
+
+         {"Salads, Dressings" :[
+           {"Item": "All-Natural Charbroiled Chicken Salad "},
+           {"Item": "Garden Side Salad "},
+           {"Item": "House Dressing"},
+           {"Item": "Blue Cheese Dressing "},
+           {"Item": "Low Fat Balsamic Vinaigrette Dressing"},
+           {"Item": "Sweet & Bold BBQ Dipping Sauce "},
+           {"Item": "Buttermilk Ranch Dipping Sauce "},
+           {"Item": "Honey Mustard Dipping Sauce"},
+           {"Item": "Spicy Buffalo Dipping Sauce"}
+           ]},
+
+         {"Breakfast" :[
+           {"Item": "The Breakfast Burger™ (Single)"},
+           {"Item": "The Breakfast Burger™ (Double)"},
+           {"Item": "Grilled Cheese Breakfast Sandwich (Ham) "},
+           {"Item": "Grilled Cheese Breakfast Sandwich (Sausage)"},
+           {"Item": "Grilled Cheese Breakfast Sandwich (Bacon) "},
+           {"Item": "Steak & Egg Burrito "},
+           {"Item": "Loaded Breakfast Burrito "},
+           {"Item": "Big Country® Breakfast Burrito"},
+           {"Item": "Bacon & Egg Burrito "},
+           {"Item": "French Toast Dips "},
+           {"Item": "Hash Brown Nuggets (Small) "},
+           {"Item": "Hash Brown Nuggets (Medium) "},
+           {"Item": "Hash Brown Nuggets (Large) "},
+           {"Item": "Sausage, Egg & Cheese Biscuit "},
+           {"Item": "Bacon, Egg & Cheese Biscuit "},
+           {"Item": "Monster Biscuit®"},
+           {"Item": "Biscuit 'N' Gravy "},
+           {"Item": "Made From Scratch Biscuit™"}
+           ]},
+
+         {"Sides" :[
+           {"Item": "Natural-Cut Fries (Kids)"},
+           {"Item": "Natural-Cut Fries (Small) "},
+           {"Item": "Natural-Cut Fries (Medium) "},
+           {"Item": "Natural-Cut Fries (Large) "},
+           {"Item": "CrissCut® Fries "},
+           {"Item": "Onion Rings "},
+           {"Item": "Fried Zucchini"}
+           ]},
+
+         {"Sweets" :[
+           {"Item": "Chocolate Chip Cookie "},
+           {"Item": "Strawberry Swirl Cheesecake"},
+           {"Item": "Chocolate Cake "},
+           {"Item": "Vanilla Shake "},
+           {"Item": "Chocolate Shake "},
+           {"Item": "Strawberry Shake "},
+           {"Item": "OREO® Cookie Shake "},
+           {"Item": "Vanilla Malt "},
+           {"Item": "Chocolate Malt "},
+           {"Item": "Strawberry Malt "},
+           {"Item": "OREO® Cookie Malt"}
+           ]},
+
+         {"Drinks":[
+           {"Item": "Fuze ® Raspberry Tea"},
+           {"Item": "Gold Peak ® Iced Tea"},
+           {"Item": "Coca-cola ®"},
+           {"Item": "Diet Coke ®"},
+           {"Item": "Coca-cola Zero™\n"},
+           {"Item": "Sprite®"},
+           {"Item": "Barq’s® Rootbeer"},
+           {"Item": "Powerade ® Mountain Blast"},
+           {"Item": "Cherry Coke®"},
+           {"Item": "HI-C® Flashin’ Fruit Punch"},
+           {"Item": "Dr Pepper ®"},
+           {"Item": "Diet Dr Pepper ®"},
+           {"Item": "Fanta® Orange"},
+           {"Item": "Fanta® Strawberry"},
+           {"Item": "Minute Maid Light™\n Lemonade"},
+           {"Item": "Monster Energy ®"},
+           {"Item": "Dasani ® Water"},
+           {"Item": "Colombian Blend Coffee"},
+           {"Item": "Decaffeinated Coffee"},
+           {"Item": "Minute Maid® Orange Juice"},
+           {"Item": "1% Fat Milk"}
+           ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Green Burrito (Carl’s JR.)",
+   "URL": "https://www.carlsjr.com/menu/",
+   "Country": "US",
+   "Category": "fast food restaurant",
+    "Menu_Category": [
+
+        {"Tacos":[
+           {"Item": "Crunchy Beef Taco "},
+           {"Item": "Chicken Soft Taco "}
+        ]},
+
+         {"Burritos":[
+           {"Item": "The Green Burrito - Chicken "},
+           {"Item": "The Green Burrito - Steak "},
+           {"Item": "The Grilled Burrito - Chicken "},
+           {"Item": "The Grilled Burrito - Steak"},
+           {"Item": "The Grilled Burrito - Beef "},
+           {"Item": "Bean & Cheese Burrito"}
+           ]},
+
+        {"Speciality":[
+           {"Item": "Quesadilla - Cheese "},
+           {"Item": "Quesadilla - Chicken "},
+           {"Item": "Quesadilla - Steak "},
+           {"Item": "Chicken Taquitos (3 piece) "},
+           {"Item": "Chicken Taquitos (5 piece) "},
+           {"Item": "Taco Salad - Beef "},
+           {"Item": "Taco Salad - Chicken"},
+           {"Item": "Taco Salad - Steak "},
+           {"Item": "Super Nachos - Beef "},
+           {"Item": "Super Nachos - Chicken "},
+           {"Item": "Super Nachos - Steak "},
+           {"Item": "Rice, Beans & Chips Platter"}
+           ]},
+
+         {"Sides" :[
+           {"Item": "Coke de Mexico "},
+           {"Item": "Side of Steak "},
+           {"Item": "Side of Chicken"},
+           {"Item": "Side of Green Sauce "},
+           {"Item": "Side of Crema "},
+           {"Item": "Side of Cilantro-Lime Rice"},
+           {"Item": "Side of Pinto Beans "},
+           {"Item": "Side of Chips "},
+           {"Item": "Side of Ground Beef "},
+           {"Item": "Side of Guacamole "},
+           {"Item": "Side of Shredded Cheese "}
+           ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "McDonald’s",
+   "URL": "https://www.mcdonalds.com/us/en-us/.html",
+   "Country": "US",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+
+        {"Burgers" :[
+           {"Item": "Garlic White Cheddar Burger"},
+           {"Item": "Pico Guacamole with 100% Pure Beef 1/4 Lb Patty"},
+           {"Item": "Sweet BBQ Bacon with 100% Pure Beef 1/4 Lb Patty"},
+           {"Item": "Big Mac®"},
+           {"Item": "Quarter Pounder® with Cheese"},
+           {"Item": "Double Quarter Pounder® with Cheese"},
+           {"Item": "Hamburger"},
+           {"Item": "Cheeseburger"},
+           {"Item": "Double Cheeseburger"},
+           {"Item": "McDouble® "},
+           {"Item": "Bacon McDouble® "},
+           {"Item": "Triple Cheeseburger"}
+           ]},
+
+         {"Chicken & Sandwiches" :[
+           {"Item": "Garlic White Cheddar with Artisan Grilled Chicken"},
+           {"Item": "Garlic White Cheddar with Buttermilk Crispy Chicken"},
+           {"Item": "Buttermilk Crispy Tenders"},
+           {"Item": "Sweet BBQ Bacon with Buttermilk Crispy Chicken"},
+           {"Item": "Sweet BBQ Bacon with Artisan Grilled Chicken"},
+           {"Item": "Pico Guacamole with Artisan Grilled Chicken"},
+           {"Item": "Pico Guacamole with Buttermilk Crispy Chicken"},
+           {"Item": "Classic Chicken Sandwich"},
+           {"Item": "Chicken McNuggets®"},
+           {"Item": "Artisan Grilled Chicken Sandwich"},
+           {"Item": " Buttermilk Crispy Chicken Sandwich"},
+           {"Item": "McChicken®"},
+           {"Item": "Filet-O-Fish®"}
+           ]},
+
+         {"Salads":[
+           {"Item": "Bacon Ranch Salad with Buttermilk Crispy Chicken"},
+           {"Item": "Bacon Ranch Grilled Chicken Salad"},
+           {"Item": "Southwest Buttermilk Crispy Chicken Salad"},
+           {"Item": "Southwest Grilled Chicken Salad"},
+           {"Item": "Side Salad"}
+           ]},
+
+         {"Breakfast" :[
+           {"Item": "Fruit & Mapple Oatmeal"},
+           {"Item": "Fruit ’N' Yogurt Parfait"},
+           {"Item": "Egg McMuffin®"},
+           {"Item": "Egg White Delight McMuffin®"},
+           {"Item": "Sausage McMuffin™"},
+           {"Item": "Sausage Egg McMuffin™"},
+           {"Item": "Bacon, Egg & Cheese Biscuit"},
+           {"Item": "Sausage Biscuit"},
+           {"Item": "Sausage Biscuit with Egg"},
+           {"Item": "Steak, Egg & Cheese Biscuit"},
+           {"Item": "Bacon, Egg & Cheese McGriddles®"},
+           {"Item": "Sausage McGriddles®"},
+           {"Item": "Sausage, Egg & Cheese McGriddles®"},
+           {"Item": "Bacon, Egg & Cheese Bagel"},
+           {"Item": "Big Breakfast®"},
+           {"Item": "Big Breakfast® with Hotcakes"},
+           {"Item": "Hotcakes"},
+           {"Item": "Hotcakes and Sausage"},
+           {"Item": "Sausage Burrito"},
+           {"Item": "Hash Browns"},
+           {"Item": "Fruit & Maple Oatmeal without Brown Sugar"}
+           ]},
+
+         {"Sides":[
+           {"Item": "French Fries"},
+           {"Item": "Apple Slices"},
+           {"Item": "Yoplait® GO-GURT® Low Fat Strawberry Yogurt"},
+           {"Item": "Fruit ’N’ Yogurt Parfait"},
+           {"Item": "Side Salad"}
+           ]},
+
+         {"Desserts":[
+           {"Item": "Chocolate Shake"},
+           {"Item": "Shamrock Shake®"},
+           {"Item": "Strawberry Shake"},
+           {"Item": "Vanilla Shake "},
+           {"Item": "Vanilla Cone"},
+           {"Item": "Hot Fudge Sundae"},
+           {"Item": "McFlurry® with M&M’S® Candies"},
+           {"Item": "Kiddie Cone"},
+           {"Item": "Hot Caramel Sundae"},
+           {"Item": "Strawberry Sundae"},
+           {"Item": "McFlurry with Oreo® Cookies"},
+           {"Item": "Baked Apple Pie"},
+           {"Item": "Strawberry & Crème Pie"},
+           {"Item": "Chocolate Chip Cookie"},
+           {"Item": "Oatmeal Raisin Cookie"}
+           ]},
+
+         {"Drinks":[
+           {"Item": "Hot Chocolate"},
+           {"Item": "Coca-Cola®"},
+           {"Item": "Chocolate Shake"},
+           {"Item": "Strawberry Shake"},
+           {"Item": "Vanilla Shake"},
+           {"Item": "Diet Coke®"},
+           {"Item": "Sprite®"},
+           {"Item": "Iced Tea"},
+           {"Item": "Dr Pepper®"},
+           {"Item": "Sweet Tea"},
+           {"Item": "Fat Free Chocolate Milk Jug"},
+           {"Item": "1% Low Fat Milk Jug"},
+           {"Item": "Dasani® Water"},
+           {"Item": "Minute Maid® Orange"},
+           {"Item": "Honest Kids® Appley Ever After® Organic Juice Drink"}
+           ]},
+
+         {"McCafé®":[
+           {"Item": "Caramel Macchiato"},
+           {"Item": "Iced Caramel Macchiato"},
+           {"Item": "Cappuccino"},
+           {"Item": "Caramel Cappuccino"},
+           {"Item": "French Vanilla Cappuccino "},
+           {"Item": "Mocha"},
+           {"Item": "Iced Mocha"},
+           {"Item": "McCafé® Caramel Mocha"},
+           {"Item": "Iced Caramel Mocha"},
+           {"Item": "Latte"},
+           {"Item": "Iced Latte"},
+           {"Item": "Caramel Latte"},
+           {"Item": "French Vanilla Latte"},
+           {"Item": "Americano"},
+           {"Item": "Coffee"},
+           {"Item": "Iced Coffee"},
+           {"Item": "Caramel Iced Coffee"},
+           {"Item": "French Vanilla Iced Coffee"},
+           {"Item": "Caramel Frappé"},
+           {"Item": "Mocha Frappé"},
+           {"Item": "Hot Chocolate"},
+           {"Item": "Strawberry Banana Smoothie"},
+           {"Item": "Mango Pineapple Smoothie"},
+           {"Item": "Chocolate Shake"},
+           {"Item": "Vanilla Shake"},
+           {"Item": "Strawberry Shake"},
+           {"Item": "Iced Turtle Coffee"},
+           {"Item": "Turtle Macchiato"},
+           {"Item": "Iced Turtle Macchiato"}
+           ]}
+    ]
+ },
+ {
+   "Company_Name": "Dunkin’ Donuts",
+   "URL": "https://www.dunkindonuts.com/en/food-drinks",
+   "Country": "US",
+   "Category": "Bakery",
+     "Menu_Category": [
+
+        {"Drinks" :[
+           {"Item": "Coffee"},
+           {"Item": "Americano "},
+           {"Item": "Latte"},
+           {"Item": "Macchiato "},
+           {"Item": "Tea"},
+           {"Item": "Hot Chocolate"},
+           {"Item": "Vanilla Chai"},
+           {"Item": "Cappuccino "},
+           {"Item": "Espresso"},
+           {"Item": "Cold Brew"},
+           {"Item": "Iced Coffee"},
+           {"Item": "Iced Latte"},
+           {"Item": "Iced Macchiato"},
+           {"Item": "Iced Tea"},
+           {"Item": "Fruited Iced Tea"},
+           {"Item": "Frozen Coffee"},
+           {"Item": "Coolatta"},
+           {"Item": "Frozen Chocolate"}
+           ]},
+
+         {"Donuts" :[
+           {"Item": "Glazed Donut"},
+           {"Item": "Chocolate Frosted Donut"},
+           {"Item": "Vanilla Frosted Donut"},
+           {"Item": "Strawberry Frosted Donut"},
+           {"Item": "Sprinkles Donut"},
+           {"Item": "Old Fashioned Donut"},
+           {"Item": "Boston Kreme Donut"},
+           {"Item": "Chocolate Glazed Donut"},
+           {"Item": "Jelly Donut"},
+           {"Item": "Powdered Donut"},
+           {"Item": "Cinnamon Donut"},
+           {"Item": "Sugared Donut"},
+           {"Item": "Glazed Blueberry Donut"},
+           {"Item": "Glazed Munchkins® Donut Holes"},
+           {"Item": "Chocolate Frosted Munchkins® Donut Holes"},
+           {"Item": "Jelly Munchkins® Donut Holes"},
+           {"Item": "Powdered Munchkins® Donut Holes"},
+           {"Item": "Cinnamon Munchkins® Donut Holes"},
+           {"Item": "Sugared Munchkins® Donut Holes"}
+           ]},
+
+         {"Sandwiches & Wraps" :[
+           {"Item": "Brown Sugar Chipotle Bacon + Bread"},
+           {"Item": "Sausage Egg & Cheese + Bread"},
+           {"Item": "Bacon Egg & Cheese + Bread"},
+           {"Item": "Turkey Sausage + Bread"},
+           {"Item": "Ham Egg & Cheese + Bread"},
+           {"Item": "Veggie Egg White + Bread"},
+           {"Item": "Egg & Cheese + Bread"},
+           {"Item": "Wake-Up Wrap ® Egg & Cheese"},
+           {"Item": "Wake-Up Wrap ® Ham Egg & Cheese"},
+           {"Item": "Wake-Up Wrap ® Turkey Sausage, Egg & Cheese"},
+           {"Item": "Hash Browns"},
+           {"Item": "Turkey Sausage Flatbread"},
+           {"Item": "Veggie Egg White Flatbread"}
+           ]},
+
+         {"Breads ":[
+           {"Item": "Plain Bagel"},
+           {"Item": "Croissant"},
+           {"Item": "English Muffin"},
+           {"Item": "Texas Toast"},
+           {"Item": "Multigrain Bagel"},
+           {"Item": "Cinnamon Raisin Bagel"}
+           ]},
+
+         {"Bakery & Snacks" :[
+           {"Item": "Blueberry Muffin"},
+           {"Item": "Coffee Cake Muffin"},
+           {"Item": "Honey Bran Raisin Muffin"},
+           {"Item": "Pumpkin Muffin"},
+           {"Item": "Chocolate Chip Muffin"},
+           {"Item": "Corn Muffin"},
+           {"Item": "Reduced Fat Blueberry Muffin"},
+           {"Item": "Croissant"},
+           {"Item": "English Muffin"},
+           {"Item": "Biscuit"},
+           {"Item": "Apple Cheese Danish"},
+           {"Item": "Cheese Danish"},
+           {"Item": "Strawberry Cheese Danish"},
+           {"Item": "Original with Dried Fruit Topping"},
+           {"Item": "Brown Sugar with Dried Fruit Topping"},
+           {"Item": "Hash Browns"},
+           {"Item": "Cinnamon Raisin Bagel"},
+           {"Item": "Everything Bagel"},
+           {"Item": "Multigrain Bagel"},
+           {"Item": "Onion Bagel"},
+           {"Item": "Pain Bagel"},
+           {"Item": "Poppy Seed Bagel"},
+           {"Item": "Sesame Bagel"},
+           {"Item": "Whole Wheat Bagel"},
+           {"Item": "Chive & Onion Cream Cheese Spread"},
+           {"Item": "Garden Veggie Cream Cheese Spread"},
+           {"Item": "Plain Cream Cheese Spread"},
+           {"Item": "Reduced Fat Plain Cream Cheese Spread"},
+           {"Item": "Strawberry Cream Cheese Spread"}
+           ]}
+    ]
+ },
+ {
+   "Company_Name": "Tacobell",
+   "URL": "https://www.tacobell.com/food",
+   "Country": "US",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+
+        {"Tacos":[
+           {"Item": "Crunchy Taco"},
+           {"Item": "Crunchy Taco Supreme"},
+           {"Item": "Soft Taco"},
+           {"Item": "Soft Taco Supreme"},
+           {"Item": "Nacho Cheese Doritos® Locos Tacos"},
+           {"Item": "Nacho Cheese Doritos® Locos Tacos Supreme®"},
+           {"Item": "Cool Ranch® Doritos® Locos Tacos"},
+           {"Item": "Cool Ranch® Doritos® Locos Tacos Supreme® "},
+           {"Item": "Fiery Doritos®  Locos Tacos"},
+           {"Item": "Fiery Doritos®  Locos Tacos Supreme®"},
+           {"Item": "Cheesy Gordita Crunch"},
+           {"Item": "Doritos® Cheesy Gordita Crunch"},
+           {"Item": "Chalupa Supreme"},
+           {"Item": "Double Decker® Taco"},
+           {"Item": "Double Decker® Taco Supreme®"},
+           {"Item": "Grilled Steak Soft Taco"},
+           {"Item": "Chicken Soft Taco"},
+           {"Item": "Spicy Potato Soft Taco"}
+           ]},
+
+         {"Burritos" :[
+           {"Item": "Bean Burrito"},
+           {"Item": "Burrito Supreme®"},
+           {"Item": "Beefy 5-Layer Burrito"},
+           {"Item": "Quesarito"},
+           {"Item": "XXL Grilled Stuft Burrito"},
+           {"Item": "7-Layer Burrito"},
+           {"Item": "Black Bean Burrito"},
+           {"Item": "Power Menu Burrito"},
+           {"Item": "Power Menu Burrito Veggie"},
+           {"Item": "Shredded Chicken Burrito"},
+           {"Item": "Beefy Fritos® Burrito"},
+           {"Item": "Cheesy Bean and Rice Burrito"},
+           {"Item": "Cheesy Potato Burrito"},
+           {"Item": "Combo Burrito"},
+           {"Item": "Beefy Nacho Griller"},
+           {"Item": "Chipotle Chicken Loaded Griller"},
+           {"Item": "Cheesy Potato Griller"}
+          ]},
+
+         {"Quesadillas" :[
+           {"Item": "Steak Quesadilla"},
+           {"Item": "Chicken Quesadilla"},
+           {"Item": "Cheese Quesadillas"},
+           {"Item": "7. Quesadilla Combo"},
+           {"Item": "Shredded Chicken Mini Quesadilla"},
+           {"Item": "Beefy Mini Quesadilla"}
+           ]},
+
+         {"Nachos" :[
+           {"Item": "Nacho Fries Box"},
+           {"Item": "Nacho Fries"},
+           {"Item": "Nacho Fries Supreme®"},
+           {"Item": "Nacho Fries BellGrande®"},
+           {"Item": "Nachos BellGrande®"},
+           {"Item": "Nachos BellGrande® Combo"},
+           {"Item": "Nacho Supreme®"},
+           {"Item": "Triple Layer Nachos"},
+           {"Item": "Chips & Nacho Cheese Sauce"},
+           {"Item": "Chips & Guacamole"},
+           {"Item": "Chips & Salsa"},
+           {"Item": "Chips & Pico del Gallo"}
+           ]},
+
+         {"Specialities" :[
+           {"Item": "Crunchwrap Supreme®"},
+           {"Item": "Cheesy Gordita Crunch"},
+           {"Item": "Doritos® Cheesy Gordita Crunch"},
+           {"Item": "Chalupa Supreme"},
+           {"Item": "Mexican Pizza"},
+           {"Item": "MexiMelt®"},
+           {"Item": "Power Menu Bowl"},
+           {"Item": "Power Menu Bowl Veggie"},
+           {"Item": "Fiesta Taco Salad"},
+           {"Item": "Gordita Supreme®"},
+           {"Item": "Cheesy Roll Up"},
+           {"Item": "Spicy Tostada"}
+           ]},
+
+         {"Sweets" :[
+           {"Item": "Cinnamon Twists"},
+           {"Item": "Cinnabon Delights® 12 pack"},
+           {"Item": "Cinnabon Delights® 4 pack"},
+           {"Item": "Cinnabon Delights® 2 pack"},
+           {"Item": "Caramel Apple Empenada"},
+           {"Item": "Mountain Dew® Baja Blast™ Freeze"},
+           {"Item": "Orange Cream Pop Freeze"},
+           {"Item": "Strawberry Skittles® Freeze"}
+           ]},
+
+         {"Sides" :[
+           {"Item": "Nacho Fries"},
+           {"Item": "Cheesy Fiesta Potatoes"},
+           {"Item": "Cheesy Roll Up"},
+           {"Item": "Doritos® Chips"},
+           {"Item": "Chips & Nacho Cheese Sauce"},
+           {"Item": "Chips & Guacamole"},
+           {"Item": "Chips & Salsa"},
+           {"Item": "Chips & Pico del Gallo"},
+           {"Item": "Black Beans"},
+           {"Item": "Black Beans and Rice"},
+           {"Item": "Pintos N Cheese"},
+           {"Item": "Seasoned Rice"}
+           ]},
+
+         {"Drinks" :[
+           {"Item": "Mountain Dew® Baja Blast™ Freeze"},
+           {"Item": "Orange Cream Pop Freeze"},
+           {"Item": "Strawberry Skittles® Freeze"},
+           {"Item": "Pepsi®"},
+           {"Item": "Diet Pepsi®"},
+           {"Item": "Mountain Dew®"},
+           {"Item": "Mountain Dew® Baja Blast™"},
+           {"Item": "Mountain Dew®  Spiked Lemonade"},
+           {"Item": "Mountain Dew® Kickstart™ Orange Citrus"},
+           {"Item": "Sierra Mist®"},
+           {"Item": "G2 Gatorade® Fruit Punch"},
+           {"Item": "Aquafina® Sparkling Berry Breeze"},
+           {"Item": "Tropicana® Pink Lemonade"},
+           {"Item": "Brisk® Mango Fiesta"},
+           {"Item": "Lipton® Unsweetened Iced Tea"},
+           {"Item": "Orange Juice"},
+           {"Item": "Water"},
+           {"Item": "Iced Regular Coffee"},
+           {"Item": "Premium Hot Coffee"}
+           ]},
+
+         {"Party packs":[
+           {"Item": "Taco 12 pack"},
+           {"Item": "Supreme® Taco Party Pack"},
+           {"Item": "Variety Taco 12 Pack"},
+           {"Item": "Supreme® Variety Pack"},
+           {"Item": "Grande Meal"}
+           ]},
+
+         {"Breakfast" :[
+           {"Item": "Naked Egg Taco Bundle"},
+           {"Item": "Naked Egg Taco"},
+           {"Item": "Dressed Egg Taco"},
+           {"Item": "Breakfast Crunchwrap®"},
+           {"Item": "Breakfast Crunchwrap® Combo"},
+           {"Item": "Grande Scrambler"},
+           {"Item": "Grande Scrambler Combo"},
+           {"Item": "Breakfast Quesadilla"},
+           {"Item": "Breakfast Quesadilla Combo"},
+           {"Item": "Grilled Breakfast Burrito"},
+           {"Item": "Grilled Breakfast Burrito Fiesta Potato"},
+           {"Item": "Breakfast Soft Taco"},
+           {"Item": "Sausage Flatbread Quesadilla"},
+           {"Item": "Hash Browns"},
+           {"Item": "Mini Skillet Bowl"}
+           ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Auntie Anne’s",
+   "URL": "http://www.auntieannes.com/pretzels-nutrition",
+   "Country": "US",
+   "Category": "Bakery",
+     "Menu_Category": [
+
+        {"Soft Pretzels" :[
+           {"Item": "Original"},
+           {"Item": "Cinnamon Sugar"},
+           {"Item": "Sweet Almond"},
+           {"Item": "Sour Cream & Onion"},
+           {"Item": "Roasted Garlic & Parmesan"},
+           {"Item": "Pepperoni"},
+           {"Item": "Jalapeno"},
+           {"Item": "Raisin"},
+           {"Item": "Original Pretzel Nuggets"},
+           {"Item": "Cinnamon Sugar Nuggets"},
+           {"Item": "Pepperoni Pretzel Nuggets"}
+           ]},
+
+         {"Pretzel Dogs":[
+           {"Item": "Original Pretzel Dog"},
+           {"Item": "Cheese Pretzel Dog"},
+           {"Item": "Jalapeno & Cheese Pretzel Dog"},
+           {"Item": "Mini Pretzel Dogs"}
+           ]},
+
+         {"Pretzel Dips":[
+           {"Item": "Caramel Dip"},
+           {"Item": "Cheese Dip"},
+           {"Item": "Hot Salsa Cheese Dip"},
+           {"Item": "Melted Cheese Dip"},
+           {"Item": "Light Cream Cheese Dip"},
+           {"Item": "Marinara Dip"},
+           {"Item": "Sweet Glaze Dip"},
+           {"Item": "Sweet Mustard Dip"}
+           ]},
+
+         {"Drinks" :[
+           {"Item": "Lemonade"},
+           {"Item": "Lemonade Mixers"},
+           {"Item": "Frozen Lemonade Mixers"},
+           {"Item": "Lemonade Iced Tea"},
+           {"Item": "Coca-Cola products"}
+           ]}
+        ]
+ },
+
+
+
+ {
+   "Company_Name": "Cinnabon",
+   "URL": "https://www.cinnabon.com/bakery-menu",
+   "Country": "US",
+   "Category": "Bakery",
+     "Menu_Category": [
+
+        {"Baked":[
+           {"Item": "Classic Roll"},
+           {"Item": "Caramel PecanBon®"},
+           {"Item": "MiniBon® Roll"},
+           {"Item": "BonBites™"},
+           {"Item": "Caramel Pecan BonBites™"},
+           {"Item": "Center of the Roll™"},
+           {"Item": "Caramel Pecan Center of the Roll™"},
+           {"Item": "CinnaSweeties™"},
+           {"Item": "Cinnabon Stix®"}
+           ]},
+
+         {"Drinks" :[
+           {"Item": "OREO® Cookies & Cream Chillatta™"},
+           {"Item": "Signature Cinnamon Roll Chillatta™"},
+           {"Item": "Double Chocolate Mocha Chillatta™"},
+           {"Item": "Strawberry & Cream Chillatta™"},
+           {"Item": "Peaches & Cream Chillatta™"},
+           {"Item": "MochaLatta Chill®"},
+           {"Item": "Cinnamon Roll Cold Brew Iced Coffee"},
+           {"Item": "Vanilla Cold Brew Iced Coffee"},
+           {"Item": "Classic Lemonade"},
+           {"Item": "Raspberry Lemonade"},
+           {"Item": "Classic Frozen Lemonade"},
+           {"Item": "Strawberry Frozen Lemonade"},
+           {"Item": "Ghirardelli® Hot Cool"},
+           {"Item": "Cinnaman Roll Hot Cocoa"},
+           {"Item": "Hot Coffee"}
+           ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Charleys Philly Steak",
+   "URL": "https://charleys.com/",
+   "Country": "US",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+
+        {"Sandwiches":[
+           {"Item": "Philly CheeseSteak"},
+           {"Item": "Pepperoni CheeseSteak"},
+           {"Item": "Bacon 3 CheeseSteak"},
+           {"Item": "Jalapeno CheeseSteak"},
+           {"Item": "Chicken Philly"},
+           {"Item": "Chicken California"},
+           {"Item": "Chicken Buffalo"},
+           {"Item": "Chicken Teriyaki"},
+           {"Item": "Italian Deluxe"},
+           {"Item": "Ultimate Club"},
+           {"Item": "Turkey Cheddar Melt"},
+           {"Item": "Veggie Delight"}
+           ]},
+
+         {"Sides":[
+           {"Item": "Cheese Fries"},
+           {"Item": "Cheese & Bacon Fries"},
+           {"Item": "Ultimate Fries"},
+           {"Item": "Nacho Deluxe Fries"},
+           {"Item": "Original Fries"}
+           ]},
+
+         {"Drinks ":[
+           {"Item": "Strawberry Lemonade"},
+           {"Item": "Blueberry Lemonade"},
+           {"Item": "Peach Lemonade"},
+           {"Item": "Original Lemonade"},
+           {"Item": "Soft Drinks "},
+           {"Item": "Iced Tea"}
+           ]},
+
+         {"Others" :[
+           {"Item": "Fresh Garden Salad"},
+           {"Item": "Grilled Chicken Salad"},
+           {"Item": "Steakhouse Salad"},
+           {"Item": "Kids Meal"}
+           ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Quiznos",
+   "URL": "http://www.quiznos.com/Menu/Complete.aspx",
+   "Country": "US",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+
+        { "Sandwiches":[
+           {"Item": "Classic Italian"},
+           {"Item": "Spicy Monterey"},
+           {"Item": "Tuna Melt"},
+           {"Item": "Turkey Ranch & Swiss"},
+           {"Item": "Veggie Guacamole"},
+           {"Item": "Chipotle Turkey"},
+           {"Item": "Traditional"},
+           {"Item": "Turkey Bacon Guacamole"},
+           {"Item": "Ultimate Turkey Club"},
+           {"Item": "Honey Bacon Club"},
+           {"Item": "Southwest Chcken"},
+           {"Item": "Mesquite"},
+           {"Item": "Baja"},
+           {"Item": "Carbonara"},
+           {"Item": "Honey Mustard"},
+           {"Item": "Chipotle Steak & Cheddar"},
+           {"Item": "Peppercorn Steak"},
+           {"Item": "Black Angus Steak"},
+           {"Item": "French Dip"},
+           {"Item": "Ham & Swiss Ciabatta Toastie"},
+           {"Item": "Little Italy Ciabatta Toastie"},
+           {"Item": "Southwest Club Ciabatta Toastie"}
+        ]},
+
+         {"Salads & Soups":[
+           {"Item": "BBQ Ranch Chicken"},
+           {"Item": "Chef Salad"},
+           {"Item": "Greek Gyro Salad"},
+           {"Item": "Apple Harvest Chicken"},
+           {"Item": "Honey Mustard"},
+           {"Item": "Soup of the Day"},
+           {"Item": "Broccoli & Cheese Soup"}
+          ]},
+
+         {"Lobster" :[
+           {"Item": "Lobster & Seafood Salad Classic"},
+           {"Item": "Lobster & Seafood Scampi Bake"},
+           {"Item": "Lobster & Seafood Fresh Salad"},
+           {"Item": "Mac & Cheese with Lobster & Seafood Salad"}
+           ]},
+
+        {"Kids" :[
+           {"Item": "Kids Ham & Cheese"},
+           {"Item": "Kids Turkey & Cheese"},
+           {"Item": "Triple Play Cheese Melt"}
+         ]},
+
+         {"Breakfast" :[
+           {"Item": "Egg & Cheese Biscuit"},
+           {"Item": "Bacon Egg & Cheese Biscuit"},
+           {"Item": "Ham Egg & Cheese Biscuit"},
+           {"Item": "Sausage Egg & Cheese Biscuit"},
+           {"Item": "Steak Egg & Cheese Biscuit"},
+           {"Item": "Egg & Cheese Flatbread"},
+           {"Item": "Bacon Egg & Cheese Flatbread"},
+           {"Item": "Ham Egg & Cheese Flatbread"},
+           {"Item": "Sausage Egg & Cheese Flatbread"},
+           {"Item": "Steak Egg & Cheese Flatbread"},
+           {"Item": "Egg & Cheese Sub"},
+           {"Item": "Bacon Egg & Cheese Sub"},
+           {"Item": "Ham Egg & Cheese Sub"},
+           {"Item": "Sausage Egg & Cheese Sub"},
+           {"Item": "Steak Egg & Cheese Sub"}
+        ]},
+
+         {"Desserts" :[
+           {"Item": "Oatmeal Raisin Cookie"},
+           {"Item": "Chocolate Chunk Cookie"},
+           {"Item": "Chocolate Fudge Brownie"},
+           {"Item": "Cinnamon Sugar Cookie"}
+          ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Nathan’s Famous",
+   "URL": "https://nathansfamous.com/restaurants/menu/",
+   "Country": "US",
+   "Category": "Hot dogs",
+       "Menu_Category": [
+
+        {"Hot Dogs" :[
+           {"Item": "World Famous Beef Hot Dog"},
+           {"Item": "Chilli Dog"},
+           {"Item": "Chilli Cheese Dog"}
+          ]},
+
+         {"Chicken & Sandwiches":[
+           {"Item": "The Original Philly CheeseSteak"},
+           {"Item": "Steak Supreme CheeseSteak"},
+           {"Item": "Chicken Supreme CheeseSteak"},
+           {"Item": "Chicken Tenders"},
+           {"Item": "Krispy Chicken Sandwich"},
+           {"Item": "Grilled Chicken Sandwich"},
+           {"Item": "Original Buffalo Boneless Wings"},
+           {"Item": "Krispy Chicken Wrap"},
+           {"Item": "Chargrilled Chicken"},
+           {"Item": "Chargrilled Chicken Club"},
+           {"Item": "Chargrilled Chicken Wrap"},
+           {"Item": "Chicken Wings"},
+           {"Item": "Super Cheeseburger"},
+           {"Item": "Bacon Cheeseburger"},
+           {"Item": "Double-Beef Cheeseburger"}
+          ]},
+
+         {"Fish (Arthur Treacher’s)" :[
+           {"Item": "Original Fish ’N Chips Platter"},
+           {"Item": "Shrimp Platter"},
+           {"Item": "Fish Sandwich"},
+           {"Item": "Clam ’N Chips"},
+           {"Item": "Clams Sandwich"},
+           {"Item": "Seafood Combo Platter"},
+           {"Item": "Hush Puppies"}
+        ]},
+
+         {"Sides":[
+           {"Item": "Corn Dog on a Stick"},
+           {"Item": "Hot Dog Nuggets"},
+           {"Item": "Beer-Battered Onion Rings"},
+           {"Item": "Pretzel Dogs"},
+           {"Item": "Bowl of Chili"},
+           {"Item": "Corn on the Cob"},
+           {"Item": "Manhattan Clam Chowder"},
+           {"Item": "Crinkle Cut French Fries"},
+           {"Item": "Crinkle Cut French Cheese Fries"},
+           {"Item": "Bacon Cheese Fries"},
+           {"Item": "Bacon Ranch Fries"}
+          ]},
+
+         {"Drinks" :[
+           {"Item": "Old-Fashioned-Lemonade"},
+           {"Item": "Old-Fashioned-Orangeade"},
+           {"Item": "Soft Drinks"}
+          ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Red Robin\nGourmet Burgers and Brew",
+   "URL": "https://www.redrobin.com/",
+   "Country": "US",
+   "Category": "casual dining",
+     "Menu_Category": [
+
+        {"Appetizers" :[
+           {"Item": "The O-Ring Shorty®"},
+           {"Item": "Pretzel Bites"},
+           {"Item": "Fried Pickel Nickels"},
+           {"Item": "Classic Wedge Salad"},
+           {"Item": "Creamy Artichoke & Spinach Dip"},
+           {"Item": "Chili Chili™ Cheese Fries"},
+           {"Item": "Jump Starter Double"},
+           {"Item": "VooDoo Fries"},
+           {"Item": "Guac, Salsa & Chips"},
+           {"Item": "NachO.M.G.™"},
+           {"Item": "Red’s Bold Boneless Wings"},
+           {"Item": "Great Northern Poutine Fries"},
+           {"Item": "Bar Wings ’n’ Yukon Chips"},
+           {"Item": "Towering Onion Rings®"}
+         ]},
+
+         {"Entrées":[
+           {"Item": "Sear-ious Salmon"},
+           {"Item": "Ensenada Chicken™ Platter"},
+           {"Item": "Clucks & Fries"},
+           {"Item": "Clucks & Shrimp"},
+           {"Item": "Prime Rib Dip"},
+           {"Item": "Arctic Cod Fish & Chips"},
+           {"Item": "Shrimp & Cod Duo"}
+           ]},
+
+         {"Wraps & Sandwiches" :[
+           {"Item": "Whiskey River® BBQ Chicken Wrap"},
+           {"Item": "Caesar’s Chicken Wrap"},
+           {"Item": "BLTA Croissant"}
+         ]},
+
+         {"Burgers":[
+           {"Item": "Smoke & Pepper™"},
+           {"Item": "Black & Bleu"},
+           {"Item": "The Madlove Burger"},
+           {"Item": "The Southern Charm Burger®"},
+           {"Item": "The Marco Pollo™"},
+           {"Item": "Citrus Harissa Salmon"},
+           {"Item": "Red Robin Gourmet Cheeseburger"},
+           {"Item": "Keep it Simple"},
+           {"Item": "Grilled Turkey"},
+           {"Item": "Sautéed ‘Shroom"},
+           {"Item": "Bacon Cheeseburger"},
+           {"Item": "Whiskey River® BBQ"},
+           {"Item": "Bleu Ribbon"},
+           {"Item": "A.I.® Peppercorn"},
+           {"Item": "Chili Chili™ Cheeseburger"},
+           {"Item": "Royal Red Robin"},
+           {"Item": "Prime ChopHouse"},
+           {"Item": "Guacamole Bacon"},
+           {"Item": "Banzai"},
+           {"Item": "Burnin’ Love®"},
+           {"Item": "The Wedgie™ Burger"},
+           {"Item": "Veggie Burger"},
+           {"Item": "Crispy Chicken"},
+           {"Item": "Whiskey River® BBQ Chicken"},
+           {"Item": "Teriyaki Chicken"},
+           {"Item": "California Chicken"},
+           {"Item": "Simply Grilled Chicken"},
+           {"Item": "Bruschetta Chicken"},
+           {"Item": "Crispy Artic Cod"}
+        ]},
+
+         {"Tavern’s menu" :[
+           {"Item": "Taco Tavern Double"},
+           {"Item": "Sir Acha Tavern Double"},
+           {"Item": "Smoky Jack Tavern Double"},
+           {"Item": "Red’s Tavern Double®"},
+           {"Item": "Pig Out Tavern Double"},
+           {"Item": "Fiery Ghost® Tavern Double"},
+           {"Item": "Four Cheese Melt"},
+           {"Item": "Pub Mac ’N’ Cheese"}
+         ]},
+
+         {"Salads & Soups":[
+           {"Item": "Simply Grilled Chicken Salad"},
+           {"Item": "Avo-Cobb-O"},
+           {"Item": "Southwest Sombrero"},
+           {"Item": "House Salad"},
+           {"Item": "Crispy Chicken Tender"},
+           {"Item": "Mighty Ceasar Salad"},
+           {"Item": "Soup & Salad Combo"},
+           {"Item": "Side Ceasar"},
+           {"Item": "Souper Sandwich Combo"},
+           {"Item": "French Onion Soup"},
+           {"Item": "Clamdigger’s Clam Chowder"},
+           {"Item": "Red’s Chili Chili™ "},
+           {"Item": "Chicken Tortilla Soup"}
+         ]},
+
+
+         {"Sides":[
+           {"Item": "Side Salad"},
+           {"Item": "Steamed Broccoli"},
+           {"Item": "Coleslaw"},
+           {"Item": "Black Beans"},
+           {"Item": "Freckled Fruit® Salad"},
+           {"Item": "Garlic Herbed Fries"},
+           {"Item": "Cup of Soup"},
+           {"Item": "Onion Rings"},
+           {"Item": "Sweet Potato Fries"},
+           {"Item": "Mac ’N’ Cheese"},
+           {"Item": "Cup of Chili Chili™"},
+           {"Item": "Chili Chili™ Cheese Fries"}
+         ]},
+
+        {"Drinks":[
+           {"Item": "Freckled Lemonade®"},
+           {"Item": "Fresh Brewed Tea"},
+           {"Item": "Very Berry Raspberry Limeade"},
+           {"Item": "Poppin’ Purple Lemonade"},
+           {"Item": "Root Beer Float"},
+           {"Item": "Coca-Cola®"},
+           {"Item": "Diet Coke®"},
+           {"Item": "Sprite®"},
+           {"Item": "Dr Pepper®"},
+           {"Item": "Barq’s® Root Beer"},
+           {"Item": "Minute Maid® Lemonade"},
+           {"Item": "Minute Maid® Light Lemonade"},
+           {"Item": "Orange Cream Soda"},
+           {"Item": "Raspberry Cream Soda"},
+           {"Item": "Hawaiian Heart Throb® Smoothie"},
+           {"Item": "Coconut Pineapple Smoothie"},
+           {"Item": "Cookie Magic Milkshake"},
+           {"Item": "Salted Caramel Milkshake"},
+           {"Item": "Chocolate Milkshake"},
+           {"Item": "Vanilla Milkshake"},
+           {"Item": "Strawberry Milkshake"},
+           {"Item": "Banana Milkshake"},
+           {"Item": "Raspberry Milkshake"},
+           {"Item": "Peach Milkshake"},
+           {"Item": "Mint Brownie Milkshake"},
+           {"Item": "Nana-Nana Moo-Moo Milkshake"}
+          ]},
+
+         {"Bar":[
+           {"Item": "Blue Moon® Belgian White"},
+           {"Item": "Stella Artois®"},
+           {"Item": "Bud Light®"},
+           {"Item": "Corona Extra®"},
+           {"Item": "Michelob Ultra®"},
+           {"Item": "Not Your Father’s® Root Beer"},
+           {"Item": "Angry Orchard® Hard Cider"},
+           {"Item": "Samuel Adams Seasonal"},
+           {"Item": "Samuel Adams Boston Lager®"},
+           {"Item": "Coors Light®"},
+           {"Item": "Guinness®"},
+           {"Item": "Heineken®"},
+           {"Item": "Miller Lite®"},
+           {"Item": "Omission® Pale Ale"},
+           {"Item": "Lagunitas IPA®"},
+           {"Item": "Red Spanish Sangria"},
+           {"Item": "Cupcake® Merlot"},
+           {"Item": "The Naked Grape® Chardonnay"},
+           {"Item": "Ecco Domani® Pinot Grigio"},
+           {"Item": "Carnivor® Cabernet Sauvignon"},
+           {"Item": "The Naked Grape® Harvest Red Blend"},
+           {"Item": "Kendall-Jackson® V.R. Chardonnay"},
+           {"Item": "Barefoot Refresh® Moscato Spritzer"},
+           {"Item": "Baileys® Irish Cream Shake"},
+           {"Item": "Blue Moon® Beer Shake"},
+           {"Item": "Irish Beer Shake"},
+           {"Item": "Blue Moon® Can-Crafted™ Cocktail"},
+           {"Item": "Root Brewski Float™"},
+           {"Item": "Red’s Signature Margarita"},
+           {"Item": "House Margarita"},
+           {"Item": "Skinny Margarita"},
+           {"Item": "Silver Patron® Margarita"},
+           {"Item": "Orange Cinn-A-Rita"},
+           {"Item": "Pina Colada"},
+           {"Item": "Skinny Spiked Freckled Lemonade®"},
+           {"Item": "Screaming Red Zombie"},
+           {"Item": "Mojito"},
+           {"Item": "Spiked Freckled Lemonade®"},
+           {"Item": "Long Island Iced Tea"},
+           {"Item": "Citrus Freckled Mojito"},
+           {"Item": "Tropical Mai Tai"},
+           {"Item": "Sand In Your Shorts®"}
+         ]},
+
+         {"Sweets":[
+           {"Item": "Goey Chocolate Brownie Cake"},
+           {"Item": "Mountain High Mud Pie"},
+           {"Item": "Double Berry Cheescake"},
+           {"Item": "Chocolate Fruffles®"},
+           {"Item": "Cinnamon Sugar Doh! Rings®"}
+          ]},
+
+        {"Kids":[
+           {"Item": "Red’s Burger"},
+           {"Item": "Mac It Yours"},
+           {"Item": "Meatballs on a Stick"},
+           {"Item": "Lil’ Appetite Meatballs on a Stick"},
+           {"Item": "Corn Doggies"},
+           {"Item": "Lil’Appetite Corn Doggies"},
+           {"Item": "Swirly Twirly Pasta"},
+           {"Item": "Grilled Cheesy"},
+           {"Item": "Cluck-A-Doodles"},
+           {"Item": "Lil’Appetie Cluck-A-Doodles"},
+           {"Item": "M.V.P.IZZA - Pepperoni"},
+           {"Item": "Grilled Chicken Stickens"},
+           {"Item": "Cod Crunchers"},
+           {"Item": "Kid’s Sundae"}
+        ]}
+    ]
+ },
+ {
+   "Company_Name": "Shake shack",
+   "URL": "https://www.shakeshack.com/food-and-drink/",
+   "Country": "US",
+   "Category": "fast food restaurant",
+     "Menu_Category":[
+
+        {"Burgers":[
+           {"Item": "ShackBurger®"},
+           {"Item": "Hamburger"},
+           {"Item": "Shack Stack®"},
+           {"Item": "SmokeShack®"},
+           {"Item": "Shroom Burger"},
+           {"Item": "Chick’n Shack"}
+        ]},
+
+         {"Hot Dogs":[
+           {"Item": "Shack-cago Dog®"},
+           {"Item": "Hot Dog"},
+           {"Item": "Chicken Dog"}
+         ]},
+
+         {"Fries":[
+           {"Item": "Fries"},
+           {"Item": "Cheese Fries"}
+           ]},
+
+         {"Sweets":[
+           {"Item": "Shack Attack®"},
+           {"Item": "Wall-nut Street (Battery Park City)"},
+           {"Item": "Jelly’s Last Donut (Theater District)"},
+           {"Item": "Brooklyn Pie Oh My (Brooklyn Shacks)"},
+           {"Item": "Banana Post Rd. (Westports) "},
+           {"Item": "Shakes "},
+           {"Item": "Floats"},
+           {"Item": "Cups & Cones"},
+           {"Item": "Concretes"}
+         ]},
+
+         {"Drinks":[
+           {"Item": "Shack-Made Lemonade"},
+           {"Item": "Fresh Brewed Iced Tea"},
+           {"Item": "Fifty/Fifty™"},
+           {"Item": "Fountain Soda"},
+           {"Item": "Abida Draft Root Beer"},
+           {"Item": "SHACK|2O®\n"},
+           {"Item": "ShackMeister® Ale Draft Beer"},
+           {"Item": "Bottle Beer"},
+           {"Item": "Shack Red® Wine"},
+           {"Item": "Shack White® Wine"}
+           ]},
+
+         {"Breakfast":[
+           {"Item": "Sausage, Egg N’ Cheese"},
+           {"Item": "Bacon, Egg N’ Cheese"},
+           {"Item": "Egg N’ Cheese"},
+           {"Item": "Coffee"},
+           {"Item": "OJ"}
+         ]},
+
+         {"For Dogs":[
+           {"Item": "Pooch-ini®"},
+           {"Item": "Bag O’ Bones"}
+         ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Five Guys",
+   "URL": "http://www.fiveguys.com/Menu",
+   "Country": "US",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+
+        {"Burgers":[
+           {"Item": "Hamburger"},
+           {"Item": "Cheeseburger"},
+           {"Item": "Bacon Burger"},
+           {"Item": "Bacon Cheeseburger"},
+           {"Item": "Little Hamburger"},
+           {"Item": "Little Cheeseburger"},
+           {"Item": "Little Bacon Burger"},
+           {"Item": "Little Bacon Cheeseburger"}
+          ]},
+
+         {"Hot Dogs":[
+           {"Item": "Kosher Style Hot Dog"},
+           {"Item": "Cheese Dog"},
+           {"Item": "Bacon Dog"},
+           {"Item": "Bacon Cheese Dog"}
+          ]},
+
+         {"Sandwiches":[
+           {"Item": "Veggie Sandwich"},
+           {"Item": "Cheese Veggie Sandwich"},
+           {"Item": "Grilled Cheese BLT"}
+          ]},
+
+        {"Fries":[
+           {"Item": "Five Guys Style"},
+           {"Item": "Cajun Style"}
+          ]},
+
+         {"Drinks":[
+           {"Item": "Milkshakes"},
+           {"Item": "Coca-Cola® products"}
+          ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Chipotle",
+   "URL": "https://www.chipotle.com/menu",
+   "Country": "US",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+
+        {"Style" :[
+           {"Item": "Burrito"},
+           {"Item": "Bowl"},
+           {"Item": "Crispy Corn Taco"},
+           {"Item": "Soft Floor Taco"},
+           {"Item": "Salad"},
+           {"Item": "Kid’s Menu"}
+        ]},
+
+         {"Meat":[
+           {"Item": "Steak"},
+           {"Item": "Carnitas"},
+           {"Item": "Chicken"},
+           {"Item": "Barbacoa"},
+           {"Item": "Sofritas"}
+        ]},
+
+         {"Rice, Beans..":[
+           {"Item": "Cilantro-Lime Brown Rice"},
+           {"Item": "Cilantro-Lime White Rice"},
+           {"Item": "Black Beans"},
+           {"Item": "Pinto Beans"},
+           {"Item": "Fajitas Veggies"}
+        ]},
+
+         {"Toppings":[
+           {"Item": "Queso"},
+           {"Item": "Fresh Tomato Salsa (Mild)"},
+           {"Item": "Tomatillo Red-Chili Salsa (Hot)"},
+           {"Item": "Sour Cream"},
+           {"Item": "Tomatillo Green-Chili Salsa (Medium Hot)"},
+           {"Item": "Roasted Chili Corn Salsa (Medium)"},
+           {"Item": "Romaine Lettuce"},
+           {"Item": "Guacamole"},
+           {"Item": "Monterey Jack Cheese"}
+          ]},
+
+         {"Sides":[
+           {"Item": "Chips & Queso"},
+           {"Item": "Chips & Guac"},
+           {"Item": "Chips & Salsa"}
+        ]},
+
+         {"Drinks ":[
+           {"Item": "Patron® Silver Margarita"},
+           {"Item": "Sauza® Tequila Margarita"},
+           {"Item": "Beers"},
+           {"Item": "Soft Drinks"}
+          ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "In-N-Out",
+   "URL": "http://www.in-n-out.com/menu.aspx#",
+   "Country": "US",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+
+        {"Burgers":[
+           {"Item": "Double-Double®"},
+           {"Item": "Cheeseburger"},
+           {"Item": "Hamburger"},
+           {"Item": "Double Meat"},
+           {"Item": "3x3®"},
+           {"Item": "4x4®"},
+           {"Item": "Grilled Cheese"},
+           {"Item": "Protein® Style"},
+           {"Item": "Animal® Style"}
+        ]},
+
+         {"Sides":[
+            {"Item": "Fries"}
+         ]},
+
+         {"Drinks":[
+           {"Item": "Chocolate Shake"},
+           {"Item": "Strawberry Shake"},
+           {"Item": "Vanilla Shake"},
+           {"Item": "Coca-cola®"},
+           {"Item": "Diet Coke®"},
+           {"Item": "7UP®"},
+           {"Item": "Dr Pepper®"},
+           {"Item": "Root Beer"},
+           {"Item": "Lemonade"},
+           {"Item": "Minute Maid® Light Lemonade"},
+           {"Item": "Iced Tea"},
+           {"Item": "Coffee"},
+           {"Item": "Hot Cocoa"}
+        ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Jack in the box",
+   "URL": "https://www.jackinthebox.com/food/",
+   "Country": "US",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+        {"Burgers":[
+           {"Item": "Classic Buttery Jack™"},
+           {"Item": "Bacon & Swiss Buttery Jack™"},
+           {"Item": "Double Jack®"},
+           {"Item": "Ultimate Cheeseburger™"},
+           {"Item": "Bacon Ultimate Cheeseburger™"},
+           {"Item": "Sourdough Jack®"},
+           {"Item": "Spicy Sriracha Burger"},
+           {"Item": "Jumbo Jack® Cheeseburger"},
+           {"Item": "Jumbo Jack®"},
+           {"Item": "JR. Jumbo Jack®"},
+           {"Item": "JR.Bacon Cheeseburger"}
+        ]},
+
+         {"Chicken & Salads":[
+           {"Item": "Fish Sandwich"},
+           {"Item": "Jack’s Spicy Chicken®"},
+           {"Item": "Jack’s Spicy Chicken® with Cheese"},
+           {"Item": "Homestyle Ranch Chicken Club"},
+           {"Item": "Sourdough Grilled Chicken Club"},
+           {"Item": "Crispy Chicken Strips"},
+           {"Item": "Chicken Club Salad"},
+           {"Item": "Southwest Chicken Salad"},
+           {"Item": "Grilled Chicken Salad"},
+           {"Item": "Chicken Nuggets"},
+           {"Item": "Chicken Fajita Pita"},
+           {"Item": "Chicken Teriyaki Bowl"},
+           {"Item": "Chicken Sandwich"},
+           {"Item": "Side Salad"}
+         ]},
+
+         {"Tacos, Fries & Sides":[
+           {"Item": "Seasoned Curly Fries"},
+           {"Item": "French Fries"},
+           {"Item": "Onion Rings"},
+           {"Item": "Bacon Cheddar"},
+           {"Item": "Potato Wedges"},
+           {"Item": "Egg Rolls"},
+           {"Item": "Stuffed Jalapeños"},
+           {"Item": "Monster Tacos™"},
+           {"Item": "Bacon Ranch Monster Taco™"},
+           {"Item": "Nacho Monster Taco™"},
+           {"Item": "Tacos"},
+           {"Item": "Apple Bites with Caramel Dip"}
+         ]},
+
+         {"Breakfast":[
+           {"Item": "Jumbo Breakfast Platter"},
+           {"Item": "Supreme Croissant"},
+           {"Item": "Sausage Croissant"},
+           {"Item": "Grande Sausage Breakfast Burrito"},
+           {"Item": "Meat Lovers Breakfast Burrito"},
+           {"Item": "Loaded Breakfast Sandwich"},
+           {"Item": "Extreme Sausage® Sandwich"},
+           {"Item": "Ultimate Breakfast Sandwich"},
+           {"Item": "Grilled Breakfast Sandwich"},
+           {"Item": "Sausage, Egg & Cheese Biscuit"},
+           {"Item": "Bacon, Egg & Cheese Biscuit"},
+           {"Item": "Sausage Breakfast Jack®"},
+           {"Item": "Breakfast Jack®"},
+           {"Item": "Hash Browns"},
+           {"Item": "Mini Pancakes"}
+         ]},
+
+         {"Brunch":[
+           {"Item": "Country Scrambler Plate"},
+           {"Item": "Grilled French Toast Plate"},
+           {"Item": "Bacon & Egg Chicken Sandwich"},
+           {"Item": "Brunch Burger"},
+           {"Item": "Homestyle Potato"}
+          ]},
+
+         {"Late Night ":[
+           {"Item": "Sriracha Curly Fry Burger Munchie Meal"},
+           {"Item": "Spicy Nacho Chicken Sandwich Munchie Meal"},
+           {"Item": "Stacked Grilled Cheeseburger Munchie Meal"},
+           {"Item": "Chick-N-Tater melt Munchie Meal"}
+         ]},
+
+         {"Desserts":[
+           {"Item": "Peppermint Brownie"},
+           {"Item": "OREO® Cookie Ice Cream Shake"},
+           {"Item": "Chocolate Ice Cream Shake"},
+           {"Item": "Vanilla Ice Cream Shake"},
+           {"Item": "Strawberry Ice Cream Shake"},
+           {"Item": "Mini Churros"}
+        ]},
+
+         {"Drinks ":[
+           {"Item": "Jumpin’Jack Splash™"},
+           {"Item": "Jumpin’Jack Splash™ Diet"},
+           {"Item": "Coca-Cola Freestyle®"},
+           {"Item": "Original Iced Coffee"},
+           {"Item": "Caramel Iced Coffee"},
+           {"Item": "Mocha Iced Coffee"},
+           {"Item": "Premium Roast Coffee"},
+           {"Item": "Fresh Brewed Ice Tea"},
+           {"Item": "Raspberry Ice Tea"},
+           {"Item": "Mango Flavoured Ice Tea"},
+           {"Item": "Peach Flavoured Ice Tea"},
+           {"Item": "Diet Dr Pepper ®"},
+           {"Item": "Dr Pepper®"},
+           {"Item": "Diet Coke®"},
+           {"Item": "Coca-cola®"},
+           {"Item": "Bars’s® Root Beer"},
+           {"Item": "Sprite®"},
+           {"Item": "Minute Maid® Orange Lemonade"},
+           {"Item": "HI-C® Flashing Fruit Punch"},
+           {"Item": "Fanta® Strawberry"},
+           {"Item": "Fanta® Orange"},
+           {"Item": "Minute Maid® Orange Juice"},
+           {"Item": "Minute Maid® Apple Juice"},
+           {"Item": "Dasani® Bottled Water"},
+           {"Item": "Low Fat Milk Chug 1%"}
+        ]}
+    ]
+ }
+]

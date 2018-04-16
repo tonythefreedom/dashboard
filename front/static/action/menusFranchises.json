@@ -1,0 +1,2333 @@
+[
+ {
+   "Company_Name": "McDonald’s",
+   "URL": "https://www.mcdonalds.com/gb/en-gb/menu.html",
+   "Country": "UK",
+   "Category": "fast food restaurant",
+    "Menu_Category": [
+        {"Breakfast" :[
+           "Breakfast Wrap",
+           "Sausage, Egg & Cheese Bagel",
+           "Bacon, Egg&Cheese Bagel",
+           "Sausage & Egg McMuffin",
+           "Bacon&Egg McMuffin",
+           "Double Sausage & Egg McMuffin",
+           "Double Bacon & Egg McMuffin",
+           "Egg & Cheese McMuffin",
+           "Pancakes & Syrup",
+           "Pancakes & Sausage with Syrup",
+           "Bacon Roll",
+           "Quaker Oat So Simple",
+           "Quaker Oat So Simple Apple & Cherry Porridge",
+           "Toasted Bagel",
+           "Hash Brown",
+           "Cheesy Bacon Flatbread",
+           "Chocolatey Donut",
+           "Blueberry Muffin",
+           "Chocolate Muffin",
+           "Triple Chocolate Cookie",
+           "Sugar Donut",
+           "Apple & Grape Fruit Bag",
+           "Tropicana Orange Juice",
+           "Toffee Latte",
+           "Latte",
+           "Cappuccino",
+           "Black Coffee",
+           "White Coffee",
+           "Double Espresso",
+           "Hot Chocolate",
+           "Tea"
+        ]},
+
+        {"Burgers" : [
+           "Big Tasty",
+           "Big Tasty with Bacon",
+           "The Signature Collection: The Classic",
+           "The Signature Collection: The BBQ",
+           "The Signature Collection: The Spicy",
+           "Big Mac",
+           "Quarter Pounder with Cheese",
+           "Double Cheeseburger",
+           "Cheeseburger",
+           "Hamburger",
+           "Chicken Legend with Cool Mayo",
+           "Chicken Legend with BBQ Sauce",
+           "Chicken Legend with Hot & Spicy Mayo",
+           "Chicken Legend with Bacon and Cool Mayo",
+           "Chicken Legend with Bacon and BBQ Sauce",
+           "Chicken Legend with Bacon and Hot & Spicy Mayo",
+           "McChicken Sandwich",
+           "BBQ Chicken BLC",
+           "Mayo Chicken",
+           "Filet-o-Fish",
+           "Vegetable Deluxe",
+           "Spicy Vegetable Deluxe"
+        ]},
+
+        {"Chicken Selects® & McNuggets®" :[
+           "Chicken Selects",
+           "Chicken McNuggets",
+           "20 Chicken McNuggets ShareBox"
+        ]},
+
+        {"Wraps & Salads" :[
+           "The Hot Peri Peri Chicken One - Grilled",
+           "The Hot Peri Peri Chicken One - Crispy",
+           "The Garlic Mayo Chicken One - Grilled",
+           "The Garlic Mayo Chicken One - Crispy",
+           "The Sweet Chili Chicken One - Grilled",
+           "The Sweet Chili Chicken One - Crispy",
+           "The BBQ Chicken and Bacon One - Grilled",
+           "The BBQ Chicken and Bacon One - Crispy",
+           "Spicy Chicken Snack Wrap",
+           "Grilled Chicken Salad",
+           "Grilled Chicken and Bacon Salad",
+           "Crispy Chicken Salad",
+           "Crispy Chicken and Bacon Salad",
+           "Shaker Side Salad",
+           "Carrot Sticks"
+        ]},
+
+        {"Fries & Sides" :[
+           "Mozzarella Dippers",
+           "McDonald’s Fries",
+           "Shaker Side Salad",
+           "Carrot Sticks",
+           "Apple & Grape Fruit Bag"
+        ]},
+
+        {"Saver Menu®" :[
+           "BBQ Chicken BLC",
+           "Spicy Chicken Snack Wrap",
+           "Double Cheeseburger",
+           "Cheeseburger",
+           "Hamburger",
+           "Mayo Chicken",
+           "McDonald’s Fries",
+           "Shaker Side Salad",
+           "Oreo McFlurry",
+           "Cadbury Dairy Milk McFlurry",
+           "Cadbury Crunchie McFlurry",
+           "Toffee Sundae",
+           "Strawberry Sundae"
+        ]},
+
+        {"Vegetarian" :[
+           "Pancakes & Cyrup",
+           "Quaker Oat So Simple",
+           "The Flat White",
+           "Quaker Oat So Simple Apple & Cherry Porridge",
+           "Toasted Bagel",
+           "Hash Brown",
+           "Vegetable Deluxe",
+           "Spicy Vegetable Deluxe",
+           "McDonald’s Fries",
+           "Shaker Side Salad",
+           "Carrot Sticks",
+           "Apple & Grape Fruit Bag",
+           "Cadbury Caramel McFlurry",
+           "Cadbury Creme Egg McFlurry",
+           "Oreo McFlurry",
+           "Cadbury Dairy Milk McFlurry",
+           "Cadbury Crunchie McFlurry",
+           "Toffee Sundae",
+           "Strawberry Sundae",
+           "Ice Cream Cone",
+           "Ice Cream Cone with Flake",
+           "Chocolatey Donut",
+           "Bluberry Muffin",
+           "Chocolate Muffin",
+           "Triple Chocolate Cookie",
+           "Sugar Donut",
+           "Toffee Latte",
+           "Latte",
+           "Cappuccino",
+           "Black Coffee",
+           "White Coffee",
+           "Double Espresso",
+           "Hot Chocolate",
+           "Tea",
+           "Mango and Pineapple Iced Fruit Smoothie",
+           "Berry Burst Fruit Smoothie",
+           "Caramel Iced Frappe",
+           "Mocha Iced Frappe",
+           "Chocolate Milkshake",
+           "Strawberry Milkshake",
+           "Banana Milkshake",
+           "Vanilla Milkshake",
+           "Buxton Mineral Water(still)",
+           "Organic Milk",
+           "Tropicana Orange Juice",
+           "Robinsons Fruit Shoot"
+        ]},
+
+        {"Desserts" :[
+           "Cadbury Caramel McFlurry",
+           "Cadbury Creme Egg McFlurry",
+           "Oreo McFlurry",
+           "Cadbury Dairy Milk McFlurry",
+           "Cadbury Crunchile McFlurry",
+           "Toffee Sundae",
+           "Strawberry Sundae",
+           "Ice Cream Cone",
+           "Ice Cream Cone with Flake",
+           "Chocolatey Donut",
+           "Blueberry Muffin",
+           "Chocolate Muffin",
+           "Triple Chocolate Cookie",
+           "Sugar Donut",
+           "Apple Pie",
+           "Apple & Grape Fruit Bag"
+        ]},
+
+        {"Milkshakes & Cold Drinks" :[
+           "Chocolate Milkshake",
+           "Strawberry Milkshake",
+           "Banana Milkshake",
+           "Vanilla Milkshake",
+           "Buxton Mineral Water(still)",
+           "Organic Milk",
+           "Tropicana Orange Juice",
+           "Robinsons Fruit Shoot",
+           "Coca-Cola Zero Sugar",
+           "Diet Coke",
+           "Sprite Zero",
+           "Coca-Cola Classic",
+           "Fanta Orange",
+           "Oasis",
+           "IRN-BRU",
+           "Mango and Pineapple Iced Fruit Smoothie",
+           "Berry Burst Fruit Smoothie",
+           "Caramel Iced Frappe",
+           "Mocha Iced Frappe"
+        ]},
+
+        {"McCafé® Drinks" :[
+           "The Flat White",
+           "Toffee Latte",
+           "Hot Chocolate",
+           "Latte",
+           "Cappuccino",
+           "Black Coffee",
+           "White Coffee",
+           "Double Espresso",
+           "Tea",
+           "Mango and Pineapple Iced Fruit Smoothie",
+           "Berry Burst Fruit Smoothie",
+           "Caramel Iced Frappe",
+           "Mocha Iced Frappe",
+           "Chocolatey Donut",
+           "Blueberry Muffin",
+           "Chocolate Muffin",
+           "Triple Chocolate Cookie",
+           "Sugar Donut"
+        ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Nando’s",
+   "URL": "https://www.nandos.co.uk/food/menu",
+   "Country": "UK",
+   "Category": "fast food restaurant",
+    "Menu_Category": [
+
+            {"Main" :[
+               "1/4 Chicken Breast",
+               "1/4 Chicken Leg",
+               "1/2 Chicken",
+               "5 Chicken Wings",
+               "10 Chicken Wings",
+               "Wing Roulette",
+               "Whole Chicken",
+               "Sunset Burger",
+               "Butterfly Burger",
+               "Fino Pitta",
+               "Grilled Chicken",
+               "Double Chicken",
+               "Sweet Potato & Butternut",
+               "Supergreen",
+               "Portobello Mushroom & Grilled Halloumi",
+               "Beanie",
+               "Veggie Cataplana",
+               "Fillet Steak & Chargrilled Veg Pitta",
+               "Fillet Steak & Chargrilled Veg Wrap",
+               "Fillet Steak Prego Roll",
+               "Chicken Livers & Portuguese Roll",
+               "Supergrain Salad",
+               "Quinoa Salad",
+               "Caesar Salad",
+               "Mediterranean Salad",
+               "Mixed Leaf Salad",
+               "No Bones Platter",
+               "Wing Platter",
+               "Full Platter",
+               "Meal Platter",
+               "Jumbo Platter"
+            ]},
+
+            {"Sides" :[
+               "Supergrain",
+               "Spicy Rice",
+               "Coleslaw",
+               "Garlic Bread",
+               "Corn on the Cob",
+               "Creamy Mash",
+               "Chips",
+               "PERI-Salted Chips",
+               "Mixed Leaf Side Salad",
+               "Macho Peas",
+               "Chargrilled Veg",
+               "Sweet Potato Wedges",
+               "Sweet Potato Wedges with PERi-PERi salt",
+               "Sweet Potato Mash"
+            ]},
+
+            {"Desserts" :[
+               "Vanilla",
+               "Strawberry",
+               "Chocolate",
+               "Mango",
+               "Coconut",
+               "Cooey Caramel Cheesecake",
+               "Choc-A-Lot Cake",
+               "White Chocolate Raspberry Swirl",
+               "Carrot Cake",
+               "Salted Caramel Brownie",
+               "Naughty Natas"
+            ]},
+
+            {"Drinks" :[
+               "Coca-Cola",
+               "Diet Coke",
+               "Coke Zero",
+               "Fanta",
+               "Spite Zero",
+               "Rubro",
+               "Pressed Apple Juice",
+               "Mango Quencher",
+               "Orange Juice",
+               "Cloudy Lemonade",
+               "Mineral Water",
+               "Cappuccino",
+               "Calao",
+               "Espresso",
+               "Espresso Espresso",
+               "Americano",
+               "Organic Everyday Tea",
+               "Tea Infusions",
+               "Hot Chocolate",
+               "Cara Viva (Portugal)",
+               "Spier Chenin Blanc (South Africa)",
+               "Stormhoek Pinot Grigio (South Africa)",
+               "Cara Viva Red (portugal)",
+               "Spier Merlot (South Africa)",
+               "Grand’s Arte Shiraz (Portugal)",
+               "Cara Viva Medium Dry (Portugal)",
+               "Cara Viva Summer Fruit (Portugal)",
+               "Sagres",
+               "2M (Mozambique)",
+               "Savanna Cider (South Africa)",
+               "Raspberry and Lime Cider (50ml)"
+            ]},
+
+            {"Nandinos" :[
+               "Chicken Burger",
+               "Chicken Breast Fillet Strips",
+               "3 Chicken Wings",
+               "Sweet Potato & Butternut Pattie",
+               "Sweet Potato & Butternut Burger",
+               "Chips",
+               "Sweet Potato Mash",
+               "Garlic Bread",
+               "Corn on the Cob",
+               "Little Tomatoes",
+               "Sweet Potato Wedges",
+               "Supergrain",
+               "Chilly Billy Lolly",
+               "Bottomless Frozen Yogurt",
+               "Scoop of Vanilla Gelado",
+               "Organic Milk",
+               "Bottle Green Cordial"
+            ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "KFC",
+   "URL": "https://www.kfc.co.uk/our-food",
+   "Country": "UK",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+
+        {"For Sharing" :[
+            "6 Piece Bargain Bucket",
+            "10 Piece Bargain Bucket",
+            "14 Piece Bargain Bucket",
+            "8 Piece Dipping Boneless Feast",
+            "12 Piece Dipping Boneless Feast",
+            "6 Piece Wicked Variety",
+            "10 Piece Wicked Variety",
+            "14 Piece Wicked Variety",
+            "14 Piece Party Bucket",
+            "6 Piece Family Feast",
+            "10 Piece Family Feast"
+        ]},
+
+        {"Box Meals" :[
+           "Boneless Banquet",
+           "Filled Box Meal",
+           "Zinger Box Meal",
+           "The Big Daddy"
+        ]},
+
+        {"Chicken" :[
+           "Boneless Banquet",
+           "Mighty Bucket For One",
+           "6 Hot Wings® \n Meal",
+           "Mini Variety Pack",
+           "4 Piece Boneless Dips",
+           "3 Piece Boneless Dips",
+           "Large Popcorn Chicken Meal",
+           "Popcorn Chicken Meal",
+           "3 Piece Original Recipe Meal",
+           "2 Piece Original Recipe Meal"
+        ]},
+
+        {"Burgers" :[
+           "Filet Tower Meal",
+           "Zinger® Tower Meal",
+           "Filet Burger Meal",
+           "Zinger® Burger Meal",
+           "Filet Tower Burger",
+           "Zinger® Tower Burger",
+           "The Daddy Burger",
+           "Filet Burger",
+           "Filet Bacon Deluxe Burger",
+           "Zinger® Burger",
+           "Mini Filet Burger"
+        ]},
+
+        {"Salads & Riceboxes" :[
+           "Original Recipe Salad Pot Meal",
+           "Popcorn Chicken Salad Pot Meal",
+           "Plain Salad Pot Meal",
+           "Zinger®Salad Pot Meal",
+           "Original Recipe Salad Pot",
+           "Popcorn Chicken Salad Pot",
+           "Plain Salad Pot",
+           "Zinger® Salad Pot",
+           "Original Recipe Ricebox Meal",
+           "Zinger® Ricebox Meal",
+           "Veggie Ricebox Meal",
+           "Original Recipe Ricebox",
+           "Zinger® Ricebox",
+           "Veggie Ricebox"
+        ]},
+
+         {"Wraps" :[
+           "Zinger® Twister Meal",
+           "Toasted Twisted Meal",
+           "Zinger® Twister",
+           "Toasted Twister",
+           "Original Recipe Burrito Meal",
+           "Zinger® Burrito Meal",
+           "Original Recipe Burrito",
+           "Zinger® Burrito",
+           "BBQ Wrap",
+           "Flamin’ Wrap"
+        ]},
+
+         {"Kids":[
+           "Kids Burger Meal",
+           "Kids Popcorn Chicken Meal",
+           "Kids Original Recipe Chicken Meal"
+        ]},
+
+        {"Sides" :[
+           "Gravy Mega Box",
+           "Lunch Box",
+           "All Stars Flamin’ Wrap",
+           "Snack Box Mini Breast Fillet",
+           "Snack Box Popcorn Chicken",
+           "Snack Box Original Recipe",
+           "Regular Popcorn Chicken",
+           "Large Popcorn Chicken",
+           "BBQ Wrap",
+           "Flamin’ Wrap",
+           "2 Hot Wings®",
+           "3 Hot Wings®",
+           "1 Piece Original Recipe Chicken",
+           "2 Piece Original Recipe Chicken",
+           "3 Piece Original Recipe Chicken",
+           "Regular KFC Gravy",
+           "Regular Fries",
+           "Regular Beans",
+           "Corn Cob"
+        ]},
+
+        {"Sweets" :[
+           "Cookie",
+           "Cookie Multi Pack",
+           "Caramel Fudge Kream Ball",
+           "Indulgent Chocolate Kream Ball",
+           "Milky Bar Krushems",
+           "Maltesers® Krushems",
+           "Oreo® Krushem",
+           "Skittles® Krushems",
+           "Strawberry Sundae",
+           "Toffee Sundae"
+        ]},
+
+        {"Drinks" :[
+           "Pepsi MAX",
+           "Diet Pepsi",
+           "Pepsi",
+           "Tango",
+           "7UP Free",
+           "Water",
+           "Tropicana Orange",
+           "Orange Fruitshoot",
+           "Apple&Blackcurrent Fruitshoot",
+           "Espresso",
+           "Tea",
+           "White Americano",
+           "Black Americano",
+           "Latte",
+           "Cappucino",
+           "Caramel Latte",
+           "Vanilla Latte",
+           "Cafe Mocha",
+           "Hot Chocolate",
+           "Pepsi Can ",
+           "Pepsi Max Can",
+           "Tango Can"
+         ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Subway",
+   "URL": "http://www.subway.com/en-gb/menunutrition",
+   "Country": "UK",
+   "Category": "fast food restaurant",
+    "Menu_Category": [
+
+        {"Sandwiches" :[
+           "Italian B.M.T.®",
+           "Chicken Tikka",
+           "Tuna",
+           "Steak & Cheese",
+           "Ham",
+           "Meatball Marinara",
+           "Spicy Italian",
+           "Turkey Breast and Ham",
+           "Chicken & Bacon Ranch Melt",
+           "Chicken Breast",
+           "Turkey Breast",
+           "Chicken Teriyaki",
+           "Veggie Delite®",
+           "Subway Melt™\n",
+           "Veggie Patty",
+           "Chicken Pizziola",
+           "Big Beef Melt",
+           "Chipotle Chicken Melt"
+        ]},
+
+         {"Salads" :[
+           "Chicken Tikka",
+           "Italian B.M.T.®",
+           "Ham",
+           "Turkey Breast and Ham",
+           "Tuna",
+           "Chicken Breast",
+           "Turkey Breast"
+        ]},
+
+         {"Breakfast" :[
+           "Bacon, Egg & Cheese",
+           "Sausage, Egg & Cheese",
+           "Egg & Cheese",
+           "Sausage",
+           "Bacon",
+           "Mega Melt",
+           "Poached Egg Mega Melt"
+        ]},
+
+         {"Kids" :[
+           "Ham",
+           "Turkey Breast",
+           "Veggie Delite®"
+        ]},
+
+         {"Sides":[
+           "Bowl of Meatballs",
+           "Crisps",
+           "Melted Cheese Nachos",
+           "Cheese Toastie",
+           "Pepperoni Pizza Toastie",
+           "Cookies",
+           "Bacon ",
+           "Cheese",
+           "Chorizo"
+        ]},
+
+         {"Drinks" :[
+           "Pepsi MAX",
+           "Diet Pepsi",
+           "Lipton Ice Tea",
+           "Orange Tango",
+           "7UP Free",
+           "Water",
+           "Tropicana Juice",
+           "Robinsons Fruit Shoot My-5",
+           "AbbeyWell Water",
+           "Espresso",
+           "Tea",
+           "Hot Chocolate"
+        ]}
+    ]
+ },
+
+
+ {
+   "Company_Name": "Burger King",
+   "URL": "http://www.burgerking.co.uk/menu",
+   "Country": "UK",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+        {"Burgers" :[
+           "BACON KING™ ",
+           "WHOPPER® Sandwich",
+           "Double WHOPPER® Sandwich",
+           "Steakhouse",
+           "Angus Classic",
+           "Bacon Double XL",
+           "Big King XL",
+           "Long Peperoni",
+           "Long Big King",
+           "Long Texas BBQ",
+           "Long Chilli Cheese",
+           "Cheeseburger",
+           "Double Cheeseburger",
+           "Bacon Double Cheeseburger",
+           "Hamburger",
+           "WHOPPER JR.® Sandwich",
+           "Kids Cheeseburger",
+           "Kids Hamburger"
+        ]},
+
+         {"Chicken":[
+           "Chicken Bacon King™ ",
+           "Chicken TENDERCRISP®",
+           "Bacon Cheese Chicken Royale",
+           "Chicken Royale",
+           "BLT Chicken Wrap",
+           "Chicken Burger",
+           "Chicken Strips",
+           "Chicken Nuggets",
+           "Crispy Chicken Salad"
+        ]},
+
+         {"Salads, Veggies, Fish" :[
+           "King Fish",
+           "Veggie Bean Burger",
+           "Kids Veggie Burger",
+           "Garden Side Salad",
+           "Crispy Chicken Salad"
+        ]},
+
+         {"Breakfast":[
+           "Sausage CROISSAN’WICH",
+           "Quaker Porridge",
+           "Bacon CROISSAN’WICH",
+           "Double CROISSAN’WICH",
+           "Bacon King Muffin",
+           "Sausage King Muffin",
+           "Hash Browns",
+           "Bacon Butty",
+           "Warm Belgian Waffle",
+           "Muffins",
+           "Mini Pancakes & Syrup",
+           "Doughnuts"
+        ]},
+
+         {"Kids" :[
+           "Kids Veggie Burger",
+           "Chicken Nuggets",
+           "Kids Cheeseburger",
+           "Kids Hamburger",
+           "Kids Chicken Burger"
+        ]},
+
+         {"Sides":[
+           "Chicken Strips",
+           "Chicken Nuggets",
+           "Bacon Cheese Bites",
+           "Emmental Bites",
+           "Mozzarella Sticks",
+           "Chilli Cheese Bites",
+           "Fries",
+           "Onion Rings",
+           "Apple Fries",
+           "Hash Browns"
+           ]},
+
+         {"Sweets" :[
+           "KIT KAT® Shake",
+           "KIT KAT® Fusion",
+           "Oreo® King Fusion®",
+           "Oreo® Shake",
+           "Chocolate Milkshake",
+           "Strawberry Milkshake",
+           "Vanilla Milkshake",
+           "Caramel Sundae",
+           "Chocolate Sundae",
+           "Strawberry Sundae",
+           "Warm Belgian Waffle",
+           "Muffins",
+           "Mini Pancakes & Syrup",
+           "Ice Cream Cone",
+           "Doughnuts",
+           "Chocolate Brownie Hottie"
+        ]},
+
+         {"Drinks":[
+           "Soft Drinks",
+           "Tropicana Apple Juice",
+           "Tropicana Orange Juice",
+           "AbbeyWell Mineral Water",
+           "Black Coffee",
+           "Latte",
+           "Flavoured Latte",
+           "Cappuccino ",
+           "Tea",
+           "Hot Chocolate",
+           "Shakes"
+        ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Pizza Hut",
+   "URL": "https://www.pizzahut.co.uk/restaurants/food/pizza/",
+   "Country": "UK",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+        {"Pizza":[
+           "Supreme",
+           "Hawaiian",
+           "Philly Cheese Steak",
+           "Pepperoni",
+           "Virtuous Veg",
+           "Chicken Supreme",
+           "Meat Feast",
+           "Texas Meat Meltdown",
+           "Margherita",
+           "BBQ Americano",
+           "Heavenly Veg",
+           "Chicken Delight",
+           "BBQ Steak",
+           "Tuna Nicoise",
+           "Veggie",
+           "New Orleans Chicken Sizzler"
+        ]},
+
+         {"Starters & Sides":[
+           "Cheesy Bite Bites",
+           "Chicken Wings",
+           "Garlic Brad with Mozzarella Cheese",
+           "Onion Rings",
+           "Jalapeno Poppers",
+           "Breaded Chicken Bites",
+           "Garlic Bread",
+           "Cheese & Onion Bites",
+           "Fries"
+        ]},
+
+         {"Pasta & Mains":[
+           "Classic Mac ’N’ Cheese",
+           "Pulled Chicken Mac ’N’ Cheese",
+           "Lasagne"
+        ]},
+
+         {"Desserts":[
+           "Ice Cream Factory",
+           "S’Mores Cookie Dough",
+           "Sharing Cookie Dough",
+           "Chocolate Chip Cookie Dough",
+           "Mango Sorbet",
+           "Salted Caramel Cookie Dough",
+           "Chocolate Chunk Cheesecake"
+          ]},
+
+         {"Kids":[
+           "Little Heroes Pizza",
+           "Little Heroes Spaghetti Bolognese",
+           "Little Heroes Cheesy Pasta Shapes",
+           "Little Heroes Breaded Chicken & Fries",
+           "Big Heroes Pizza",
+           "Big Heroes Breaded Chicken & Fries",
+           "Big Heroes Chicken Wraps",
+           "Big Heroes Tuna Wraps",
+           "Big Heroes Lasagne or Mac ’N’ Cheese",
+           "Big Heroes Fries",
+           "Big Heroes Garlic Bread",
+           "Big Heroes Onion Rings",
+           "Big Heroes Cucumber & Pepper Sticks ",
+           "Big Heroes Waffles",
+           "Fresh Milk ",
+           "Big Heroes Ice Cream Milkshakes",
+           "Del Monte Ice Lolly"
+        ]},
+
+         {"Drinks" :[
+           "Budweiser",
+           "Carlsberg",
+           "Kopparberg Cider",
+           "San Miguel",
+           "Espresso",
+           "Tea ",
+           "Americano",
+           "Cafe Latte",
+           "Hot Chocolate",
+           "The Chocoholic Milkshake",
+           "Strawberry Milkshake",
+           "Orange or Apple Juice",
+           "Soft drinks",
+           "J20",
+           "Merlot ",
+           "Pinot Grigio",
+           "White Zinfandel"
+        ]}
+     ]
+},
+
+
+
+ {
+   "Company_Name": "Domino’s",
+   "URL": "https://uk.menuwithprice.com/dominos-pizza-menu/",
+   "Country": "UK",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+
+        {"Pizza":[
+           "Original Cheese & Tomato",
+           "Vegetarian Supreme",
+           "Ham & Pineapple",
+           "Veg-A-Roma",
+           "Pepperoni Passion",
+           "Hot & Spicy",
+           "New York Deli",
+           "The Carolina",
+           "American Hot",
+           "Chicken Feast",
+           "Texas BBQ",
+           "Mighty Meaty",
+           "Tandoori Hot",
+           "Deluxe",
+           "Meatilicious",
+           "The Sizzler"
+        ]},
+
+         {"Chicken":[
+           "Spicy BBQ Wings",
+           "Chicken Strippers",
+           "Chicken Wings",
+           "Strippers Combo",
+           "Franks RedHot Wings",
+           "Chicken Kickers",
+           "Kickers Combo"
+          ]},
+
+         {"Wraps":[
+           "Tandoori Hot",
+           "Meatball Mayhem",
+           "Pepperoni Passion",
+           "Vegetarian Supreme"
+           ]},
+
+         {"Sides":[
+           "Twisted Dough Balls",
+           "Potato Wedges",
+           "Coleslaw",
+           "Garlic Pizza Bread",
+           "Garlic Mozzarella Sticks"
+           ]},
+
+         {"Desserts" :[
+           "Chocolate Brownies",
+           "Chocolate Melt",
+           "Mini Pancakes",
+           "Cookies",
+           "Ben & Jerry’s Ice-cream"
+           ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Carl’s JR.",
+   "URL": "https://www.carlsjr.com/menu/nutritional_calculator_landing",
+   "Country": "US",
+   "Category": "fast food restaurant",
+     "Menu_Category":[
+
+        {"Burgers" :[
+           "Famous Star® with Cheese ",
+           "Super Star® with Cheese ",
+           "Western Bacon Cheeseburger®",
+           "Double Western Bacon Cheeseburger®",
+           "Teriyaki Burger™ ",
+           "The Big Carl®",
+           "California Classic Double Cheeseburger",
+           "Grass-Fed All-Natural* Burger (Single) ",
+           "The 1/3 lb. Original Six Dollar Thickburger®",
+           "The 1/2 lb. Original Six Dollar Thickburger®",
+           "The 1/3 lb. Guacamole Bacon Thickburger®",
+           "The 1/2 lb. Guacamole Bacon Thickburger®",
+           "The 1/3 lb. Jalapeño Thickburger® ",
+           "The 1/2 lb. Jalapeño Thickburger® ",
+           "The 1/3 lb. Lettuce-Wrapped Thickburger®",
+           "The 1/2 lb. Lettuce-Wrapped Thickburger®",
+           "Big Hamburger",
+           "Double Cheeseburger",
+           "Kid's Hamburger",
+           "Kid's Cheeseburger "
+           ]},
+
+         {"Chicken":[
+           "All-Natural Charbroiled Chicken Club™ Sandwich ",
+           "All-Natural Charbroiled Santa Fe Chicken™ Sandwich ",
+           "All-Natural Charbroiled BBQ Chicken™ Sandwich ",
+           "Big Chicken Fillet Sandwich ",
+           "Bacon Swiss Crispy Chicken® Sandwich",
+           "Kid's Hand-Breaded Chicken Tenders™ (2 pieces)",
+           "Hand-Breaded Chicken Tenders™ (3 pieces) ",
+           "Hand-Breaded Chicken Tenders™ (5 pieces) ",
+           "Hand-Breaded Chicken Tenders™ (10 piece box; 2, 5pc servings)   ",
+           "Hand-Breaded Chicken Tenders™ (15 piece box; 3, 5pc servings)  ",
+           "Hand-Breaded Chicken Tenders™ (20 piece box; 4, 5pc servings)     ",
+           "Spicy Chicken Sandwich ",
+           "Chicken Stars™ (4 pieces) ",
+           "Chicken Stars™ (6 pieces)",
+           "Chicken Stars™ (9 pieces)"
+           ]},
+
+         {"Salads, Dressings" :[
+           "All-Natural Charbroiled Chicken Salad ",
+           "Garden Side Salad ",
+           "House Dressing",
+           "Blue Cheese Dressing ",
+           "Low Fat Balsamic Vinaigrette Dressing",
+           "Sweet & Bold BBQ Dipping Sauce ",
+           "Buttermilk Ranch Dipping Sauce ",
+           "Honey Mustard Dipping Sauce",
+           "Spicy Buffalo Dipping Sauce"
+           ]},
+
+         {"Breakfast" :[
+           "The Breakfast Burger™ (Single)",
+           "The Breakfast Burger™ (Double)",
+           "Grilled Cheese Breakfast Sandwich (Ham) ",
+           "Grilled Cheese Breakfast Sandwich (Sausage)",
+           "Grilled Cheese Breakfast Sandwich (Bacon) ",
+           "Steak & Egg Burrito ",
+           "Loaded Breakfast Burrito ",
+           "Big Country® Breakfast Burrito",
+           "Bacon & Egg Burrito ",
+           "French Toast Dips ",
+           "Hash Brown Nuggets (Small) ",
+           "Hash Brown Nuggets (Medium) ",
+           "Hash Brown Nuggets (Large) ",
+           "Sausage, Egg & Cheese Biscuit ",
+           "Bacon, Egg & Cheese Biscuit ",
+           "Monster Biscuit®",
+           "Biscuit 'N' Gravy ",
+           "Made From Scratch Biscuit™"
+           ]},
+
+         {"Sides" :[
+           "Natural-Cut Fries (Kids)",
+           "Natural-Cut Fries (Small) ",
+           "Natural-Cut Fries (Medium) ",
+           "Natural-Cut Fries (Large) ",
+           "CrissCut® Fries ",
+           "Onion Rings ",
+           "Fried Zucchini"
+           ]},
+
+         {"Sweets" :[
+           "Chocolate Chip Cookie ",
+           "Strawberry Swirl Cheesecake",
+           "Chocolate Cake ",
+           "Vanilla Shake ",
+           "Chocolate Shake ",
+           "Strawberry Shake ",
+           "OREO® Cookie Shake ",
+           "Vanilla Malt ",
+           "Chocolate Malt ",
+           "Strawberry Malt ",
+           "OREO® Cookie Malt"
+           ]},
+
+         {"Drinks":[
+           "Fuze ® Raspberry Tea",
+           "Gold Peak ® Iced Tea",
+           "Coca-cola ®",
+           "Diet Coke ®",
+           "Coca-cola Zero™\n",
+           "Sprite®",
+           "Barq’s® Rootbeer",
+           "Powerade ® Mountain Blast",
+           "Cherry Coke®",
+           "HI-C® Flashin’ Fruit Punch",
+           "Dr Pepper ®",
+           "Diet Dr Pepper ®",
+           "Fanta® Orange",
+           "Fanta® Strawberry",
+           "Minute Maid Light™\n Lemonade",
+           "Monster Energy ®",
+           "Dasani ® Water",
+           "Colombian Blend Coffee",
+           "Decaffeinated Coffee",
+           "Minute Maid® Orange Juice",
+           "1% Fat Milk"
+           ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Green Burrito (Carl’s JR.)",
+   "URL": "https://www.carlsjr.com/menu/",
+   "Country": "US",
+   "Category": "fast food restaurant",
+    "Menu_Category": [
+
+        {"Tacos":[
+           "Crunchy Beef Taco ",
+           "Chicken Soft Taco "
+        ]},
+
+         {"Burritos":[
+           "The Green Burrito - Chicken ",
+           "The Green Burrito - Steak ",
+           "The Grilled Burrito - Chicken ",
+           "The Grilled Burrito - Steak",
+           "The Grilled Burrito - Beef ",
+           "Bean & Cheese Burrito"
+           ]},
+
+        {"Speciality":[
+           "Quesadilla - Cheese ",
+           "Quesadilla - Chicken ",
+           "Quesadilla - Steak ",
+           "Chicken Taquitos (3 piece) ",
+           "Chicken Taquitos (5 piece) ",
+           "Taco Salad - Beef ",
+           "Taco Salad - Chicken",
+           "Taco Salad - Steak ",
+           "Super Nachos - Beef ",
+           "Super Nachos - Chicken ",
+           "Super Nachos - Steak ",
+           "Rice, Beans & Chips Platter"
+           ]},
+
+         {"Sides" :[
+           "Coke de Mexico ",
+           "Side of Steak ",
+           "Side of Chicken",
+           "Side of Green Sauce ",
+           "Side of Crema ",
+           "Side of Cilantro-Lime Rice",
+           "Side of Pinto Beans ",
+           "Side of Chips ",
+           "Side of Ground Beef ",
+           "Side of Guacamole ",
+           "Side of Shredded Cheese "
+           ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "McDonald’s",
+   "URL": "https://www.mcdonalds.com/us/en-us/.html",
+   "Country": "US",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+
+        {"Burgers" :[
+           "Garlic White Cheddar Burger",
+           "Pico Guacamole with 100% Pure Beef 1/4 Lb Patty",
+           "Sweet BBQ Bacon with 100% Pure Beef 1/4 Lb Patty",
+           "Big Mac®",
+           "Quarter Pounder® with Cheese",
+           "Double Quarter Pounder® with Cheese",
+           "Hamburger",
+           "Cheeseburger",
+           "Double Cheeseburger",
+           "McDouble® ",
+           "Bacon McDouble® ",
+           "Triple Cheeseburger"
+           ]},
+
+         {"Chicken & Sandwiches" :[
+           "Garlic White Cheddar with Artisan Grilled Chicken",
+           "Garlic White Cheddar with Buttermilk Crispy Chicken",
+           "Buttermilk Crispy Tenders",
+           "Sweet BBQ Bacon with Buttermilk Crispy Chicken",
+           "Sweet BBQ Bacon with Artisan Grilled Chicken",
+           "Pico Guacamole with Artisan Grilled Chicken",
+           "Pico Guacamole with Buttermilk Crispy Chicken",
+           "Classic Chicken Sandwich",
+           "Chicken McNuggets®",
+           "Artisan Grilled Chicken Sandwich",
+           " Buttermilk Crispy Chicken Sandwich",
+           "McChicken®",
+           "Filet-O-Fish®"
+           ]},
+
+         {"Salads":[
+           "Bacon Ranch Salad with Buttermilk Crispy Chicken",
+           "Bacon Ranch Grilled Chicken Salad",
+           "Southwest Buttermilk Crispy Chicken Salad",
+           "Southwest Grilled Chicken Salad",
+           "Side Salad"
+           ]},
+
+         {"Breakfast" :[
+           "Fruit & Mapple Oatmeal",
+           "Fruit ’N' Yogurt Parfait",
+           "Egg McMuffin®",
+           "Egg White Delight McMuffin®",
+           "Sausage McMuffin™",
+           "Sausage Egg McMuffin™",
+           "Bacon, Egg & Cheese Biscuit",
+           "Sausage Biscuit",
+           "Sausage Biscuit with Egg",
+           "Steak, Egg & Cheese Biscuit",
+           "Bacon, Egg & Cheese McGriddles®",
+           "Sausage McGriddles®",
+           "Sausage, Egg & Cheese McGriddles®",
+           "Bacon, Egg & Cheese Bagel",
+           "Big Breakfast®",
+           "Big Breakfast® with Hotcakes",
+           "Hotcakes",
+           "Hotcakes and Sausage",
+           "Sausage Burrito",
+           "Hash Browns",
+           "Fruit & Maple Oatmeal without Brown Sugar"
+           ]},
+
+         {"Sides":[
+           "French Fries",
+           "Apple Slices",
+           "Yoplait® GO-GURT® Low Fat Strawberry Yogurt",
+           "Fruit ’N’ Yogurt Parfait",
+           "Side Salad"
+           ]},
+
+         {"Desserts":[
+           "Chocolate Shake",
+           "Shamrock Shake®",
+           "Strawberry Shake",
+           "Vanilla Shake ",
+           "Vanilla Cone",
+           "Hot Fudge Sundae",
+           "McFlurry® with M&M’S® Candies",
+           "Kiddie Cone",
+           "Hot Caramel Sundae",
+           "Strawberry Sundae",
+           "McFlurry with Oreo® Cookies",
+           "Baked Apple Pie",
+           "Strawberry & Crème Pie",
+           "Chocolate Chip Cookie",
+           "Oatmeal Raisin Cookie"
+           ]},
+
+         {"Drinks":[
+           "Hot Chocolate",
+           "Coca-Cola®",
+           "Chocolate Shake",
+           "Strawberry Shake",
+           "Vanilla Shake",
+           "Diet Coke®",
+           "Sprite®",
+           "Iced Tea",
+           "Dr Pepper®",
+           "Sweet Tea",
+           "Fat Free Chocolate Milk Jug",
+           "1% Low Fat Milk Jug",
+           "Dasani® Water",
+           "Minute Maid® Orange",
+           "Honest Kids® Appley Ever After® Organic Juice Drink"
+           ]},
+
+         {"McCafé®":[
+           "Caramel Macchiato",
+           "Iced Caramel Macchiato",
+           "Cappuccino",
+           "Caramel Cappuccino",
+           "French Vanilla Cappuccino ",
+           "Mocha",
+           "Iced Mocha",
+           "McCafé® Caramel Mocha",
+           "Iced Caramel Mocha",
+           "Latte",
+           "Iced Latte",
+           "Caramel Latte",
+           "French Vanilla Latte",
+           "Americano",
+           "Coffee",
+           "Iced Coffee",
+           "Caramel Iced Coffee",
+           "French Vanilla Iced Coffee",
+           "Caramel Frappé",
+           "Mocha Frappé",
+           "Hot Chocolate",
+           "Strawberry Banana Smoothie",
+           "Mango Pineapple Smoothie",
+           "Chocolate Shake",
+           "Vanilla Shake",
+           "Strawberry Shake",
+           "Iced Turtle Coffee",
+           "Turtle Macchiato",
+           "Iced Turtle Macchiato"
+           ]}
+    ]
+ },
+ {
+   "Company_Name": "Dunkin’ Donuts",
+   "URL": "https://www.dunkindonuts.com/en/food-drinks",
+   "Country": "US",
+   "Category": "Bakery",
+     "Menu_Category": [
+
+        {"Drinks" :[
+           "Coffee",
+           "Americano ",
+           "Latte",
+           "Macchiato ",
+           "Tea",
+           "Hot Chocolate",
+           "Vanilla Chai",
+           "Cappuccino ",
+           "Espresso",
+           "Cold Brew",
+           "Iced Coffee",
+           "Iced Latte",
+           "Iced Macchiato",
+           "Iced Tea",
+           "Fruited Iced Tea",
+           "Frozen Coffee",
+           "Coolatta",
+           "Frozen Chocolate"
+           ]},
+
+         {"Donuts" :[
+           "Glazed Donut",
+           "Chocolate Frosted Donut",
+           "Vanilla Frosted Donut",
+           "Strawberry Frosted Donut",
+           "Sprinkles Donut",
+           "Old Fashioned Donut",
+           "Boston Kreme Donut",
+           "Chocolate Glazed Donut",
+           "Jelly Donut",
+           "Powdered Donut",
+           "Cinnamon Donut",
+           "Sugared Donut",
+           "Glazed Blueberry Donut",
+           "Glazed Munchkins® Donut Holes",
+           "Chocolate Frosted Munchkins® Donut Holes",
+           "Jelly Munchkins® Donut Holes",
+           "Powdered Munchkins® Donut Holes",
+           "Cinnamon Munchkins® Donut Holes",
+           "Sugared Munchkins® Donut Holes"
+           ]},
+
+         {"Sandwiches & Wraps" :[
+           "Brown Sugar Chipotle Bacon + Bread",
+           "Sausage Egg & Cheese + Bread",
+           "Bacon Egg & Cheese + Bread",
+           "Turkey Sausage + Bread",
+           "Ham Egg & Cheese + Bread",
+           "Veggie Egg White + Bread",
+           "Egg & Cheese + Bread",
+           "Wake-Up Wrap ® Egg & Cheese",
+           "Wake-Up Wrap ® Ham Egg & Cheese",
+           "Wake-Up Wrap ® Turkey Sausage, Egg & Cheese",
+           "Hash Browns",
+           "Turkey Sausage Flatbread",
+           "Veggie Egg White Flatbread"
+           ]},
+
+         {"Breads ":[
+           "Plain Bagel",
+           "Croissant",
+           "English Muffin",
+           "Texas Toast",
+           "Multigrain Bagel",
+           "Cinnamon Raisin Bagel"
+           ]},
+
+         {"Bakery & Snacks" :[
+           "Blueberry Muffin",
+           "Coffee Cake Muffin",
+           "Honey Bran Raisin Muffin",
+           "Pumpkin Muffin",
+           "Chocolate Chip Muffin",
+           "Corn Muffin",
+           "Reduced Fat Blueberry Muffin",
+           "Croissant",
+           "English Muffin",
+           "Biscuit",
+           "Apple Cheese Danish",
+           "Cheese Danish",
+           "Strawberry Cheese Danish",
+           "Original with Dried Fruit Topping",
+           "Brown Sugar with Dried Fruit Topping",
+           "Hash Browns",
+           "Cinnamon Raisin Bagel",
+           "Everything Bagel",
+           "Multigrain Bagel",
+           "Onion Bagel",
+           "Pain Bagel",
+           "Poppy Seed Bagel",
+           "Sesame Bagel",
+           "Whole Wheat Bagel",
+           "Chive & Onion Cream Cheese Spread",
+           "Garden Veggie Cream Cheese Spread",
+           "Plain Cream Cheese Spread",
+           "Reduced Fat Plain Cream Cheese Spread",
+           "Strawberry Cream Cheese Spread"
+           ]}
+    ]
+ },
+ {
+   "Company_Name": "Tacobell",
+   "URL": "https://www.tacobell.com/food",
+   "Country": "US",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+
+        {"Tacos":[
+           "Crunchy Taco",
+           "Crunchy Taco Supreme",
+           "Soft Taco",
+           "Soft Taco Supreme",
+           "Nacho Cheese Doritos® Locos Tacos",
+           "Nacho Cheese Doritos® Locos Tacos Supreme®",
+           "Cool Ranch® Doritos® Locos Tacos",
+           "Cool Ranch® Doritos® Locos Tacos Supreme® ",
+           "Fiery Doritos®  Locos Tacos",
+           "Fiery Doritos®  Locos Tacos Supreme®",
+           "Cheesy Gordita Crunch",
+           "Doritos® Cheesy Gordita Crunch",
+           "Chalupa Supreme",
+           "Double Decker® Taco",
+           "Double Decker® Taco Supreme®",
+           "Grilled Steak Soft Taco",
+           "Chicken Soft Taco",
+           "Spicy Potato Soft Taco"
+           ]},
+
+         {"Burritos" :[
+           "Bean Burrito",
+           "Burrito Supreme®",
+           "Beefy 5-Layer Burrito",
+           "Quesarito",
+           "XXL Grilled Stuft Burrito",
+           "7-Layer Burrito",
+           "Black Bean Burrito",
+           "Power Menu Burrito",
+           "Power Menu Burrito Veggie",
+           "Shredded Chicken Burrito",
+           "Beefy Fritos® Burrito",
+           "Cheesy Bean and Rice Burrito",
+           "Cheesy Potato Burrito",
+           "Combo Burrito",
+           "Beefy Nacho Griller",
+           "Chipotle Chicken Loaded Griller",
+           "Cheesy Potato Griller"
+          ]},
+
+         {"Quesadillas" :[
+           "Steak Quesadilla",
+           "Chicken Quesadilla",
+           "Cheese Quesadillas",
+           "7. Quesadilla Combo",
+           "Shredded Chicken Mini Quesadilla",
+           "Beefy Mini Quesadilla"
+           ]},
+
+         {"Nachos" :[
+           "Nacho Fries Box",
+           "Nacho Fries",
+           "Nacho Fries Supreme®",
+           "Nacho Fries BellGrande®",
+           "Nachos BellGrande®",
+           "Nachos BellGrande® Combo",
+           "Nacho Supreme®",
+           "Triple Layer Nachos",
+           "Chips & Nacho Cheese Sauce",
+           "Chips & Guacamole",
+           "Chips & Salsa",
+           "Chips & Pico del Gallo"
+           ]},
+
+         {"Specialities" :[
+           "Crunchwrap Supreme®",
+           "Cheesy Gordita Crunch",
+           "Doritos® Cheesy Gordita Crunch",
+           "Chalupa Supreme",
+           "Mexican Pizza",
+           "MexiMelt®",
+           "Power Menu Bowl",
+           "Power Menu Bowl Veggie",
+           "Fiesta Taco Salad",
+           "Gordita Supreme®",
+           "Cheesy Roll Up",
+           "Spicy Tostada"
+           ]},
+
+         {"Sweets" :[
+           "Cinnamon Twists",
+           "Cinnabon Delights® 12 pack",
+           "Cinnabon Delights® 4 pack",
+           "Cinnabon Delights® 2 pack",
+           "Caramel Apple Empenada",
+           "Mountain Dew® Baja Blast™ Freeze",
+           "Orange Cream Pop Freeze",
+           "Strawberry Skittles® Freeze"
+           ]},
+
+         {"Sides" :[
+           "Nacho Fries",
+           "Cheesy Fiesta Potatoes",
+           "Cheesy Roll Up",
+           "Doritos® Chips",
+           "Chips & Nacho Cheese Sauce",
+           "Chips & Guacamole",
+           "Chips & Salsa",
+           "Chips & Pico del Gallo",
+           "Black Beans",
+           "Black Beans and Rice",
+           "Pintos N Cheese",
+           "Seasoned Rice"
+           ]},
+
+         {"Drinks" :[
+           "Mountain Dew® Baja Blast™ Freeze",
+           "Orange Cream Pop Freeze",
+           "Strawberry Skittles® Freeze",
+           "Pepsi®",
+           "Diet Pepsi®",
+           "Mountain Dew®",
+           "Mountain Dew® Baja Blast™",
+           "Mountain Dew®  Spiked Lemonade",
+           "Mountain Dew® Kickstart™ Orange Citrus",
+           "Sierra Mist®",
+           "G2 Gatorade® Fruit Punch",
+           "Aquafina® Sparkling Berry Breeze",
+           "Tropicana® Pink Lemonade",
+           "Brisk® Mango Fiesta",
+           "Lipton® Unsweetened Iced Tea",
+           "Orange Juice",
+           "Water",
+           "Iced Regular Coffee",
+           "Premium Hot Coffee"
+           ]},
+
+         {"Party packs":[
+           "Taco 12 pack",
+           "Supreme® Taco Party Pack",
+           "Variety Taco 12 Pack",
+           "Supreme® Variety Pack",
+           "Grande Meal"
+           ]},
+
+         {"Breakfast" :[
+           "Naked Egg Taco Bundle",
+           "Naked Egg Taco",
+           "Dressed Egg Taco",
+           "Breakfast Crunchwrap®",
+           "Breakfast Crunchwrap® Combo",
+           "Grande Scrambler",
+           "Grande Scrambler Combo",
+           "Breakfast Quesadilla",
+           "Breakfast Quesadilla Combo",
+           "Grilled Breakfast Burrito",
+           "Grilled Breakfast Burrito Fiesta Potato",
+           "Breakfast Soft Taco",
+           "Sausage Flatbread Quesadilla",
+           "Hash Browns",
+           "Mini Skillet Bowl"
+           ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Auntie Anne’s",
+   "URL": "http://www.auntieannes.com/pretzels-nutrition",
+   "Country": "US",
+   "Category": "Bakery",
+     "Menu_Category": [
+
+        {"Soft Pretzels" :[
+           "Original",
+           "Cinnamon Sugar",
+           "Sweet Almond",
+           "Sour Cream & Onion",
+           "Roasted Garlic & Parmesan",
+           "Pepperoni",
+           "Jalapeno",
+           "Raisin",
+           "Original Pretzel Nuggets",
+           "Cinnamon Sugar Nuggets",
+           "Pepperoni Pretzel Nuggets"
+           ]},
+
+         {"Pretzel Dogs":[
+           "Original Pretzel Dog",
+           "Cheese Pretzel Dog",
+           "Jalapeno & Cheese Pretzel Dog",
+           "Mini Pretzel Dogs"
+           ]},
+
+         {"Pretzel Dips":[
+           "Caramel Dip",
+           "Cheese Dip",
+           "Hot Salsa Cheese Dip",
+           "Melted Cheese Dip",
+           "Light Cream Cheese Dip",
+           "Marinara Dip",
+           "Sweet Glaze Dip",
+           "Sweet Mustard Dip"
+           ]},
+
+         {"Drinks" :[
+           "Lemonade",
+           "Lemonade Mixers",
+           "Frozen Lemonade Mixers",
+           "Lemonade Iced Tea",
+           "Coca-Cola products"
+           ]}
+        ]
+ },
+
+
+
+ {
+   "Company_Name": "Cinnabon",
+   "URL": "https://www.cinnabon.com/bakery-menu",
+   "Country": "US",
+   "Category": "Bakery",
+     "Menu_Category": [
+
+        {"Baked":[
+           "Classic Roll",
+           "Caramel PecanBon®",
+           "MiniBon® Roll",
+           "BonBites™",
+           "Caramel Pecan BonBites™",
+           "Center of the Roll™",
+           "Caramel Pecan Center of the Roll™",
+           "CinnaSweeties™",
+           "Cinnabon Stix®"
+           ]},
+
+         {"Drinks" :[
+           "OREO® Cookies & Cream Chillatta™",
+           "Signature Cinnamon Roll Chillatta™",
+           "Double Chocolate Mocha Chillatta™",
+           "Strawberry & Cream Chillatta™",
+           "Peaches & Cream Chillatta™",
+           "MochaLatta Chill®",
+           "Cinnamon Roll Cold Brew Iced Coffee",
+           "Vanilla Cold Brew Iced Coffee",
+           "Classic Lemonade",
+           "Raspberry Lemonade",
+           "Classic Frozen Lemonade",
+           "Strawberry Frozen Lemonade",
+           "Ghirardelli® Hot Cool",
+           "Cinnaman Roll Hot Cocoa",
+           "Hot Coffee"
+           ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Charleys Philly Steak",
+   "URL": "https://charleys.com/",
+   "Country": "US",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+
+        {"Sandwiches":[
+           "Philly CheeseSteak",
+           "Pepperoni CheeseSteak",
+           "Bacon 3 CheeseSteak",
+           "Jalapeno CheeseSteak",
+           "Chicken Philly",
+           "Chicken California",
+           "Chicken Buffalo",
+           "Chicken Teriyaki",
+           "Italian Deluxe",
+           "Ultimate Club",
+           "Turkey Cheddar Melt",
+           "Veggie Delight"
+           ]},
+
+         {"Sides":[
+           "Cheese Fries",
+           "Cheese & Bacon Fries",
+           "Ultimate Fries",
+           "Nacho Deluxe Fries",
+           "Original Fries"
+           ]},
+
+         {"Drinks ":[
+           "Strawberry Lemonade",
+           "Blueberry Lemonade",
+           "Peach Lemonade",
+           "Original Lemonade",
+           "Soft Drinks ",
+           "Iced Tea"
+           ]},
+
+         {"Others" :[
+           "Fresh Garden Salad",
+           "Grilled Chicken Salad",
+           "Steakhouse Salad",
+           "Kids Meal"
+           ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Quiznos",
+   "URL": "http://www.quiznos.com/Menu/Complete.aspx",
+   "Country": "US",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+
+        { "Sandwiches":[
+           "Classic Italian",
+           "Spicy Monterey",
+           "Tuna Melt",
+           "Turkey Ranch & Swiss",
+           "Veggie Guacamole",
+           "Chipotle Turkey",
+           "Traditional",
+           "Turkey Bacon Guacamole",
+           "Ultimate Turkey Club",
+           "Honey Bacon Club",
+           "Southwest Chcken",
+           "Mesquite",
+           "Baja",
+           "Carbonara",
+           "Honey Mustard",
+           "Chipotle Steak & Cheddar",
+           "Peppercorn Steak",
+           "Black Angus Steak",
+           "French Dip",
+           "Ham & Swiss Ciabatta Toastie",
+           "Little Italy Ciabatta Toastie",
+           "Southwest Club Ciabatta Toastie"
+        ]},
+
+         {"Salads & Soups":[
+           "BBQ Ranch Chicken",
+           "Chef Salad",
+           "Greek Gyro Salad",
+           "Apple Harvest Chicken",
+           "Honey Mustard",
+           "Soup of the Day",
+           "Broccoli & Cheese Soup"
+          ]},
+
+         {"Lobster" :[
+           "Lobster & Seafood Salad Classic",
+           "Lobster & Seafood Scampi Bake",
+           "Lobster & Seafood Fresh Salad",
+           "Mac & Cheese with Lobster & Seafood Salad"
+           ]},
+
+        {"Kids" :[
+           "Kids Ham & Cheese",
+           "Kids Turkey & Cheese",
+           "Triple Play Cheese Melt"
+         ]},
+
+         {"Breakfast" :[
+           "Egg & Cheese Biscuit",
+           "Bacon Egg & Cheese Biscuit",
+           "Ham Egg & Cheese Biscuit",
+           "Sausage Egg & Cheese Biscuit",
+           "Steak Egg & Cheese Biscuit",
+           "Egg & Cheese Flatbread",
+           "Bacon Egg & Cheese Flatbread",
+           "Ham Egg & Cheese Flatbread",
+           "Sausage Egg & Cheese Flatbread",
+           "Steak Egg & Cheese Flatbread",
+           "Egg & Cheese Sub",
+           "Bacon Egg & Cheese Sub",
+           "Ham Egg & Cheese Sub",
+           "Sausage Egg & Cheese Sub",
+           "Steak Egg & Cheese Sub"
+        ]},
+
+         {"Desserts" :[
+           "Oatmeal Raisin Cookie",
+           "Chocolate Chunk Cookie",
+           "Chocolate Fudge Brownie",
+           "Cinnamon Sugar Cookie"
+          ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Nathan’s Famous",
+   "URL": "https://nathansfamous.com/restaurants/menu/",
+   "Country": "US",
+   "Category": "Hot dogs",
+       "Menu_Category": [
+
+        {"Hot Dogs" :[
+           "World Famous Beef Hot Dog",
+           "Chilli Dog",
+           "Chilli Cheese Dog"
+          ]},
+
+         {"Chicken & Sandwiches":[
+           "The Original Philly CheeseSteak",
+           "Steak Supreme CheeseSteak",
+           "Chicken Supreme CheeseSteak",
+           "Chicken Tenders",
+           "Krispy Chicken Sandwich",
+           "Grilled Chicken Sandwich",
+           "Original Buffalo Boneless Wings",
+           "Krispy Chicken Wrap",
+           "Chargrilled Chicken",
+           "Chargrilled Chicken Club",
+           "Chargrilled Chicken Wrap",
+           "Chicken Wings",
+           "Super Cheeseburger",
+           "Bacon Cheeseburger",
+           "Double-Beef Cheeseburger"
+          ]},
+
+         {"Fish (Arthur Treacher’s)" :[
+           "Original Fish ’N Chips Platter",
+           "Shrimp Platter",
+           "Fish Sandwich",
+           "Clam ’N Chips",
+           "Clams Sandwich",
+           "Seafood Combo Platter",
+           "Hush Puppies"
+        ]},
+
+         {"Sides":[
+           "Corn Dog on a Stick",
+           "Hot Dog Nuggets",
+           "Beer-Battered Onion Rings",
+           "Pretzel Dogs",
+           "Bowl of Chili",
+           "Corn on the Cob",
+           "Manhattan Clam Chowder",
+           "Crinkle Cut French Fries",
+           "Crinkle Cut French Cheese Fries",
+           "Bacon Cheese Fries",
+           "Bacon Ranch Fries"
+          ]},
+
+         {"Drinks" :[
+           "Old-Fashioned-Lemonade",
+           "Old-Fashioned-Orangeade",
+           "Soft Drinks"
+          ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Red Robin\nGourmet Burgers and Brew",
+   "URL": "https://www.redrobin.com/",
+   "Country": "US",
+   "Category": "casual dining",
+     "Menu_Category": [
+
+        {"Appetizers" :[
+           "The O-Ring Shorty®",
+           "Pretzel Bites",
+           "Fried Pickel Nickels",
+           "Classic Wedge Salad",
+           "Creamy Artichoke & Spinach Dip",
+           "Chili Chili™ Cheese Fries",
+           "Jump Starter Double",
+           "VooDoo Fries",
+           "Guac, Salsa & Chips",
+           "NachO.M.G.™",
+           "Red’s Bold Boneless Wings",
+           "Great Northern Poutine Fries",
+           "Bar Wings ’n’ Yukon Chips",
+           "Towering Onion Rings®"
+         ]},
+
+         {"Entrées":[
+           "Sear-ious Salmon",
+           "Ensenada Chicken™ Platter",
+           "Clucks & Fries",
+           "Clucks & Shrimp",
+           "Prime Rib Dip",
+           "Arctic Cod Fish & Chips",
+           "Shrimp & Cod Duo"
+           ]},
+
+         {"Wraps & Sandwiches" :[
+           "Whiskey River® BBQ Chicken Wrap",
+           "Caesar’s Chicken Wrap",
+           "BLTA Croissant"
+         ]},
+
+         {"Burgers":[
+           "Smoke & Pepper™",
+           "Black & Bleu",
+           "The Madlove Burger",
+           "The Southern Charm Burger®",
+           "The Marco Pollo™",
+           "Citrus Harissa Salmon",
+           "Red Robin Gourmet Cheeseburger",
+           "Keep it Simple",
+           "Grilled Turkey",
+           "Sautéed ‘Shroom",
+           "Bacon Cheeseburger",
+           "Whiskey River® BBQ",
+           "Bleu Ribbon",
+           "A.I.® Peppercorn",
+           "Chili Chili™ Cheeseburger",
+           "Royal Red Robin",
+           "Prime ChopHouse",
+           "Guacamole Bacon",
+           "Banzai",
+           "Burnin’ Love®",
+           "The Wedgie™ Burger",
+           "Veggie Burger",
+           "Crispy Chicken",
+           "Whiskey River® BBQ Chicken",
+           "Teriyaki Chicken",
+           "California Chicken",
+           "Simply Grilled Chicken",
+           "Bruschetta Chicken",
+           "Crispy Artic Cod"
+        ]},
+
+         {"Tavern’s menu" :[
+           "Taco Tavern Double",
+           "Sir Acha Tavern Double",
+           "Smoky Jack Tavern Double",
+           "Red’s Tavern Double®",
+           "Pig Out Tavern Double",
+           "Fiery Ghost® Tavern Double",
+           "Four Cheese Melt",
+           "Pub Mac ’N’ Cheese"
+         ]},
+
+         {"Salads & Soups":[
+           "Simply Grilled Chicken Salad",
+           "Avo-Cobb-O",
+           "Southwest Sombrero",
+           "House Salad",
+           "Crispy Chicken Tender",
+           "Mighty Ceasar Salad",
+           "Soup & Salad Combo",
+           "Side Ceasar",
+           "Souper Sandwich Combo",
+           "French Onion Soup",
+           "Clamdigger’s Clam Chowder",
+           "Red’s Chili Chili™ ",
+           "Chicken Tortilla Soup"
+         ]},
+
+
+         {"Sides":[
+           "Side Salad",
+           "Steamed Broccoli",
+           "Coleslaw",
+           "Black Beans",
+           "Freckled Fruit® Salad",
+           "Garlic Herbed Fries",
+           "Cup of Soup",
+           "Onion Rings",
+           "Sweet Potato Fries",
+           "Mac ’N’ Cheese",
+           "Cup of Chili Chili™",
+           "Chili Chili™ Cheese Fries"
+         ]},
+
+        {"Drinks":[
+           "Freckled Lemonade®",
+           "Fresh Brewed Tea",
+           "Very Berry Raspberry Limeade",
+           "Poppin’ Purple Lemonade",
+           "Root Beer Float",
+           "Coca-Cola®",
+           "Diet Coke®",
+           "Sprite®",
+           "Dr Pepper®",
+           "Barq’s® Root Beer",
+           "Minute Maid® Lemonade",
+           "Minute Maid® Light Lemonade",
+           "Orange Cream Soda",
+           "Raspberry Cream Soda",
+           "Hawaiian Heart Throb® Smoothie",
+           "Coconut Pineapple Smoothie",
+           "Cookie Magic Milkshake",
+           "Salted Caramel Milkshake",
+           "Chocolate Milkshake",
+           "Vanilla Milkshake",
+           "Strawberry Milkshake",
+           "Banana Milkshake",
+           "Raspberry Milkshake",
+           "Peach Milkshake",
+           "Mint Brownie Milkshake",
+           "Nana-Nana Moo-Moo Milkshake"
+          ]},
+
+         {"Bar":[
+           "Blue Moon® Belgian White",
+           "Stella Artois®",
+           "Bud Light®",
+           "Corona Extra®",
+           "Michelob Ultra®",
+           "Not Your Father’s® Root Beer",
+           "Angry Orchard® Hard Cider",
+           "Samuel Adams Seasonal",
+           "Samuel Adams Boston Lager®",
+           "Coors Light®",
+           "Guinness®",
+           "Heineken®",
+           "Miller Lite®",
+           "Omission® Pale Ale",
+           "Lagunitas IPA®",
+           "Red Spanish Sangria",
+           "Cupcake® Merlot",
+           "The Naked Grape® Chardonnay",
+           "Ecco Domani® Pinot Grigio",
+           "Carnivor® Cabernet Sauvignon",
+           "The Naked Grape® Harvest Red Blend",
+           "Kendall-Jackson® V.R. Chardonnay",
+           "Barefoot Refresh® Moscato Spritzer",
+           "Baileys® Irish Cream Shake",
+           "Blue Moon® Beer Shake",
+           "Irish Beer Shake",
+           "Blue Moon® Can-Crafted™ Cocktail",
+           "Root Brewski Float™",
+           "Red’s Signature Margarita",
+           "House Margarita",
+           "Skinny Margarita",
+           "Silver Patron® Margarita",
+           "Orange Cinn-A-Rita",
+           "Pina Colada",
+           "Skinny Spiked Freckled Lemonade®",
+           "Screaming Red Zombie",
+           "Mojito",
+           "Spiked Freckled Lemonade®",
+           "Long Island Iced Tea",
+           "Citrus Freckled Mojito",
+           "Tropical Mai Tai",
+           "Sand In Your Shorts®"
+         ]},
+
+         {"Sweets":[
+           "Goey Chocolate Brownie Cake",
+           "Mountain High Mud Pie",
+           "Double Berry Cheescake",
+           "Chocolate Fruffles®",
+           "Cinnamon Sugar Doh! Rings®"
+          ]},
+
+        {"Kids":[
+           "Red’s Burger",
+           "Mac It Yours",
+           "Meatballs on a Stick",
+           "Lil’ Appetite Meatballs on a Stick",
+           "Corn Doggies",
+           "Lil’Appetite Corn Doggies",
+           "Swirly Twirly Pasta",
+           "Grilled Cheesy",
+           "Cluck-A-Doodles",
+           "Lil’Appetie Cluck-A-Doodles",
+           "M.V.P.IZZA - Pepperoni",
+           "Grilled Chicken Stickens",
+           "Cod Crunchers",
+           "Kid’s Sundae"
+        ]}
+    ]
+ },
+ {
+   "Company_Name": "Shake shack",
+   "URL": "https://www.shakeshack.com/food-and-drink/",
+   "Country": "US",
+   "Category": "fast food restaurant",
+     "Menu_Category":[
+
+        {"Burgers":[
+           "ShackBurger®",
+           "Hamburger",
+           "Shack Stack®",
+           "SmokeShack®",
+           "Shroom Burger",
+           "Chick’n Shack"
+        ]},
+
+         {"Hot Dogs":[
+           "Shack-cago Dog®",
+           "Hot Dog",
+           "Chicken Dog"
+         ]},
+
+         {"Fries":[
+           "Fries",
+           "Cheese Fries"
+           ]},
+
+         {"Sweets":[
+           "Shack Attack®",
+           "Wall-nut Street (Battery Park City)",
+           "Jelly’s Last Donut (Theater District)",
+           "Brooklyn Pie Oh My (Brooklyn Shacks)",
+           "Banana Post Rd. (Westports) ",
+           "Shakes ",
+           "Floats",
+           "Cups & Cones",
+           "Concretes"
+         ]},
+
+         {"Drinks":[
+           "Shack-Made Lemonade",
+           "Fresh Brewed Iced Tea",
+           "Fifty/Fifty™",
+           "Fountain Soda",
+           "Abida Draft Root Beer",
+           "SHACK|2O®\n",
+           "ShackMeister® Ale Draft Beer",
+           "Bottle Beer",
+           "Shack Red® Wine",
+           "Shack White® Wine"
+           ]},
+
+         {"Breakfast":[
+           "Sausage, Egg N’ Cheese",
+           "Bacon, Egg N’ Cheese",
+           "Egg N’ Cheese",
+           "Coffee",
+           "OJ"
+         ]},
+
+         {"For Dogs":[
+           "Pooch-ini®",
+           "Bag O’ Bones"
+         ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Five Guys",
+   "URL": "http://www.fiveguys.com/Menu",
+   "Country": "US",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+
+        {"Burgers":[
+           "Hamburger",
+           "Cheeseburger",
+           "Bacon Burger",
+           "Bacon Cheeseburger",
+           "Little Hamburger",
+           "Little Cheeseburger",
+           "Little Bacon Burger",
+           "Little Bacon Cheeseburger"
+          ]},
+
+         {"Hot Dogs":[
+           "Kosher Style Hot Dog",
+           "Cheese Dog",
+           "Bacon Dog",
+           "Bacon Cheese Dog"
+          ]},
+
+         {"Sandwiches":[
+           "Veggie Sandwich",
+           "Cheese Veggie Sandwich",
+           "Grilled Cheese BLT"
+          ]},
+
+        {"Fries":[
+           "Five Guys Style",
+           "Cajun Style"
+          ]},
+
+         {"Drinks":[
+           "Milkshakes",
+           "Coca-Cola® products"
+          ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Chipotle",
+   "URL": "https://www.chipotle.com/menu",
+   "Country": "US",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+
+        {"Style" :[
+           "Burrito",
+           "Bowl",
+           "Crispy Corn Taco",
+           "Soft Floor Taco",
+           "Salad",
+           "Kid’s Menu"
+        ]},
+
+         {"Meat":[
+           "Steak",
+           "Carnitas",
+           "Chicken",
+           "Barbacoa",
+           "Sofritas"
+        ]},
+
+         {"Rice, Beans..":[
+           "Cilantro-Lime Brown Rice",
+           "Cilantro-Lime White Rice",
+           "Black Beans",
+           "Pinto Beans",
+           "Fajitas Veggies"
+        ]},
+
+         {"Toppings":[
+           "Queso",
+           "Fresh Tomato Salsa (Mild)",
+           "Tomatillo Red-Chili Salsa (Hot)",
+           "Sour Cream",
+           "Tomatillo Green-Chili Salsa (Medium Hot)",
+           "Roasted Chili Corn Salsa (Medium)",
+           "Romaine Lettuce",
+           "Guacamole",
+           "Monterey Jack Cheese"
+          ]},
+
+         {"Sides":[
+           "Chips & Queso",
+           "Chips & Guac",
+           "Chips & Salsa"
+        ]},
+
+         {"Drinks ":[
+           "Patron® Silver Margarita",
+           "Sauza® Tequila Margarita",
+           "Beers",
+           "Soft Drinks"
+          ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "In-N-Out",
+   "URL": "http://www.in-n-out.com/menu.aspx#",
+   "Country": "US",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+
+        {"Burgers":[
+           "Double-Double®",
+           "Cheeseburger",
+           "Hamburger",
+           "Double Meat",
+           "3x3®",
+           "4x4®",
+           "Grilled Cheese",
+           "Protein® Style",
+           "Animal® Style"
+        ]},
+
+         {"Sides":[
+            "Fries"
+         ]},
+
+         {"Drinks":[
+           "Chocolate Shake",
+           "Strawberry Shake",
+           "Vanilla Shake",
+           "Coca-cola®",
+           "Diet Coke®",
+           "7UP®",
+           "Dr Pepper®",
+           "Root Beer",
+           "Lemonade",
+           "Minute Maid® Light Lemonade",
+           "Iced Tea",
+           "Coffee",
+           "Hot Cocoa"
+        ]}
+    ]
+ },
+
+
+
+ {
+   "Company_Name": "Jack in the box",
+   "URL": "https://www.jackinthebox.com/food/",
+   "Country": "US",
+   "Category": "fast food restaurant",
+     "Menu_Category": [
+        {"Burgers":[
+           "Classic Buttery Jack™",
+           "Bacon & Swiss Buttery Jack™",
+           "Double Jack®",
+           "Ultimate Cheeseburger™",
+           "Bacon Ultimate Cheeseburger™",
+           "Sourdough Jack®",
+           "Spicy Sriracha Burger",
+           "Jumbo Jack® Cheeseburger",
+           "Jumbo Jack®",
+           "JR. Jumbo Jack®",
+           "JR.Bacon Cheeseburger"
+        ]},
+
+         {"Chicken & Salads":[
+           "Fish Sandwich",
+           "Jack’s Spicy Chicken®",
+           "Jack’s Spicy Chicken® with Cheese",
+           "Homestyle Ranch Chicken Club",
+           "Sourdough Grilled Chicken Club",
+           "Crispy Chicken Strips",
+           "Chicken Club Salad",
+           "Southwest Chicken Salad",
+           "Grilled Chicken Salad",
+           "Chicken Nuggets",
+           "Chicken Fajita Pita",
+           "Chicken Teriyaki Bowl",
+           "Chicken Sandwich",
+           "Side Salad"
+         ]},
+
+         {"Tacos, Fries & Sides":[
+           "Seasoned Curly Fries",
+           "French Fries",
+           "Onion Rings",
+           "Bacon Cheddar",
+           "Potato Wedges",
+           "Egg Rolls",
+           "Stuffed Jalapeños",
+           "Monster Tacos™",
+           "Bacon Ranch Monster Taco™",
+           "Nacho Monster Taco™",
+           "Tacos",
+           "Apple Bites with Caramel Dip"
+         ]},
+
+         {"Breakfast":[
+           "Jumbo Breakfast Platter",
+           "Supreme Croissant",
+           "Sausage Croissant",
+           "Grande Sausage Breakfast Burrito",
+           "Meat Lovers Breakfast Burrito",
+           "Loaded Breakfast Sandwich",
+           "Extreme Sausage® Sandwich",
+           "Ultimate Breakfast Sandwich",
+           "Grilled Breakfast Sandwich",
+           "Sausage, Egg & Cheese Biscuit",
+           "Bacon, Egg & Cheese Biscuit",
+           "Sausage Breakfast Jack®",
+           "Breakfast Jack®",
+           "Hash Browns",
+           "Mini Pancakes"
+         ]},
+
+         {"Brunch":[
+           "Country Scrambler Plate",
+           "Grilled French Toast Plate",
+           "Bacon & Egg Chicken Sandwich",
+           "Brunch Burger",
+           "Homestyle Potato"
+          ]},
+
+         {"Late Night ":[
+           "Sriracha Curly Fry Burger Munchie Meal",
+           "Spicy Nacho Chicken Sandwich Munchie Meal",
+           "Stacked Grilled Cheeseburger Munchie Meal",
+           "Chick-N-Tater melt Munchie Meal"
+         ]},
+
+         {"Desserts":[
+           "Peppermint Brownie",
+           "OREO® Cookie Ice Cream Shake",
+           "Chocolate Ice Cream Shake",
+           "Vanilla Ice Cream Shake",
+           "Strawberry Ice Cream Shake",
+           "Mini Churros"
+        ]},
+
+         {"Drinks ":[
+           "Jumpin’Jack Splash™",
+           "Jumpin’Jack Splash™ Diet",
+           "Coca-Cola Freestyle®",
+           "Original Iced Coffee",
+           "Caramel Iced Coffee",
+           "Mocha Iced Coffee",
+           "Premium Roast Coffee",
+           "Fresh Brewed Ice Tea",
+           "Raspberry Ice Tea",
+           "Mango Flavoured Ice Tea",
+           "Peach Flavoured Ice Tea",
+           "Diet Dr Pepper ®",
+           "Dr Pepper®",
+           "Diet Coke®",
+           "Coca-cola®",
+           "Bars’s® Root Beer",
+           "Sprite®",
+           "Minute Maid® Orange Lemonade",
+           "HI-C® Flashing Fruit Punch",
+           "Fanta® Strawberry",
+           "Fanta® Orange",
+           "Minute Maid® Orange Juice",
+           "Minute Maid® Apple Juice",
+           "Dasani® Bottled Water",
+           "Low Fat Milk Chug 1%"
+        ]}
+    ]
+ }
+]

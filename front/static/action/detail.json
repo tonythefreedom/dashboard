@@ -1,7 +1,7 @@
 
 {
    "success": 0,
-   "data": 
+   "data":
       {
          "itemid": 11233,
          "logourl": "/static/img/selected_logo.png",
@@ -10,5 +10,4 @@
          "menu": "BlackNoodle",
          "desc": "this is very good noodle in the world."
       }
-   
 }

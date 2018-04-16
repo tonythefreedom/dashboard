@@ -1,28 +1,46 @@
 .search {
     width: 1145px;
-    margin: 100px auto 100px;
+    margin: 100px auto 100px auto;
 }
 
 .search_bar {
     overflow: hidden;
+    /*align-content: space-around;*/
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+/*.grid-container > div {*/
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  /*border: 1px solid black;*/
+  /*text-align: center;*/
+  /*font-size: 30px;*/
+/*}*/
+
 .search_bar input[type="text"] {
+   /*width: 922px;*/
     width: 922px;
     border: 1px solid #979797;
     display: inline-block;
     height: 45px;
-    line-height: 45px;
+    /*line-height: 45px;*/
     font-size: 24px;
     font-weight: 200;
-    padding: 0 20px;
+    padding: 20px;
     margin-right: 27px;
     box-sizing: border-box;
+    float: left;
+    margin-top: 50px;
 }
 
 .search_bar input[type="submit"] {
-    display: inline-block;
-    width: 193px;
+    /*display: inline-block;*/
+    width: 100px;
     background-color: #f38385;
     color: #fff;
     border: none;
@@ -30,6 +48,7 @@
     line-height: 45px;
     font-size: 20px;
     box-sizing: border-box;
+    margin-top: 50px;
 }
 .search_bar input[type="submit"].searched {
     border: 1px solid #f38385;
@@ -157,7 +176,7 @@
 }
 
 .search_result .state .socres {
-        
+
 }
 
 .search_result .state .fillter_result {

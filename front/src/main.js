@@ -3,12 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import axious from 'axios'
+import axios from 'axios'
 import 'expose-loader?$!expose-loader?jQuery!jquery'
 
 
 Vue.config.productionTip = false
-Vue.prototype.$http = axious
+Vue.prototype.$http = axios
 
 /* eslint-disable no-new */
 new Vue({
